@@ -37,6 +37,10 @@ git commit -m "NOMBRE_ESTUDIANTE|GRUPO|PAREJA-NOMBRE_PRACTICA: Mensaje explicati
 ```
 git pull --rebase origin main
 ```
+4.1. Si se está trabajando en equipo o en parejas deben publicar la rama primero y hacer el pull de esta rama
+```
+git pull --rebase origin NOMBRE_ESTUDIANTE|GRUPO|PAREJA-NOMBRE_PRACTICA
+```
 5. Subir los cambios a su rama
 ```
 git push origin NOMBRE_ESTUDIANTE|GRUPO|PAREJA-NOMBRE_PRACTICA
