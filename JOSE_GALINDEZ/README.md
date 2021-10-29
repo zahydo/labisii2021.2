@@ -1,0 +1,8 @@
+# labisii2021.2
+
+JOSE RICARDO GALINDEZ LOPEZ
+GRUPO A -VIRTUAL
+
+ENTREGAS:
+
+1- Practica 1 Polimorfismo - 29-10-2021
