@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="0" name="co.unicauca.edu.tallerpolimorfismo.test.clsViajeTest" time="0.073" errors="0" skipped="0">
+<testsuite tests="4" failures="0" name="co.unicauca.edu.tallerpolimorfismo.test.clsViajeTest" time="0.099" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="16+36-2231"/>
     <property name="sun.boot.library.path" value="D:\Java\bin"/>
-    <property name="maven.multiModuleProjectDirectory" value="D:\projectsJAVA\primeraPractica"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\Repositorios\labisii2021.2\marin\primeraPractica"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -15,7 +15,7 @@
     <property name="user.country" value="CO"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="D:\projectsJAVA\primeraPractica"/>
+    <property name="user.dir" value="D:\Repositorios\labisii2021.2\marin\primeraPractica"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="java.runtime.version" value="16+36-2231"/>
     <property name="os.arch" value="amd64"/>
@@ -59,8 +59,8 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="co.unicauca.edu.tallerpolimorfismo.test.clsViajeTest" name="testClsViajeIndividual" time="0.064"/>
-  <testcase classname="co.unicauca.edu.tallerpolimorfismo.test.clsViajeTest" name="testClsViajeFamiliar" time="0"/>
-  <testcase classname="co.unicauca.edu.tallerpolimorfismo.test.clsViajeTest" name="testClsViajeIncentivo" time="0.006"/>
-  <testcase classname="co.unicauca.edu.tallerpolimorfismo.test.clsViajeTest" name="testClsViajeTodoIncluido" time="0.003"/>
+  <testcase classname="co.unicauca.edu.tallerpolimorfismo.test.clsViajeTest" name="testClsViajeIndividual" time="0.081"/>
+  <testcase classname="co.unicauca.edu.tallerpolimorfismo.test.clsViajeTest" name="testClsViajeFamiliar" time="0.003"/>
+  <testcase classname="co.unicauca.edu.tallerpolimorfismo.test.clsViajeTest" name="testClsViajeIncentivo" time="0.011"/>
+  <testcase classname="co.unicauca.edu.tallerpolimorfismo.test.clsViajeTest" name="testClsViajeTodoIncluido" time="0.004"/>
 </testsuite>
