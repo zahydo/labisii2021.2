@@ -1,0 +1,1 @@
+Este archivo simula el contenido del código fuente de un proyecto
