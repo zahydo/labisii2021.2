@@ -7,8 +7,7 @@ Para ejecutar el programa principal y correr las pruebas unitarias
 mediante la CLI y haciendo uso de Maven se deben ejecutar los siguientes comandos:
 
 - Clase principal
-`mvn compile`
-`mvn exec:java -Dexec.mainClass="Cliente.ClienteMain"`
+`mvn compile`. Luego `mvn exec:java -Dexec.mainClass="Cliente.ClienteMain"`
 
 - Pruebas Unitarias
 `mvn test`
