@@ -9,7 +9,7 @@ import java.util.Date;
 
 /**
  *
- * @author Kevin Morales, Hector Dorado
+ * @author Kevin Morales
  */
 public class ViajeIndividual extends Viaje{
     

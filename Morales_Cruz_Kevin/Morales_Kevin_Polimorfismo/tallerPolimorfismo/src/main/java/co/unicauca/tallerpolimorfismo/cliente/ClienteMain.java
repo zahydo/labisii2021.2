@@ -41,7 +41,7 @@ public class ClienteMain {
     private static void leerViajes() {
         try
         {
-            Viaje viaje1 = new ViajeFamiliar("Popayan", "Bogota", 100000, 
+            Viaje viaje1 = new ViajeFamiliar("Popayan", "Bogota", 1250000, 
                     new SimpleDateFormat("dd/MM/yyyy").parse("01/05/2019"), 
                     new SimpleDateFormat("dd/MM/yyyy").parse("05/05/2019"), 4);
                     viajes.add(viaje1);

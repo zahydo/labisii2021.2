@@ -144,7 +144,7 @@ public abstract class Viaje {
      * @return cadena = cualquier metodo implementado en la clase base
      */
     public String cualquierMetodo2() {
-        return "Cualquier método2 implementado en la clase base";
+        return "Cualquier método 2 implementado en la clase base";
     }
     
 }
