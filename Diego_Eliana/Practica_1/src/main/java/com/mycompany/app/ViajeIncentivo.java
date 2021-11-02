@@ -1,4 +1,4 @@
-package negocio;
+package com.mycompany.app;
 
 import java.util.Date;
 
@@ -30,6 +30,6 @@ public class ViajeIncentivo extends Viaje {
 	}
 
 	public String cualquierMetodo2() {
-		return "Método implementado en la clase hija viaje de incentivo";
+		return "Mï¿½todo implementado en la clase hija viaje de incentivo";
 	}
 }

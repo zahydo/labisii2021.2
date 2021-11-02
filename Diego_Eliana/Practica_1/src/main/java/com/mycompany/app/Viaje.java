@@ -1,4 +1,4 @@
-package negocio;
+package com.mycompany.app;
 
 import java.util.Date;
 
@@ -55,9 +55,9 @@ public abstract class Viaje {
 	public abstract String descripcion();
 	
 	public String cualquierMetodo() {
-		return "Cualquier método implementado en la clase base";
+		return "Cualquier mï¿½todo implementado en la clase base";
 	}
 	public String cualquierMetodo2() {
-		return "Cualquier método2 implementado en la clase base";
+		return "Cualquier mï¿½todo2 implementado en la clase base";
 	}
 }

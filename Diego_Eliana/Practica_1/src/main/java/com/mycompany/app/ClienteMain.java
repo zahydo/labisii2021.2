@@ -1,4 +1,4 @@
-package test;
+package com.mycompany.app;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -6,12 +6,11 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import negocio.*; 
 
 public class ClienteMain {
 	
 	/**
-	* Arreglo polimórfico de viajes
+	* Arreglo polimï¿½rfico de viajes
 	*/
 	@SuppressWarnings({ "unchecked", "rawtypes" })
 	public static List<Viaje> viajes = new ArrayList();
@@ -23,14 +22,14 @@ public class ClienteMain {
     
     public static void leerViajes() {
         try {
-            Viaje viaje1 = new ViajeFamiliar("Popayán", "Bogotá", 1250000, new SimpleDateFormat("dd/MM/yyyy").parse("01/05/2019"), new SimpleDateFormat("dd/MM/yyyy").parse("05/05/2019"), 5);
+            Viaje viaje1 = new ViajeFamiliar("Popayï¿½n", "Bogotï¿½", 1250000, new SimpleDateFormat("dd/MM/yyyy").parse("01/05/2019"), new SimpleDateFormat("dd/MM/yyyy").parse("05/05/2019"), 5);
             viajes.add(viaje1);
-            Viaje viaje2 = new ViajeIncentivo("Popayán", "Medellin", 2100000, new SimpleDateFormat("dd/MM/yyyy").parse("03/06/2019"), new SimpleDateFormat("dd/MM/yyyy").parse("09/06/2019"), "Emtel");
+            Viaje viaje2 = new ViajeIncentivo("Popayï¿½n", "Medellin", 2100000, new SimpleDateFormat("dd/MM/yyyy").parse("03/06/2019"), new SimpleDateFormat("dd/MM/yyyy").parse("09/06/2019"), "Emtel");
             viajes.add(viaje2);
-            Viaje viaje3 = new ViajeIndividual("Popayán", "San Andres", 4250000,
+            Viaje viaje3 = new ViajeIndividual("Popayï¿½n", "San Andres", 4250000,
                     new SimpleDateFormat("dd/MM/yyyy").parse("01/07/2019"), new SimpleDateFormat("dd/MM/yyyy").parse("12/07/2019"));
             viajes.add(viaje3);
-            Viaje viaje4 = new ViajeTodoIncluido("Popayán", "Cartagena", 7350000,
+            Viaje viaje4 = new ViajeTodoIncluido("Popayï¿½n", "Cartagena", 7350000,
                     new SimpleDateFormat("dd/MM/yyyy").parse("01/07/2019"), new SimpleDateFormat("dd/MM/yyyy").parse("12/07/2019"));
             viajes.add(viaje4);
         } catch (ParseException ex) {
@@ -53,9 +52,9 @@ public class ClienteMain {
         System.out.println("Fecha salida: " + v_viaje.getFechaSalida());
         System.out.println("Fecha llegada: " + v_viaje.getFechaLlegada());
         System.out.println("Costo: " + v_viaje.getCosto());
-        System.out.println("Descripción: " + v_viaje.descripcion());
-        System.out.println("Cualquier método: " + v_viaje.cualquierMetodo());
-        System.out.println("Cualquier método2: " + v_viaje.cualquierMetodo2());
+        System.out.println("Descripciï¿½n: " + v_viaje.descripcion());
+        System.out.println("Cualquier mï¿½todo: " + v_viaje.cualquierMetodo());
+        System.out.println("Cualquier mï¿½todo2: " + v_viaje.cualquierMetodo2());
         System.out.println("");
     }    
 }

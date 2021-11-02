@@ -1,4 +1,4 @@
-package negocio;
+package com.mycompany.app;
 
 import java.util.Date;
 
