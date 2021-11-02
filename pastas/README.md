@@ -1,4 +1,4 @@
-# Laboratorio Ingeniería de Software II 2021-2
+# Laboratorio Ingeniería de Software II 2021-2 Grupo A
 
 En esta rama se agregarán las prácticas realizadas en el transcurso de la materia.
 
