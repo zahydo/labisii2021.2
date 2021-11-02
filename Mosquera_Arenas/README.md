@@ -7,6 +7,6 @@ En esta Rama se almacenaran todas las practicas realizadas durante el Curso
 * Sebastian Arenas
 
 ## Entregas
-- [x] Practica 1: Polimorfismo
+- [x] 01/11/21: Practica 1: Polimorfismo
 
 
