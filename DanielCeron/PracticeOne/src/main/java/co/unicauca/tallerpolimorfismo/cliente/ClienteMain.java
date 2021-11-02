@@ -24,6 +24,10 @@ import co.unicauca.tallerpolimorfismo.modelo.ViajeTodoIncluido;
  */
 public class ClienteMain {
 
+    public static final String ANSI_RESET = "\u001B[0m";
+    public static final String ANSI_GREEN = "\u001B[32m";
+
+
     /**
      * Arreglo polimórfico de viajes
      */
@@ -80,12 +84,19 @@ public class ClienteMain {
         }
     }
 
+    private static void decoration() {
+        System.out.println( ANSI_GREEN  +"**************************************************************************"  + ANSI_RESET);
+    }
+
+
     /**
      * Recorre e imprime datos del arreglo polimófico
      */
     public static void mostrarViajes() {
         // En este caso vemos que todos los viajes ejecutan el método "descripcion()" de forma diferente // ya que al ser este método abstracto en la clase padre, les forzamos a las clases hijas a que // implementen ese método.
-
+        decoration();
+        System.out.println(ANSI_GREEN  +"                  Listado de viajes " + ANSI_RESET);
+        decoration();
         for (Viaje viaje : viajes) {
             System.out.println("Origen: " + viaje.getOrigen());
             System.out.println("Destino: " + viaje.getDestino());
@@ -97,5 +108,6 @@ public class ClienteMain {
             System.out.println("Cualquier método2: " + viaje.cualquierMetodo2());
             System.out.println("");
         }
+        decoration();
     }
 }
