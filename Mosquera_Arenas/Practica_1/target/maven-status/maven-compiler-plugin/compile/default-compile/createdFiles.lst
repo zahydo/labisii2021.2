@@ -1,0 +1,6 @@
+com\mycompany\logica\ViajeIndividual.class
+com\mycompany\logica\ViajeIncentivo.class
+com\mycompany\logica\Viaje.class
+com\mycompany\agenciaviajes\AgenciaViajes.class
+com\mycompany\logica\ViajeFamiliar.class
+com\mycompany\logica\ViajeTodoIncluido.class
