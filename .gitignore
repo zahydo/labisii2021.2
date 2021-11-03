@@ -27,3 +27,6 @@ target/
 
 ## OS
 .DS_Store
+
+# java
+*.class
