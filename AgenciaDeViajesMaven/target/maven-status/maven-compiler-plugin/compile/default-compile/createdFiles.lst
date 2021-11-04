@@ -1,0 +1,6 @@
+LogicaNegocio\ViajeIndividual.class
+LogicaNegocio\ViajeTodoIncluido.class
+LogicaNegocio\ViajeFamiliar.class
+LogicaNegocio\Viaje.class
+LogicaNegocio\ViajeIncentivo.class
+Principal\ClienteMain.class
