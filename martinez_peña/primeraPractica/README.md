@@ -1,12 +1,12 @@
 # Laboratorio 1: Polimorfismo
-Se hace uso de la tecnología Maven en este proeycto. Asegúrese de instalar previamente.
+Se hace uso de la tecnología Maven en este proeycto. Asegúrese de instalar Maven previamente.
 
 ## Vaya al directorio raíz del proyecto con un comando similar a este:
 ```
 cd ...\labisii2021.2\martinez_peña\primeraPractica
 ```
 
-## Genera en primera instancia el archivo .jar: 
+## Genere en primera instancia el archivo .jar: 
 ```
 mvn clean package
 ```
