@@ -13,7 +13,7 @@ import static org.junit.Assert.*;
 
 /**
  *
- * @author Libardo Pantoja, Ricardo Zambrano
+ * @author Libardo Pantoja
  */
 public class ViajeTest {
 
