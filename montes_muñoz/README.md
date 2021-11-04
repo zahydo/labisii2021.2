@@ -1,7 +1,8 @@
 # labisii2021.2
 
-##Integrantes 
-Andrés David Muñoz 
+## Integrantes
+Andrés David Muñoz
+
 Jonatan Alexander Montes
 
 ## Directorios
