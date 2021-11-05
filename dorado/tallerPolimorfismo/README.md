@@ -28,7 +28,7 @@ Generamos el archivo .jar:
 mvn clean package
 
 
-Ejecutamos el proyecto:
+Ejecutamos el Proyecto:
 mvn java -jar target\tallerPolimorfismo-1.0-SNAPSHOT.jar
 
 Para mostrar las pruebas unitarias:
