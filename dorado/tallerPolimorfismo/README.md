@@ -12,12 +12,12 @@ B
 
 Primera Práctica: Polimorfismo.
 
-##Objetivo
+## Objetivo
 
 Se busca fianzar un componente de la programacion orientada a objetos, 
 para este caso se trata de polimorfismo y metodos abstractos
 
-##Lista de Comandos
+## Lista de Comandos
 
 
 Debera ir al directorio raiz del proyecto, algo como el siguiente:
