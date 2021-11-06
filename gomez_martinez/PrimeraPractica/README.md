@@ -12,7 +12,4 @@ mediante la CLI y haciendo uso de Maven se deben ejecutar los siguientes comando
 - Pruebas Unitarias
 `mvn test`
 
-## Integrantes
-- [`Angie Carolina Gómez Acosta`](https://github.com/angiecgomez) 
-- [`Maria Fernanda Martinez Moreno`](https://github.com/Fernanda-Martinez)
-- Grupo B
+
