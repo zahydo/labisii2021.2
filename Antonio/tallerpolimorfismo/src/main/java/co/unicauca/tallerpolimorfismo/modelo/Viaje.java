@@ -8,7 +8,7 @@ import java.util.Date;
 
 /**
  *
- * @author qwert
+ * @author Antonio
  */
 public abstract class Viaje {
 

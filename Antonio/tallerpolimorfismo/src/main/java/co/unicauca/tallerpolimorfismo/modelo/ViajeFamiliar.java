@@ -8,7 +8,7 @@ import java.util.Date;
 
 /**
  *
- * @author qwert
+ * @author Antonio
  */
 public class ViajeFamiliar extends Viaje {
 

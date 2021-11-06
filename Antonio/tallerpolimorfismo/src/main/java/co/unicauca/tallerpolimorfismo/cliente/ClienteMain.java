@@ -14,7 +14,7 @@ import java.util.logging.Logger;
 
 /**
  *
- * @author qwert
+ * @author Antonio
  */
 public class ClienteMain {
 /**
