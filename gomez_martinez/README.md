@@ -1,10 +1,12 @@
-# AngieCarolinaGomez\README.MD
+# gomez_martinez\README.MD
 
-## Nombre completo
-Angie Carolina Gomez Acosta
+## Integrantes
+
+- [`Angie Carolina Gómez Acosta`](https://github.com/angiecgomez) 
+- [`Maria Fernanda Martinez Moreno`](https://github.com/Fernanda-Martinez)
 
 ## Grupo de trabajo
-B
+- B
 
 ## Prácticas
 
