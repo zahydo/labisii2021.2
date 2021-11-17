@@ -16,9 +16,9 @@ public class Service {
         this.repository = repo;
     }
 
-    public Long calculateParkingCost(Vehicle veh, LocalDateTime input, LocalDateTime output) {
+    public long calculateParkingCost(Vehicle veh, LocalDateTime input, LocalDateTime output) {
         ParkingCostFactory factory = new ParkingCostFactory();
-        Long result;
+        long result;
         result = factory.getParkingCost(veh.getType()).calculateCost(veh, input, output);
         return result;
     }

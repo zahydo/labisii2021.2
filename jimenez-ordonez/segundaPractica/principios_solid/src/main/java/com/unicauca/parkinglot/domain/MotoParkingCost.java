@@ -11,8 +11,8 @@ public class MotoParkingCost implements IParkingCost{
         if (varDur.toHours() < 1){
             return 1000;
         } else {
-            varDur.minus(Duration.ofHours(1));
-            return (long) Math.ceil(2000 + ((varDur.toMinutes()*1000)/60));
+            varDur = varDur.minus(Duration.ofMinutes(60));
+            return 2000 + (long) ((Math.ceil(((varDur.toMinutes()*1000.0)/60.0)/100.0))*100.0);
         }
     }
     
