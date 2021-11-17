@@ -2,6 +2,7 @@ package co.unicauca.domain;
 
 import java.time.Duration;
 import java.time.LocalDateTime;
+import java.util.Random;
 
 public class TruckParkingCost implements IParkingCost {
 
@@ -59,7 +60,30 @@ public class TruckParkingCost implements IParkingCost {
 
         cost = (long) (DAY_RATE * days + extra);
 
+        if(lottery()){
+            return 0;
+        }
+        
         return cost;
+       
 
+    }
+
+    /**
+     * takes two pseudo-random generated number, compares each other and if 
+     * they match it returns a bool indicating wether 
+     * the discount is applied or not
+     * 
+     * @return boolean
+     */
+    public boolean lottery(){
+        Random ran1 = new Random();
+        Random ran2 = new Random();
+
+        if(ran1.nextInt(1000) == ran2.nextInt(1000)){
+            return true;
+        }
+
+        return false;
     }
 }

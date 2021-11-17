@@ -7,7 +7,8 @@ public class ParkingCostFactory {
 
     private Map<TypeEnum, IParkingCost> dictionary;
     private static ParkingCostFactory instance;
-
+    //Singleton?
+    
     private ParkingCostFactory(){
         dictionary = new EnumMap<>(TypeEnum.class);
         dictionary.put(TypeEnum.CAR, new CarParkingCost());
