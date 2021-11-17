@@ -7,6 +7,7 @@ public class MotoParkingCost implements IParkingCost{
 
     
     /** 
+     * Calculo del costo del servicio de parque para tipo MOTO
      * @param veh
      * @param input
      * @param output

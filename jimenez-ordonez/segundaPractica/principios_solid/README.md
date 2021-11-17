@@ -11,7 +11,6 @@ Para ejecutar el main del proyecto correr el siguiente comando:
 mvn clean compile exec:java
 ~~~
 ### Testing
-
 Para ejecutar las pruebas del proyecto ejecute el siguiente comando:
 ~~~
 mvn test

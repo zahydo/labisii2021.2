@@ -18,6 +18,7 @@ public class ParkingCostFactory {
 
     
     /** 
+     * Retorna la instancia, de no existir la crea y retorna
      * @return ParkingCostFactory
      */
     public static ParkingCostFactory getInstance() {
@@ -29,6 +30,7 @@ public class ParkingCostFactory {
 
     
     /** 
+     * Usado para retornar el calculador de costo dependiendo del tipo de vehiculo
      * @param veh
      * @return IParkingCost
      */

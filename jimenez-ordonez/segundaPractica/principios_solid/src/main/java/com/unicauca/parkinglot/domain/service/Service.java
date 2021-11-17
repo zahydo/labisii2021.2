@@ -18,6 +18,8 @@ public class Service {
 
     
     /** 
+     * Calcula el costo del servicio de parque dependiendo del tipo de vehiculo,
+     *  la fecha de inicio y final del servicio
      * @param veh
      * @param input
      * @param output
@@ -32,6 +34,7 @@ public class Service {
 
     
     /** 
+     * Almacena el vehiculo recibido en la base de datos
      * @param veh
      */
     public void saveVehicle(Vehicle veh){
@@ -40,6 +43,7 @@ public class Service {
 
     
     /** 
+     * Retorna la lista de vehiculos almacenados en la base de datos
      * @return List<Vehicle>
      */
     public List<Vehicle> listVehicles() {

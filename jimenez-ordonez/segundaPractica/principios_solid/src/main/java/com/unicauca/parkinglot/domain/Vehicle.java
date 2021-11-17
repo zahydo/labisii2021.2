@@ -16,6 +16,7 @@ public class Vehicle {
 
     
     /** 
+     * Retorna placa del vehiculo
      * @return String
      */
     public String getPlate() {
@@ -24,7 +25,7 @@ public class Vehicle {
 
     
     /** 
-     * @param plate
+     * Usado para cambiar el valor de la placa     * @param plate
      */
     public void setPlate(String plate) {
         this.plate = plate;
@@ -32,6 +33,7 @@ public class Vehicle {
 
     
     /** 
+     * Retorna el tipo del vehiculo
      * @return TypeEnum
      */
     public TypeEnum getType() {
@@ -40,6 +42,7 @@ public class Vehicle {
 
     
     /** 
+     * Usado para cambiar el tipo de vehiculo
      * @param type
      */
     public void setType(TypeEnum type) {

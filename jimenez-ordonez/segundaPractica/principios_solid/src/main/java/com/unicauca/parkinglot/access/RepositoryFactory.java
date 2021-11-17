@@ -9,8 +9,9 @@ public class RepositoryFactory {
         this.repository = new VehicleRepository();
     }
 
-    
     /** 
+     * Este metodo retorna la instancia de esta clase respetando el patron de
+     * diseño Singleton
      * @return RepositoryFactory
      */
     public static RepositoryFactory getInstance(){
@@ -22,6 +23,8 @@ public class RepositoryFactory {
 
     
     /** 
+     * Este metodo retorna los repositorios dependiendod del tipo, por ahora
+     * VehicleRepository es la unica existente
      * @param type
      * @return IVehicleRepository
      */
