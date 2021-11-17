@@ -11,8 +11,8 @@ public class CarParkingCost implements IParkingCost {
         if (varDur.toHours() < 1){
             return 2000;
         } else {
-            varDur.minus(Duration.ofHours(1));
-            return (long) Math.ceil(4000 + ((varDur.toMinutes()*2000)/60));
+            varDur = varDur.minus(Duration.ofMinutes(60));
+            return 4000 + (long) ((Math.ceil(((varDur.toMinutes()*2000.0)/60.0)/100.0))*100.0);
         }
     }
     

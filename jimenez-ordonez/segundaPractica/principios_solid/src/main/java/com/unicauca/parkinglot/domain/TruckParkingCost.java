@@ -15,7 +15,7 @@ public class TruckParkingCost implements IParkingCost {
         } else {
             long varDays = varDur.toDays();
             long varHours = varDur.minus(Duration.ofDays(varDays)).toHours();
-            return (long) Math.ceil( (15000*varDays) + ((varHours*15000)/24));
+            return (15000*varDays) + (long) (Math.ceil((((varHours*15000)/24.0)/100.0))*100.0);
         }
     }
     
