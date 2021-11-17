@@ -1,25 +1,25 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package co.unicauca.parkinglot.domain;
 
 import java.time.Duration;
 import java.time.LocalDateTime;
 
-
-/**
- *
- * @author ASUS
- */
 public class CarParkingCost implements IParkingCost {
 
     @Override
     public long calculateCost(Vehicle veh, LocalDateTime input, LocalDateTime output) {
-        return 0; 
-    }
+        double tarifa = 4000;
+        Duration d1 = Duration.between(input, output); 
+        double horas = d1.toMinutes()/60.00;
 
-    
-    
+        double resultado = tarifa;
+
+        if(horas > 1){
+            resultado += (tarifa/2)*(horas-1);
+            resultado = Math.ceil(resultado/1000) * 1000;
+        }else if(horas < 1){
+            resultado /= 2;
+        }
+
+        return (long)resultado;
+    }
 }
