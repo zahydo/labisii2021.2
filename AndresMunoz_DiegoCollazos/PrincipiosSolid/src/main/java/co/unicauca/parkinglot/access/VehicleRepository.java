@@ -48,7 +48,7 @@ public class VehicleRepository implements IVehicleRepository {
     public boolean save(Vehicle newVehiculo) {
         try {
             //Validate Vehicle
-            if (newVehiculo == null || newVehiculo.getPlate().isBlank() || newVehiculo.getType() == null) {
+            if (newVehiculo == null || newVehiculo.getPlate() == null || newVehiculo.getType() == null) {
                 return false;
             }
             //this.connect();
@@ -76,7 +76,7 @@ public class VehicleRepository implements IVehicleRepository {
         // SQL statement for creating a new table
         String sql = "CREATE TABLE IF NOT EXISTS Vehicle (\n"
                 + "	Plate VARCHAR2 PRIMARY KEY,\n"
-                + "	Type text NOT NULL,\n"
+                + "	Type text NOT NULL\n"
                 + ");";
 
         try {
@@ -93,7 +93,7 @@ public class VehicleRepository implements IVehicleRepository {
 
     public boolean connect() {
         String url = "jdbc:sqlite::memory:";
-
+        
         try {
             conn = DriverManager.getConnection(url);
             return true;

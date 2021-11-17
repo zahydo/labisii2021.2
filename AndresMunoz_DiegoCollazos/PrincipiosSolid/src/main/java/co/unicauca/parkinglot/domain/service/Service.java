@@ -11,6 +11,7 @@ import co.unicauca.parkinglot.domain.MotoParkingCost;
 import co.unicauca.parkinglot.domain.TruckParkingCost;
 import co.unicauca.parkinglot.domain.TypeEnum;
 import co.unicauca.parkinglot.domain.Vehicle;
+import co.unicauca.parkinglot.infra.Utilities;
 
 public class Service {
     IVehicleRepository repository;
@@ -19,25 +20,13 @@ public class Service {
         this.repository = repository;
     }
 
-    public double calculateParkingCost (Vehicle vehicle, LocalDateTime input, LocalDateTime output) {
-        if (vehicle == null) {
-            return 0;
-        }
-        IParkingCost parkingCost = null;
-        if (vehicle.getType().equals(TypeEnum.CAR)){
-            parkingCost = new CarParkingCost();
-        }
-        if (vehicle.getType().equals(TypeEnum.TRUCK)){
-            parkingCost = new TruckParkingCost();
-        }
-        if (vehicle.getType().equals(TypeEnum.MOTO)){
-            parkingCost = new MotoParkingCost();
-        }
-        return parkingCost.calculateCost(vehicle, input, output);
+    public long calculateParkingCost (Vehicle vehicle, LocalDateTime input, LocalDateTime output) {
+        Utilities uti = new Utilities();
+        return uti.calculateCost(vehicle, input, output); 
     }
 
     public boolean saveVehicle (Vehicle newVehicle) {
-        if (newVehicle == null || newVehicle.getPlate().isBlank() || newVehicle.getType() == null) {
+        if (newVehicle == null || newVehicle.getPlate() == null  || newVehicle.getType() == null) {
             return false;
         }
         repository.save(newVehicle);

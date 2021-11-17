@@ -21,8 +21,10 @@ public class TruckParkingCost implements IParkingCost {
         } else if (12 < horas && horas <= 24) {
             cost = 15000; 
         } else {
-            double costo = (horas/24.00) * 15000; 
-            cost = (long) Math.ceil(costo / 1000) * 1000;
+            double costo = (d1.toDays()) * 15000; 
+            costo += Math.abs(input.getHour() - output.getHour())/24.00 * 15000; 
+            cost = (long) Math.ceil(costo / 100) * 100;  
+            
         }
         return cost;
     }

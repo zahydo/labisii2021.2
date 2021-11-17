@@ -23,4 +23,8 @@ public class RepositoryFactory {
 
         return result;
     }
+
+    public IVehicleRepository getRepository(String adefault) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }

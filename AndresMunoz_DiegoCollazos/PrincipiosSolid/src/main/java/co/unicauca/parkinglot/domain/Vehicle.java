@@ -6,6 +6,8 @@ public class Vehicle {
     private TypeEnum type;
 
     public Vehicle() {
+        plate = null;  
+        type  = null;  
     }
 
     public Vehicle(String plate, TypeEnum tipo) {

@@ -8,16 +8,16 @@ public class MotoParkingCost implements IParkingCost{
     @Override
     public long calculateCost(Vehicle veh, LocalDateTime input, LocalDateTime output) {
         Duration d1 = Duration.between(input, output);
-        double horas = d1.toMinutes() / 60.00;
+        double horas = d1.toMinutes()/ 60.00;
         long cost = 0;
         
         if (horas < 1) {
             cost = 1000;
-        } else if (horas == 1) {
+        } else if (horas == 1) {  
             cost = 2000;
         } else {
-            double costo = 2000 + (horas - 1) * 1000;
-            cost = (long) Math.ceil(costo / 1000) * 1000;
+            double costo = 2000 + (horas - 1) * 1000; 
+            cost = (long) Math.ceil(costo / 100) * 100; 
         }
         return cost; 
     }
