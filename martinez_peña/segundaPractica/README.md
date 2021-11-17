@@ -14,7 +14,7 @@ mvn clean package
 ## Para ejecutar el proyecto:
 
 ```
-mvn java -cp target\Parking-1.0-SNAPSHOT.jar presentation.ClientMain
+mvn exec:java -Dexec.mainClass="com.unicauca.parkinglot.presentation.ClientMain"
 ```
 
 ## Para las pruebas unitarias con JUnit:
