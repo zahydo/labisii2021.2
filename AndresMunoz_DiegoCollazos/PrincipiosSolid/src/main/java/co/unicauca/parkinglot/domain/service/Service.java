@@ -9,6 +9,7 @@ import co.unicauca.parkinglot.domain.CarParkingCost;
 import co.unicauca.parkinglot.domain.IParkingCost;
 import co.unicauca.parkinglot.domain.MotoParkingCost;
 import co.unicauca.parkinglot.domain.TruckParkingCost;
+import co.unicauca.parkinglot.domain.TypeEnum;
 import co.unicauca.parkinglot.domain.Vehicle;
 
 public class Service {
@@ -23,13 +24,13 @@ public class Service {
             return 0;
         }
         IParkingCost parkingCost = null;
-        if (vehicle.getType().equals("CAR")){
+        if (vehicle.getType().equals(TypeEnum.CAR)){
             parkingCost = new CarParkingCost();
         }
-        if (vehicle.getType().equals("TRUCK")){
+        if (vehicle.getType().equals(TypeEnum.TRUCK)){
             parkingCost = new TruckParkingCost();
         }
-        if (vehicle.getType().equals("MOTO")){
+        if (vehicle.getType().equals(TypeEnum.MOTO)){
             parkingCost = new MotoParkingCost();
         }
         return parkingCost.calculateCost(vehicle, input, output);

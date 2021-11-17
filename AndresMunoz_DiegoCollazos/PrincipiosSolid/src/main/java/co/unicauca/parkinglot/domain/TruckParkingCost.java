@@ -22,6 +22,4 @@ public class TruckParkingCost implements IParkingCost{
         }
         return cost; 
     }
-
-    
 }
