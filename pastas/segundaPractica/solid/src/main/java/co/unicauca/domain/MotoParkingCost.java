@@ -13,6 +13,9 @@ public class MotoParkingCost implements IParkingCost {
 
     
     /** 
+     * Calculates parking rate given a vehicle, entry time and departure time.
+     * Returns the minimal rate if parking duration is below 1 hour
+     * otherwise calculates the extra hours and the rate for hour fractions(minutes)
      * @param veh
      * @param input
      * @param output
