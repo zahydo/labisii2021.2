@@ -89,7 +89,7 @@ public class ParkingTest {
         System.out.println("Camión 3 dias y una hora");
         input = LocalDateTime.of(2021, Month.FEBRUARY, 22, 8, 0);
         output = LocalDateTime.of(2021, Month.FEBRUARY, 25, 9, 15);
-        expResult = 45700;
+        expResult = 45700L;
         result = service.calculateParkingCost(veh, input, output);
         assertEquals(expResult, result);
     }

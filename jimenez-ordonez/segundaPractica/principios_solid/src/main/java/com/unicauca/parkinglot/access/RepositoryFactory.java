@@ -9,6 +9,10 @@ public class RepositoryFactory {
         this.repository = new VehicleRepository();
     }
 
+    
+    /** 
+     * @return RepositoryFactory
+     */
     public static RepositoryFactory getInstance(){
         if (RepositoryFactory.instance == null){
             RepositoryFactory.instance = new RepositoryFactory();
@@ -16,6 +20,11 @@ public class RepositoryFactory {
         return RepositoryFactory.instance;
     }
 
+    
+    /** 
+     * @param type
+     * @return IVehicleRepository
+     */
     public IVehicleRepository getRepository(String type) {
         return this.repository;
     }
