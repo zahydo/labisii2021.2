@@ -17,7 +17,7 @@ public class Service {
     }
 
     public long calculateParkingCost(Vehicle veh, LocalDateTime input, LocalDateTime output) {
-        ParkingCostFactory factory = new ParkingCostFactory();
+        ParkingCostFactory factory = ParkingCostFactory.getInstance();
         long result;
         result = factory.getParkingCost(veh.getType()).calculateCost(veh, input, output);
         return result;
