@@ -4,7 +4,8 @@ import java.time.Duration;
 import java.time.LocalDateTime;
 
 public class MotoParkingCost implements IParkingCost{
-
+    public MotoParkingCost() {
+    }
     @Override
     public long calculateCost(Vehicle veh, LocalDateTime input, LocalDateTime output) {
         Duration d1 = Duration.between(input, output); 

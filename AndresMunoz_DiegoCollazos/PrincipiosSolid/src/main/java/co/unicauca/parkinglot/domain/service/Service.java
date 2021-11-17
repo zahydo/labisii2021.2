@@ -5,6 +5,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 import co.unicauca.parkinglot.access.IVehicleRepository;
+import co.unicauca.parkinglot.domain.CarParkingCost;
+import co.unicauca.parkinglot.domain.IParkingCost;
+import co.unicauca.parkinglot.domain.MotoParkingCost;
+import co.unicauca.parkinglot.domain.TruckParkingCost;
 import co.unicauca.parkinglot.domain.Vehicle;
 
 public class Service {
@@ -18,9 +22,17 @@ public class Service {
         if (vehicle == null) {
             return 0;
         }
-
-        //TODO
-        return 1;
+        IParkingCost parkingCost = null;
+        if (vehicle.getType().equals("CAR")){
+            parkingCost = new CarParkingCost();
+        }
+        if (vehicle.getType().equals("TRUCK")){
+            parkingCost = new TruckParkingCost();
+        }
+        if (vehicle.getType().equals("MOTO")){
+            parkingCost = new MotoParkingCost();
+        }
+        return parkingCost.calculateCost(vehicle, input, output);
     }
 
     public boolean saveVehicle (Vehicle newVehicle) {

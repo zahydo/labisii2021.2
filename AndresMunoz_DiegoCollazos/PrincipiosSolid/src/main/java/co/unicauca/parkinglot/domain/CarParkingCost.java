@@ -4,7 +4,8 @@ import java.time.Duration;
 import java.time.LocalDateTime;
 
 public class CarParkingCost implements IParkingCost {
-
+    public CarParkingCost() {
+    }
     @Override
     public long calculateCost(Vehicle veh, LocalDateTime input, LocalDateTime output) {
         double tarifa = 4000;
