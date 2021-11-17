@@ -15,6 +15,10 @@ public class ParkingCostFactory {
         dictionary.put(TypeEnum.TRUCK, new TruckParkingCost());
     }
 
+    
+    /** 
+     * @return ParkingCostFactory
+     */
     public static ParkingCostFactory getInstance(){
         if (instance == null) {
             instance = new ParkingCostFactory();
@@ -22,6 +26,11 @@ public class ParkingCostFactory {
         return instance;
     }
 
+    
+    /** 
+     * @param veh
+     * @return IParkingCost
+     */
     public IParkingCost getType(TypeEnum veh) {
         IParkingCost result = null;
         if (dictionary.containsKey(veh)) {
