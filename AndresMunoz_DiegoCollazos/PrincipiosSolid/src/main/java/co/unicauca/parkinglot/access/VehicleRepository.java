@@ -48,7 +48,7 @@ public class VehicleRepository implements IVehicleRepository {
     public boolean save(Vehicle newVehiculo) {
         try {
             //Validate Vehicle
-            if (newVehiculo == null || newVehiculo.getPlate().isBlank() || newVehiculo.getType() == null) {
+            if (newVehiculo == null || newVehiculo.getPlate() == null || newVehiculo.getType() == null) {
                 return false;
             }
             //this.connect();
