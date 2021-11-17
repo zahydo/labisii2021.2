@@ -1,5 +1,12 @@
 package co.unicauca.parkinglot.access;
-
+/**
+* +--------------------------------------------------------------------------------------+
+* | DESCRIPCION: Repositorio para la conexión e instancia de la base de datos
+* | ESTUDIANTE: Andrés david Muñoz Cerón - Diego Collazos Perafan 
+* | FECHA: 17/11/2021
+* +--------------------------------------------------------------------------------------+
+*/
+/*Librerías para la conexión y manejo con la base de datos */
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
@@ -11,14 +18,17 @@ import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+/*Librerias Domain*/
 import co.unicauca.parkinglot.domain.TypeEnum;
 import co.unicauca.parkinglot.domain.Vehicle;
 import co.unicauca.parkinglot.domain.service.Service;
 
+/*Clase vehicleRepository*/
 public class VehicleRepository implements IVehicleRepository {
 
     private Connection conn;
 
+    /*Método que me lista el contenido de la base de datos*/
     @Override
     public List<Vehicle> list() {
         List<Vehicle> vehicles = new ArrayList<>();
@@ -44,6 +54,7 @@ public class VehicleRepository implements IVehicleRepository {
         return vehicles;
     }
 
+    /*Método insert, salva un nuevo elemento en la base de datos*/
     @Override
     public boolean save(Vehicle newVehiculo) {
         try {
@@ -67,11 +78,12 @@ public class VehicleRepository implements IVehicleRepository {
         }
         return false;
     }
-
+    
+    /* Método auxiliar para la inicialización de la base de datos*/
     public VehicleRepository () {
         initDatabase();
     }
-
+    /*Inicialización de la base de datos y creación de la tabla vehicle*/
     private boolean initDatabase() {
         // SQL statement for creating a new table
         String sql = "CREATE TABLE IF NOT EXISTS Vehicle (\n"
@@ -90,7 +102,8 @@ public class VehicleRepository implements IVehicleRepository {
         }
         return false;
     }
-
+    
+    /*Instancia la base de datos*/
     public boolean connect() {
         String url = "jdbc:sqlite::memory:";
         
@@ -103,6 +116,7 @@ public class VehicleRepository implements IVehicleRepository {
         return false;
     }
 
+    /*Desconecta la base de datos*/
     public boolean disconnect() {
         try {
             if (conn != null) {
