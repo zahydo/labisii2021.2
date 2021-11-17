@@ -1,6 +1,7 @@
 package com.unicauca.parkinglot.access;
 
 public class RepositoryFactory {
+    
     private static RepositoryFactory instance;
     private IVehicleRepository repository;
 

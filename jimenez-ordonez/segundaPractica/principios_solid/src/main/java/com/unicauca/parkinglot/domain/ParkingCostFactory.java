@@ -1,5 +1,6 @@
 package com.unicauca.parkinglot.domain;
 
+import java.util.HashMap;
 import java.util.Map;
 
 public class ParkingCostFactory {
@@ -7,9 +8,17 @@ public class ParkingCostFactory {
     private Map<TypeEnum, IParkingCost> dictionary;
     private ParkingCostFactory instance;
 
+    public ParkingCostFactory() {
+        super();
+        dictionary = new HashMap<>();
+        dictionary.put(TypeEnum.CAR, new CarParkingCost());
+        dictionary.put(TypeEnum.MOTO, new CarParkingCost());
+        dictionary.put(TypeEnum.TRUCK, new CarParkingCost());
+    }
+
     private void VehicleFactory(){
-        //TODO: ¿?
-    }    
+
+    }
 
     public ParkingCostFactory getInstance() {
         instance = (instance == null)? new ParkingCostFactory(): instance;
@@ -17,7 +26,7 @@ public class ParkingCostFactory {
     }
 
     public IParkingCost getParkingCost(TypeEnum veh){
-        return null;
+        return dictionary.get(veh);
     }
 
 }
