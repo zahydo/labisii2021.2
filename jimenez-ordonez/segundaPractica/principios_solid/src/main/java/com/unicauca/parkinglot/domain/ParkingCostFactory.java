@@ -6,9 +6,9 @@ import java.util.Map;
 public class ParkingCostFactory {
 
     private Map<TypeEnum, IParkingCost> dictionary;
-    private ParkingCostFactory instance;
+    private static ParkingCostFactory instance;
 
-    public ParkingCostFactory() {
+    private ParkingCostFactory() {
         super();
         dictionary = new HashMap<>();
         dictionary.put(TypeEnum.CAR, new CarParkingCost());
@@ -16,12 +16,14 @@ public class ParkingCostFactory {
         dictionary.put(TypeEnum.TRUCK, new TruckParkingCost());
     }
 
-    private void VehicleFactory() {
-    }
+    /*private void VehicleFactory() {
+    }*/
 
-    public ParkingCostFactory getInstance() {
-        instance = (instance == null) ? new ParkingCostFactory() : instance;
-        return instance;
+    public static ParkingCostFactory getInstance() {
+        if (ParkingCostFactory.instance == null){
+            ParkingCostFactory.instance = new ParkingCostFactory();
+        } 
+        return ParkingCostFactory.instance;
     }
 
     public IParkingCost getParkingCost(TypeEnum veh) {

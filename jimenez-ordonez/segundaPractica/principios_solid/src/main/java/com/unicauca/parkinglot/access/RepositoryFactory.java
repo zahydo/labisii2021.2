@@ -13,7 +13,7 @@ public class RepositoryFactory {
         if (RepositoryFactory.instance == null){
             RepositoryFactory.instance = new RepositoryFactory();
         }
-        return instance;
+        return RepositoryFactory.instance;
     }
 
     public IVehicleRepository getRepository(String type) {
