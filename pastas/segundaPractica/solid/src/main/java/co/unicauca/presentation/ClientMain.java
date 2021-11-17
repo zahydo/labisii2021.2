@@ -11,6 +11,10 @@ import java.util.List;
 
 public class ClientMain {
 
+    
+    /** 
+     * @param args
+     */
     public static void main(String[] args) {
         Vehicle veh = new Vehicle("FTK-123", TypeEnum.MOTO);
         LocalDateTime input = LocalDateTime.of(2021, Month.FEBRUARY, 22, 8, 0);

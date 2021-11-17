@@ -23,6 +23,13 @@ public class TruckParkingCost implements IParkingCost {
     public TruckParkingCost() {
     };
 
+    
+    /** 
+     * @param veh
+     * @param input
+     * @param output
+     * @return long
+     */
     @Override
     public long calculateCost(Vehicle veh, LocalDateTime input, LocalDateTime output) {
 

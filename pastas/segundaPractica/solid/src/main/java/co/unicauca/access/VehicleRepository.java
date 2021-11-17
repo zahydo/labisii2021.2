@@ -24,6 +24,11 @@ public class VehicleRepository implements IVehicleRepository{
         initDatabase();
     }
 
+    
+    /** 
+     * @param newVehiculo
+     * @return boolean
+     */
     @Override
     public boolean save(Vehicle newVehiculo) {
         try {
@@ -47,6 +52,10 @@ public class VehicleRepository implements IVehicleRepository{
         
     }
 
+    
+    /** 
+     * @return List<Vehicle>
+     */
     @Override
     public List<Vehicle> list() {
         List<Vehicle> vehicles = new ArrayList<>();
