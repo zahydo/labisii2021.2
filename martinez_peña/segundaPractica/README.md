@@ -1,4 +1,4 @@
-# Practica Principios SOLID
+# Laboratorio 2: Principios SOLID
 ## Vaya al directorio raíz del proyecto con un comando similar a este:
 
 cd ...\labisii2021.2\martinez_peña\segundaPractica
