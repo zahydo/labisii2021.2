@@ -4,8 +4,8 @@ import java.time.Duration;
 import java.time.LocalDateTime;
 
 public class CarParkingCost implements IParkingCost {
-    static final long MIN_RATE = 1000;
-    static final long FIXED_RATE = 2000;
+    static final long MIN_RATE = 2000;
+    static final long FIXED_RATE = 4000;
 
     public CarParkingCost() {
     };
@@ -33,7 +33,12 @@ public class CarParkingCost implements IParkingCost {
 
             rate = (double) minutes / 60;
 
-            long extra = (long) (rate * MIN_RATE - (rate * MIN_RATE % 100)) + 100;
+            long extra = (long) (rate * MIN_RATE);
+
+            if(extra % 100 != 0){
+                extra = extra - (extra%100) + 100;
+            }
+
 
             cost = (long) (FIXED_RATE + extra_hours + extra);
 
