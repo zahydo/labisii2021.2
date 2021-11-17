@@ -17,8 +17,6 @@ import java.util.List;
 
 /**
  * Un cliente main de prueba
- *
- * @author Libardo
  */
 public class ClientMain {
 
