@@ -7,6 +7,7 @@ public class CarParkingCost implements IParkingCost {
 
     
     /** 
+     * Calculo del costo del servicio de parque para tipo CAR
      * @param veh
      * @param input
      * @param output

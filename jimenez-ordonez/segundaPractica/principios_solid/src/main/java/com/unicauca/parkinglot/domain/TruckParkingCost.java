@@ -8,6 +8,7 @@ public class TruckParkingCost implements IParkingCost {
 
     
     /** 
+     * Calculo del costo del servicio de parque para tipo TRUCK
      * @param veh
      * @param input
      * @param output
@@ -32,6 +33,7 @@ public class TruckParkingCost implements IParkingCost {
 
     
     /** 
+     * Retorna si el camion gano o no el servicio gratis
      * @return boolean
      */
     private boolean sorteo(){

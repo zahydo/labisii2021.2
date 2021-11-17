@@ -25,6 +25,8 @@ public class VehicleRepository implements IVehicleRepository {
 
     
     /** 
+     * Recibe un vehiculo para ser almacenado en la base de datos sqlite y si se
+     * agrego almaceno exitosamente
      * @param newVehicle
      * @return boolean
      */
@@ -48,6 +50,8 @@ public class VehicleRepository implements IVehicleRepository {
 
     
     /** 
+     * Retorna la lista de vehiculos almacenados en la base de datos, vacia si 
+     * la consulta no tiene rows
      * @return List<Vehicle>
      */
     @Override
@@ -69,6 +73,10 @@ public class VehicleRepository implements IVehicleRepository {
         return vehiculos;
     }
 
+
+    /**
+     * Crea la estuctura de la based de datos aunque no exista
+     */
     private void initDatabase() {
         String varTable = "CREATE TABLE IF NOT EXISTS VEHICLE (\n" + "	PLATE TEXT NOT NULL,\n"
                 + "	TYPE TEXT NOT NULL\n" + ");";
@@ -82,6 +90,10 @@ public class VehicleRepository implements IVehicleRepository {
         }
     }
 
+
+    /**
+     * Conecta con la base de datos
+     */
     public void connect() {
         String varURL = "jdbc:sqlite::memory:";
 
@@ -93,6 +105,10 @@ public class VehicleRepository implements IVehicleRepository {
         }
     }
 
+
+    /**
+     * Desconecta la base de datos si existe
+     */
     public void disconnect() {
         try {
             if (conn != null) {
