@@ -22,13 +22,13 @@ public class Service {
         this.repository = repository;
     }
 
-
     
     /** 
-     * @param veh
-     * @param input
-     * @param output
-     * @return long
+     * Calculates Parking Rate given a Vehicle, entry time and departure time
+     * @param veh Vehicle 
+     * @param input Entry Time and Date
+     * @param output Departure Time and Date
+     * @return long Parking Rate
      */
     public long calculateParkingCost(Vehicle veh, LocalDateTime input, LocalDateTime output){
         IParkingCost delivery = ParkingCostFactory.getInstance().getType(veh.getType());
@@ -38,14 +38,15 @@ public class Service {
 
     
     /** 
-     * @param newVehicle
+     * Pushes a New Vehicle to DB
+     * @param newVehicle 
      */
     public void saveVehicle(Vehicle newVehicle){
         repository.save(newVehicle);
     }
 
     
-    /** 
+    /** Returns the list with all the vehicles in DB
      * @return List<Vehicle>
      */
     public List<Vehicle> listVehicles(){
@@ -56,4 +57,5 @@ public class Service {
         return vehicles;
 
     }
+    
 }

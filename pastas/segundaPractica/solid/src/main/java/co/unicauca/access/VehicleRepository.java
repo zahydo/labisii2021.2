@@ -26,8 +26,9 @@ public class VehicleRepository implements IVehicleRepository{
 
     
     /** 
-     * @param newVehiculo
-     * @return boolean
+     * Save a new vehicle to DB
+     * @param newVehiculo New Vehicle to be saved
+     * @return boolean indicating method call success/failure 
      */
     @Override
     public boolean save(Vehicle newVehiculo) {
@@ -54,7 +55,9 @@ public class VehicleRepository implements IVehicleRepository{
 
     
     /** 
-     * @return List<Vehicle>
+     * Method that returns a list filled with all the vehicles fetched from the DB
+     * 
+     * @return List<Vehicle> that contains all vehicles in DB
      */
     @Override
     public List<Vehicle> list() {
@@ -79,7 +82,9 @@ public class VehicleRepository implements IVehicleRepository{
         }
         return vehicles;
     }
-
+    /**
+     * Initialize database
+     */
     private void initDatabase(){
         String sql = "CREATE TABLE IF NOT EXISTS Vehicle (\n"
                 + "	Plate text PRIMARY KEY,\n"
@@ -93,7 +98,9 @@ public class VehicleRepository implements IVehicleRepository{
             Logger.getLogger(Service.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
-
+    /**
+     * Connect to Database
+     */
     public void connect(){
         String url = "jdbc:sqlite::memory:";
         try {
@@ -102,7 +109,9 @@ public class VehicleRepository implements IVehicleRepository{
             Logger.getLogger(Service.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
-
+    /**
+     * Disconnect from Database
+     */
     public  void disconnect(){
         try {
             if (conn != null) {
