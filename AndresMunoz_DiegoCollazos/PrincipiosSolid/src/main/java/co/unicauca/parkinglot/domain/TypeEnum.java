@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package co.unicauca.parkingflot.domain;
+package co.unicauca.parkinglot.domain;
 
 /**
  *
  * @author ASUS
  */
 public enum TypeEnum{
-    MOTO, CAR, TRUCK
+    MOTO, CAR, TRUCK;
 }

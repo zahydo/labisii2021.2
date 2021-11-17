@@ -1,5 +1,6 @@
 package co.unicauca.parkinglot.domain.service;
 
+import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -13,15 +14,17 @@ public class Service {
         this.repository = repository;
     }
 
-    public double calculateParkingCost (Vehicle vehicle) {
+    public double calculateParkingCost (Vehicle vehicle, LocalDateTime input, LocalDateTime output) {
         if (vehicle == null) {
             return 0;
         }
-        return vehicle.calculateCost();
+
+        //TODO
+        return 1;
     }
 
     public boolean saveVehicle (Vehicle newVehicle) {
-        if (newVehicle == null || newVehicle.getPlate().isBlank() || newVehicle.getType().isBlank()) {
+        if (newVehicle == null || newVehicle.getPlate().isBlank() || newVehicle.getType() == null) {
             return false;
         }
         repository.save(newVehicle);

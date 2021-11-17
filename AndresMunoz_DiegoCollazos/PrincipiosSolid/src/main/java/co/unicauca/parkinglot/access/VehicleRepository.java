@@ -11,6 +11,7 @@ import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+import co.unicauca.parkinglot.domain.TypeEnum;
 import co.unicauca.parkinglot.domain.Vehicle;
 import co.unicauca.parkinglot.domain.service.Service;
 
@@ -31,7 +32,7 @@ public class VehicleRepository implements IVehicleRepository {
             while (rs.next()) {
                 Vehicle newVehicle = new Vehicle();
                 newVehicle.setPlate(rs.getString("Plate"));
-                newVehicle.setType(rs.getString("Type"));
+                newVehicle.setType(TypeEnum.valueOf(rs.getString("Type")));
 
                 vehicles.add(newVehicle);
             }
@@ -47,7 +48,7 @@ public class VehicleRepository implements IVehicleRepository {
     public boolean save(Vehicle newVehiculo) {
         try {
             //Validate Vehicle
-            if (newVehiculo == null || newVehiculo.getPlate().isBlank() || newVehiculo.getType().isBlank()) {
+            if (newVehiculo == null || newVehiculo.getPlate().isBlank() || newVehiculo.getType() == null) {
                 return false;
             }
             //this.connect();
@@ -57,12 +58,12 @@ public class VehicleRepository implements IVehicleRepository {
 
             PreparedStatement pstmt = conn.prepareStatement(sql);
             pstmt.setString(1, newVehiculo.getPlate());
-            pstmt.setString(2, newVehiculo.getType());
+            pstmt.setString(2, newVehiculo.getType().toString());
             pstmt.executeUpdate();
             //this.disconnect();
             return true;
         } catch (SQLException ex) {
-            Logger.getLogger(Service.class.getType()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(Service.class.getName()).log(Level.SEVERE, null, ex);
         }
         return false;
     }
