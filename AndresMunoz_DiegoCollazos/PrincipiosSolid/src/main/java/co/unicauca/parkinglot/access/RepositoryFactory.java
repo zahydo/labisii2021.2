@@ -3,9 +3,12 @@ package co.unicauca.parkinglot.access;
 public class RepositoryFactory {
     public static RepositoryFactory instance;
 
-    RepositoryFactory () {}
+    private RepositoryFactory () {}
 
     public static RepositoryFactory getInstance() {
+        if (instance == null) {
+            instance = new RepositoryFactory();
+        }
         return instance;
     }
 
