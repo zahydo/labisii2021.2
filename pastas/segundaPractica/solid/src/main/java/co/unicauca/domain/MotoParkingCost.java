@@ -34,7 +34,11 @@ public class MotoParkingCost implements IParkingCost {
 
             rate = (double) minutes / 60;
 
-            long extra = (long) (rate * MIN_RATE - (rate * MIN_RATE % 100)) + 100;
+            long extra = (long) (rate * MIN_RATE);
+
+            if(extra % 100 != 0){
+                extra = extra - (extra%100) + 100;
+            }
 
             cost = (long) (FIXED_RATE + extra_hours + extra);
 

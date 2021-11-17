@@ -44,7 +44,11 @@ public class TruckParkingCost implements IParkingCost {
 
         rate = (double) extraHours / 24;
 
-        long extra = (long) (rate * DAY_RATE - (rate * DAY_RATE % 100)) + 100;
+        long extra = (long) (rate * DAY_RATE);
+
+        if(extra % 100 != 0){
+            extra = extra - (extra%100) + 100;
+        }
 
         cost = (long) (DAY_RATE * days + extra);
 
