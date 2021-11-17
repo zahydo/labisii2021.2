@@ -11,9 +11,9 @@ public class CarParkingCost implements IParkingCost {
         double tarifa = 4000;
         Duration d1 = Duration.between(input, output); 
         double horas = d1.toMinutes()/60.00;
-        
+
         double resultado = tarifa;
-        
+
         if(horas > 1){
             resultado += (tarifa/2)*(horas-1);
             resultado = Math.ceil(resultado/100) * 100;
