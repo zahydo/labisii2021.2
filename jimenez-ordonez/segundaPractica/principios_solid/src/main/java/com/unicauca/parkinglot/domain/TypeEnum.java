@@ -1,5 +1,9 @@
 package com.unicauca.parkinglot.domain;
 
-public class TypeEnum {
+public enum TypeEnum {
     
+    CAR,
+    MOTORCYCLE,
+    TRUCK
+
 }

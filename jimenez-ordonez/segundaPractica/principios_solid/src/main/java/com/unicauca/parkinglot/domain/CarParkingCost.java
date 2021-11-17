@@ -1,5 +1,13 @@
 package com.unicauca.parkinglot.domain;
 
-public class CarParkingCost {
+import java.time.LocalDateTime;
+
+public class CarParkingCost implements IParkingCost {
+
+    @Override
+    public long calculateCost(Vehicle veh, LocalDateTime input, LocalDateTime output) {
+        // TODO Auto-generated method stub
+        return 0;
+    }
     
 }
