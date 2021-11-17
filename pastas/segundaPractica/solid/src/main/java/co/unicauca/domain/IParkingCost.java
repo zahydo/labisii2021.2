@@ -1,5 +1,7 @@
 package co.unicauca.domain;
 
-public class IParkingCost {
-    
+import java.time.LocalDateTime;
+
+public interface IParkingCost {
+    public abstract long calculateCost(Vehicle veh, LocalDateTime input, LocalDateTime output);
 }
