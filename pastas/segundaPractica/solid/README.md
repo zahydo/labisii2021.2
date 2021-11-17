@@ -3,7 +3,7 @@ El proyecto se contruyo con la asistencia de Maven. Por lo tanto para correr el 
 
 ## Para correr el main:
 
-`mvn compile` y luego `mvn exec:java -Dexec.mainClass="com.cliente.ClienteMain"`
+`mvn compile` y luego `mvn exec:java -Dexec.mainClass="co.unicauca.presentacion.ClienteMain"`
 
 ## Para correr las pruebas :
 
