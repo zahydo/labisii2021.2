@@ -16,14 +16,8 @@ public class ClientMain {
         LocalDateTime output = LocalDateTime.of(2021, Month.FEBRUARY, 22, 19, 30);
         IVehicleRepository repo = RepositoryFactory.getInstance().getRepositoryType("default");
         Service service = new Service(repo); //Inyección de dependencias
-<<<<<<< HEAD
         double result = service.calculateParkingCost(veh, input, output);
         System.out.println("Valor a pagar por la moto: " + result);
-=======
-        //TODO
-        //long result = service.calculateParkingCost(veh, input, output);
-        //System.out.println("Valor a pagar por la moto: " + result);
->>>>>>> 4c02db107458db84e962543026ad291214c63fde
 
         service.saveVehicle(veh);
         veh = new Vehicle("JNK-124", TypeEnum.CAR);
