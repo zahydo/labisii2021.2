@@ -16,7 +16,7 @@ public class MotoParkingCost implements IParkingCost{
             cost = 2000;
         }else{
             double costo = 2000 + (horas - 1)*1000;
-            costo = (long)Math.ceil(costo/1000)*1000;
+            cost = (long)Math.ceil(costo/1000)*1000;
         }
         return cost; 
     }
