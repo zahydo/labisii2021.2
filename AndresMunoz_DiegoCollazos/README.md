@@ -2,6 +2,7 @@
 ## Integrantes 
 Andrés David Muñoz - Diego Collazos Perafán 
 
-##Fechas
+#Fechas
+---
 17/11/2021 Taller de principios SOLID 
 
