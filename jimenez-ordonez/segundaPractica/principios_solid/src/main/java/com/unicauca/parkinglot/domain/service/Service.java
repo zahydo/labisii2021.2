@@ -16,6 +16,13 @@ public class Service {
         this.repository = repo;
     }
 
+    
+    /** 
+     * @param veh
+     * @param input
+     * @param output
+     * @return long
+     */
     public long calculateParkingCost(Vehicle veh, LocalDateTime input, LocalDateTime output) {
         ParkingCostFactory factory = ParkingCostFactory.getInstance();
         long result;
@@ -23,10 +30,18 @@ public class Service {
         return result;
     }
 
+    
+    /** 
+     * @param veh
+     */
     public void saveVehicle(Vehicle veh){
         repository.save(veh);
     }
 
+    
+    /** 
+     * @return List<Vehicle>
+     */
     public List<Vehicle> listVehicles() {
         return (repository.list() == null)?new ArrayList<Vehicle>():repository.list();
     }

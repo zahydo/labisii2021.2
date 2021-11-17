@@ -7,7 +7,7 @@ public class ParkingCostFactory {
 
     private Map<TypeEnum, IParkingCost> dictionary;
     private static ParkingCostFactory instance;
-
+    
     private ParkingCostFactory() {
         super();
         dictionary = new HashMap<>();
@@ -16,9 +16,10 @@ public class ParkingCostFactory {
         dictionary.put(TypeEnum.TRUCK, new TruckParkingCost());
     }
 
-    /*private void VehicleFactory() {
-    }*/
-
+    
+    /** 
+     * @return ParkingCostFactory
+     */
     public static ParkingCostFactory getInstance() {
         if (ParkingCostFactory.instance == null){
             ParkingCostFactory.instance = new ParkingCostFactory();
@@ -26,6 +27,11 @@ public class ParkingCostFactory {
         return ParkingCostFactory.instance;
     }
 
+    
+    /** 
+     * @param veh
+     * @return IParkingCost
+     */
     public IParkingCost getParkingCost(TypeEnum veh) {
         return dictionary.get(veh);
     }

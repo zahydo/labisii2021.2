@@ -7,10 +7,21 @@ import com.unicauca.parkinglot.domain.TypeEnum;
 
 public class Utilities {
 
+    
+    /** 
+     * @param input
+     * @param output
+     * @return Duration
+     */
     public static Duration calculateDuration(LocalDate input, LocalDate output) {
         return (input.compareTo(output) == -1) ? (Duration.between(input, output)) : null;
     }
 
+    
+    /** 
+     * @param type
+     * @return String
+     */
     public static String enumToString(TypeEnum type){
         switch (type) {
             case CAR:
@@ -24,6 +35,11 @@ public class Utilities {
         }
     }
     
+    
+    /** 
+     * @param type
+     * @return TypeEnum
+     */
     public static TypeEnum stringToEnum(String type){
         switch (type) {
             case "CAR":

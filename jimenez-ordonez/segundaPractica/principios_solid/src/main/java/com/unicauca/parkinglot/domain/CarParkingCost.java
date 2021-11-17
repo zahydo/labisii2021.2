@@ -5,6 +5,13 @@ import java.time.LocalDateTime;
 
 public class CarParkingCost implements IParkingCost {
 
+    
+    /** 
+     * @param veh
+     * @param input
+     * @param output
+     * @return long
+     */
     @Override
     public long calculateCost(Vehicle veh, LocalDateTime input, LocalDateTime output) {
         Duration varDur = Duration.between(input, output);
