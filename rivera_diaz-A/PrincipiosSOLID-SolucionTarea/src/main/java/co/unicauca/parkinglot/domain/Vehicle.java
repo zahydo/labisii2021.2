@@ -1,9 +1,8 @@
-
 package co.unicauca.parkinglot.domain;
 
 /**
  *
- * @author Dz
+ * @author andersondiaz
  */
 public class Vehicle {
 
@@ -38,7 +37,5 @@ public class Vehicle {
     public String toString() {
         return "Vehicle{" + "plate=" + plate + ", type=" + type + '}';
     }
-   
-    
-    
+
 }

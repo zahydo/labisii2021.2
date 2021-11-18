@@ -16,7 +16,7 @@ import java.util.logging.Logger;
 
 /**
  *
- * @author Dz
+ * @author andersondiaz
  */
 public class VehicleRepository implements IVehicleRepository {
 

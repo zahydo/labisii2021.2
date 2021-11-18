@@ -1,14 +1,9 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-
 package co.unicauca.parkinglot.domain;
 
 /**
  *
- * @author Dz
+ * @author andersondiaz
  */
 public enum TypeEnum {
-    CAR,  MOTO, TRUCK
+    CAR, MOTO, TRUCK
 }

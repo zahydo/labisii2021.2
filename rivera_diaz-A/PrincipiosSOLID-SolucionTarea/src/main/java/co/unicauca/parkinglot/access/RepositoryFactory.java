@@ -1,15 +1,14 @@
-
 package co.unicauca.parkinglot.access;
 
 /**
  *
- * @author Dz
+ * @author andersondiaz
  */
 public class RepositoryFactory {
 
     private static RepositoryFactory instance;
     private IVehicleRepository repository;
-    
+
     private RepositoryFactory() {
         this.repository = new VehicleRepository();
     }
@@ -21,14 +20,9 @@ public class RepositoryFactory {
         return instance;
     }
 
-    
     public IVehicleRepository getRepository(String type) {
-        
-         return this.repository;
+
+        return this.repository;
     }
-
-    
-
-
 
 }

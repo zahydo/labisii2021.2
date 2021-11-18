@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package co.unicauca.parkinglot.presentation;
 
 import co.unicauca.parkinglot.access.RepositoryFactory;
@@ -15,7 +11,7 @@ import co.unicauca.parkinglot.access.IVehicleRepository;
 
 /**
  *
- * @author Dz
+ * @author andersondiaz
  */
 public class ClienMain {
 
@@ -37,5 +33,3 @@ public class ClienMain {
         });
     }
 }
-  
-

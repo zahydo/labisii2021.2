@@ -6,7 +6,7 @@ package co.unicauca.parkinglot.domain.service;
 
 /**
  *
- * @author Dz
+ * @author andersondiaz
  */
 import java.time.LocalDateTime;
 import java.util.ArrayList;
@@ -14,7 +14,6 @@ import java.util.List;
 
 import co.unicauca.parkinglot.domain.ParkingCostFactory;
 import co.unicauca.parkinglot.domain.Vehicle;
-import co.unicauca.parkinglot.infra.Utilities;
 import co.unicauca.parkinglot.access.IVehicleRepository;
 
 public class Service {
@@ -26,7 +25,6 @@ public class Service {
     }
 
     public long calculateParkingCost(Vehicle vehicle, LocalDateTime input, LocalDateTime output) {
-        Utilities uti = new Utilities();
         return ParkingCostFactory.getInstance().getParkingCost(vehicle.getType()).calculateCost(vehicle, input, output);
     }
 
