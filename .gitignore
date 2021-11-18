@@ -3,6 +3,11 @@
 bin/
 !.mvn/wrapper/maven-wrapper.jar
 
+.classpath
+.project
+.settings/
+target/
+
 ### STS ###
 .apt_generated
 .classpath
