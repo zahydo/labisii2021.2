@@ -7,7 +7,7 @@ package co.unicauca.parkinglot.access;
 * +--------------------------------------------------------------------------------------+
 */
 public class RepositoryFactory {
-    public static RepositoryFactory instance;
+    public static RepositoryFactory instance; // Variable de repositorio 
 
     private RepositoryFactory () {}
 

@@ -13,6 +13,6 @@ import java.util.List; // Librería de java para uso de listas
 
 /*Interfaz */
 public interface IVehicleRepository {
-    boolean save(Vehicle newVehiculo);
-    List<Vehicle> list();
+    boolean save(Vehicle newVehiculo); // Metodo de guardado 
+    List<Vehicle> list(); //Lista de instancias de Vehicle
 }

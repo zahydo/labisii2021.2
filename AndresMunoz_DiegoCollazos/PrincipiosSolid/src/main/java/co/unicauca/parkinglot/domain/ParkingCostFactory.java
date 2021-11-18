@@ -21,7 +21,7 @@ public class ParkingCostFactory {
     
     /*constructor de la fábrica*/
     private ParkingCostFactory(){
-        Dictionary = new EnumMap<>(TypeEnum.class);
+        Dictionary = new EnumMap<>(TypeEnum.class); 
         Dictionary.put(TypeEnum.CAR, new CarParkingCost()); 
         Dictionary.put(TypeEnum.MOTO, new MotoParkingCost()); 
         Dictionary.put(TypeEnum.TRUCK, new TruckParkingCost()); 
@@ -43,8 +43,5 @@ public class ParkingCostFactory {
         }
         return result;  
     }
-    
-    
-    
-    
+
 }

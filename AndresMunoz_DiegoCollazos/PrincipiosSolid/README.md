@@ -6,18 +6,23 @@ Andrés David Muñoz - Diego Collazos Perafán
 
 ##Proceso en CLI 
 
-1. Limpiar el .jar 
+Diríjase a la ruta del proyecto desde la terminal. 
 ```
-mvn clean
+...> cd ..\labisii2021.2\AndresMunoz_DiegoCollazos\PrincipiosSolid
 ```
-2. construir el .jar
+
+1. Para borrar el directorio de salida (target) y compilar el proyecto dejando un nuevo resultado en /target/classes
+```
+mvn clean compile
+```
+2. Empaquete el proyecto en /target/PrincipiosSOLID-SolucionTarea-1.0-SNAPSHOT.jar
 ```
 mvn package 
 ```
-3. ejecutar el Main
+3. Ejecute el Main
 ```
-java -cp target/PrincipiosSOLID-SolucionTarea-1.0-SNAPSHOT.jar com.mycompany
+java -cp target/PrincipiosSOLID-SolucionTarea-1.0-SNAPSHOT.jar co.unicauca.parkinglot.presentacion.ClientMain
 ```
-4. ejecutar los TEST
+4. Compile y ejecute los test
 ```
-mvn TEST
+mvn test 

@@ -17,17 +17,17 @@ public class MotoParkingCost implements IParkingCost{
     /*función que retorna el costo total de parqueo*/
     @Override
     public long calculateCost(Vehicle veh, LocalDateTime input, LocalDateTime output) {
-        Duration d1 = Duration.between(input, output);
-        double horas = d1.toMinutes()/ 60.00;
-        long cost = 0;
+        Duration d1 = Duration.between(input, output); //Instancia de Duration 
+        double horas = d1.toMinutes()/ 60.00; // Calculo de horas
+        long cost = 0; //Total 
         
+        //calculo de tarifa 
         if (horas < 1) {
             cost = 1000;
         } else if (horas == 1) {  
             cost = 2000;
         } else {
-            //Calculos de costo según reglas del enunciado
-            double costo = 2000 + (horas - 1) * 1000; 
+            double costo = 2000 + (horas - 1) * 1000; //Variable aux 
             cost = (long) Math.ceil(costo / 100) * 100; 
         }
         return cost; 

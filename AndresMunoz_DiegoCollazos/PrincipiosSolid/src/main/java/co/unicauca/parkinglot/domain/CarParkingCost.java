@@ -19,14 +19,13 @@ public class CarParkingCost implements IParkingCost {
     /*funcion que retorna la tarifa correspondiente*/
     @Override
     public long calculateCost(Vehicle veh, LocalDateTime input, LocalDateTime output) {
-        double tarifa = 4000;
-        Duration d1 = Duration.between(input, output); 
-        double horas = d1.toMinutes()/60.00;
+        double tarifa = 4000; // tarifa base 
+        Duration d1 = Duration.between(input, output);  //Instancia de Duration 
+        double horas = d1.toMinutes()/60.00; //Calculo de horas 
 
-        double resultado = tarifa;
+        double resultado = tarifa; //Variable para el total 
 
         if(horas > 1){
-            //Calculos de costo según reglas del enunciado
             resultado += (tarifa/2)*(horas-1);
             resultado = Math.ceil(resultado/100) * 100;
         }else if(horas < 1){

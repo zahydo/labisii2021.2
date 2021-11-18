@@ -22,17 +22,17 @@ import java.util.List;
 public class ClientMain {
     /*Funcion principal */
     public static void main(String[] args) {
-        Vehicle veh = new Vehicle("FTK-123", TypeEnum.MOTO);//Objeto vehiculo para prueba en clase main
-        LocalDateTime input = LocalDateTime.of(2021, Month.FEBRUARY, 22, 8, 0);//Fecha entrada del vehiculo para prueba
-        LocalDateTime output = LocalDateTime.of(2021, Month.FEBRUARY, 22, 19, 30);//Fecha salida del vehiculo para prueba
-        IVehicleRepository repo = RepositoryFactory.getInstance().getRepositoryType("default");//Instancia los datos de la base de datos
-        Service service = new Service(repo); //Inyección de dependencias
-        long result = service.calculateParkingCost(veh, input, output);//Llamado al método que calcula el coste del parqueadero según el tipo del vehiculo
+        Vehicle veh = new Vehicle("FTK-123", TypeEnum.MOTO); //Vehicle
+        LocalDateTime input = LocalDateTime.of(2021, Month.FEBRUARY, 22, 8, 0); //Dates 
+        LocalDateTime output = LocalDateTime.of(2021, Month.FEBRUARY, 22, 19, 30);
+        IVehicleRepository repo = RepositoryFactory.getInstance().getRepositoryType("default"); //Inicialización del repositorio 
+        Service service = new Service(repo); //Inyección de dependencias //Instancia de Service
+        long result = service.calculateParkingCost(veh, input, output); //Resultado 
         System.out.println("Valor a pagar por la moto: " + result);
-        service.saveVehicle(veh);//Inserta los datos del vehiculo en la base de datos
+        service.saveVehicle(veh); //almacenado de una instancia de Vehicle
         veh = new Vehicle("JNK-124", TypeEnum.CAR);
-        service.saveVehicle(veh);//Inserta los datos del vehiculo en la base de datos
-        List<Vehicle> list = service.listVehicles();//Instancia la lista de vehiculos en la base de datos
+        service.saveVehicle(veh);
+        List<Vehicle> list = service.listVehicles(); //Listado de los datos almacenados 
         list.forEach(vehicle -> {
             System.out.println(vehicle.toString());
         });

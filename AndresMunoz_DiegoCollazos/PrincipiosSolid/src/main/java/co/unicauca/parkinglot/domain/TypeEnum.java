@@ -6,6 +6,7 @@ package co.unicauca.parkinglot.domain;
 * | FECHA: 17/11/2021
 * +--------------------------------------------------------------------------------------+
 */
+/* ENUM */
 public enum TypeEnum{
     MOTO, CAR, TRUCK;
 }

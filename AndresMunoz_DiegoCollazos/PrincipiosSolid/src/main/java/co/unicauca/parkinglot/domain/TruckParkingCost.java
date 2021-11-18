@@ -21,9 +21,11 @@ public class TruckParkingCost implements IParkingCost {
     /*función que calcula y retorna la tarifa de parqueo*/
     @Override
     public long calculateCost(Vehicle veh, LocalDateTime input, LocalDateTime output) {
-        Duration d1 = Duration.between(input, output); //timestamp
-        double horas = d1.toMinutes() / 60.00; //horas parte entera, minutos parte decimal
-        long cost = 0;
+        Duration d1 = Duration.between(input, output); //Instancia de Duration - Establece periodos de tiempo entre dos tipos LocalDateTime -
+        double horas = d1.toMinutes() / 60.00; //Horas de parqueo 
+        long cost = 0; //Variable que almacena el total 
+        
+        //Calculo de tarifa 
         if (ganoSorteo) {
             return 0;
         }
@@ -32,8 +34,7 @@ public class TruckParkingCost implements IParkingCost {
         } else if (12 < horas && horas <= 24) {
             cost = 15000; 
         } else {
-            //Calculos de costo según reglas del enunciado
-            double costo = (d1.toDays()) * 15000; 
+            double costo = (d1.toDays()) * 15000; //variable auxiliar
             costo += Math.abs(input.getHour() - output.getHour())/24.00 * 15000; 
             cost = (long) Math.ceil(costo / 100) * 100;  
             
@@ -56,6 +57,7 @@ public class TruckParkingCost implements IParkingCost {
         }
     }
     
+    /*Getter */
     public String getInformacionSorteo() {
         return informacionSorteo;
     }
