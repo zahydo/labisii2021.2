@@ -11,3 +11,4 @@ En esta rama se agregarán las prácticas realizadas en el transcurso de la mate
 ## Entregas
 
 -  [x] 27/10/21 : Práctica de Laboratorio 1: Polimorfismo.
+-  [x] 17/11/21 : Práctica de Laboratorio 2: Principios SOLID.
