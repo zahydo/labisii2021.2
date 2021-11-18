@@ -64,9 +64,11 @@ public class VehicleRepository implements IVehicleRepository {
             }
             //this.connect();
 
+            //script para insercion en sqlite
             String sql = "INSERT INTO Vehicle ( Plate, Type ) "
                     + "VALUES ( ?, ? )";
-
+            
+            //Usa el script sql en la conexion con la base de datos
             PreparedStatement pstmt = conn.prepareStatement(sql);
             pstmt.setString(1, newVehiculo.getPlate());
             pstmt.setString(2, newVehiculo.getType().toString());
@@ -108,6 +110,7 @@ public class VehicleRepository implements IVehicleRepository {
         String url = "jdbc:sqlite::memory:";
         
         try {
+            //Conecta con la base de datos sqlite
             conn = DriverManager.getConnection(url);
             return true;
         } catch (SQLException ex) {

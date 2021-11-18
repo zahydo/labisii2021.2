@@ -26,6 +26,7 @@ public class CarParkingCost implements IParkingCost {
         double resultado = tarifa;
 
         if(horas > 1){
+            //Calculos de costo según reglas del enunciado
             resultado += (tarifa/2)*(horas-1);
             resultado = Math.ceil(resultado/100) * 100;
         }else if(horas < 1){

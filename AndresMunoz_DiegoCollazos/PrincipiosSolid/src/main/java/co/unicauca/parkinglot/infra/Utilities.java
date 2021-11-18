@@ -24,6 +24,7 @@ public class Utilities {
         if (veh == null || input == null || output == null){
             return -1;  
         }
+        //Instancia un hijo de IParkingCost según el tipo de vehiculo, y procede a calcular el costo de parqueo
         IParkingCost park = ParkingCostFactory.getInstance().getParkingCost(veh.getType()); 
         return park.calculateCost(veh, input, output); 
     }

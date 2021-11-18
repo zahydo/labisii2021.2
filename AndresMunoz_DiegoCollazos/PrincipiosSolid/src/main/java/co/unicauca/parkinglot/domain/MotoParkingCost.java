@@ -26,6 +26,7 @@ public class MotoParkingCost implements IParkingCost{
         } else if (horas == 1) {  
             cost = 2000;
         } else {
+            //Calculos de costo según reglas del enunciado
             double costo = 2000 + (horas - 1) * 1000; 
             cost = (long) Math.ceil(costo / 100) * 100; 
         }
