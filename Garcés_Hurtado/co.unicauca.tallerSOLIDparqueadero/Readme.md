@@ -1,0 +1,7 @@
+# PRACTICA-TALLER Parqueadero público – Requerimientos funcionales
+Aplicación que permite grabar y listar en una base de datos los vejiculos que ingresan al parqueadero y calcular el valor a pagar de un vehiculo cualquiera que sea su tipo. Aplicando principios SOLID.  
+## Antes de comenzar  - Estar ubicado en la raiz del proyecto  
+## Comandos para compilar y ejecutar test 
+- mvn compile, Compila el programa 
+- mvn exec:java -Dexec.mainClass="co.unicauca.parkinglot.presentation.ClientMain", Para ejecutar el programa 
+- mvn test, Ejecuta todos los test unitarios   
