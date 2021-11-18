@@ -1,6 +1,8 @@
-##Integrantes
+# Laboratorio de Ingeniería de Software II
+
+## Integrantes
 Hector Rivera - Anderson Diaz
 
 
-##Fechas
+## Entregas
 18/11/2021 Taller de principios SOLID
