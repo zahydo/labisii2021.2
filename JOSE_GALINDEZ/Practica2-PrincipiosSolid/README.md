@@ -11,9 +11,10 @@ cd ...\labisii2021.2\JOSE_GALINDEZ\Practica2-PrincipiosSolid\PrincipiosSOLID-Sol
 
 Para compilar el proyecto y generar el .jar
 mvn compile
+(puede hacer antes mvn clean para limpiar el proyecto)
 
 Para correr el proyecto
-java -cp target/PrincipiosSOLID-SolucionTarea-1.0-SNAPSHOT.jar co.unicauca.parkinglot.presentation.ClientMain
+mvn exec:java -Dexec.mainClass="co.unicauca.parkinglot.presentation.ClientMain"
 Nota: En caso de no encontrar el ClientMain ejecutar mvn install y correr la la anterior linea
 
 Para ejecutar el test
