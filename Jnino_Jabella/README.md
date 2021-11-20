@@ -4,6 +4,8 @@
 Juan Fernando Abella - Julian Andres Niño
 
 ## Practica_1 - Polimorfismo
+## Practica_2 - Principios SOLID
 
 ## Fecha de Entrega:
- 5/11/2021 
+ Practica_1 :  5/11/2021
+ Practica_2 : 20/11/2021 
