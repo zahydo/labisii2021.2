@@ -2,13 +2,13 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package co.unicuaca.parkinglot.domain.service;
+package co.unicauca.parkinglot.domain.service;
 
 
 import co.unicauca.parkinglot.domain.IParkingCost;
 import co.unicauca.parkinglot.domain.ParkingCostFactory;
 import co.unicauca.parkinglot.domain.Vehicle;
-import co.unicuaca.parkinglot.access.IVehicleRepository;
+import co.unicauca.parkinglot.access.IVehicleRepository;
 import java.time.LocalDateTime;
 import java.util.List;
 
