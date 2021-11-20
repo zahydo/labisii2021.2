@@ -2,12 +2,12 @@ Integrantes: Fabián David Marín Luna
 	     Héctor Fernando Dorado
 	     Juan Sebastian Sánchez
 
-principios SOLID
+Principios SOLID
 
 
-comandos para ejecutar
+comandos para ejecutar:
 
 
 mvn compile
-mvn exec:java -Dexec.mainClass="presentation.ClienteMain"
+mvn exec:java -Dexec.mainClass="presentation.ClientMain"
 mvn test
