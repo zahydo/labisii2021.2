@@ -18,7 +18,10 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-
+/**
+ * @authores Astrid Carolina Cruz(accruz@unicauca.edu.co) Braian Alexis
+ * Bastidas(brabadi@unicauca.edu.co)
+ */
 public class ParkingTest {
 
     public ParkingTest() {
