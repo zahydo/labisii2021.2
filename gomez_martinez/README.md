@@ -11,3 +11,4 @@
 ## Prácticas
 
 -  [x] 02/11/21 : Primera Práctica: Polimorfismo.
+-  [x] 20/11/21 : Segunda Práctica: Principios SOLID.
