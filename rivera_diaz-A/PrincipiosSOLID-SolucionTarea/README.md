@@ -7,9 +7,9 @@ Con el fin de realizarse las pruebas unitarias se debera seguir los siguientes p
 ```
 cd ...\labisii2021.2\rivera_diaz\Practica_1
 ```
-## Para construir el .jar: 
+## Para construir ejecutar el proyecto: 
 ```
-mvn package 
+mvn clean compile
 ```
 ## Para ejecutar el test: 
 ```

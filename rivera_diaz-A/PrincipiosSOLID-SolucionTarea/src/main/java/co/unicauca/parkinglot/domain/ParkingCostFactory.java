@@ -1,24 +1,18 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-
 package co.unicauca.parkinglot.domain;
-
 
 import java.util.EnumMap;
 import java.util.Map;
 
 /**
  *
- * @author Dz
+ * @author andersondiaz
  */
 public class ParkingCostFactory {
 
     private Map<TypeEnum, lParkingCost> dictionary;
     private static ParkingCostFactory instance;
-    
-    private ParkingCostFactory(){
+
+    private ParkingCostFactory() {
         dictionary = new EnumMap<>(TypeEnum.class);
         dictionary.put(TypeEnum.CAR, new CarParkingCost());
         dictionary.put(TypeEnum.MOTO, new MotoParkingCost());
@@ -29,9 +23,9 @@ public class ParkingCostFactory {
         if (instance == null) {
             instance = new ParkingCostFactory();
         }
-        return instance;    
+        return instance;
     }
-    
+
     public lParkingCost getParkingCost(TypeEnum veh) {
         lParkingCost result = null;
         if (dictionary.containsKey(veh)) {
