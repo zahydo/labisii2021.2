@@ -11,3 +11,18 @@ En esta practica se está poniendo a prueba los método SOLID abordados en clase
 ## Entregas
 
 -  [x] 20/11/21 : Práctica de Laboratorio 2: SOLID.
+
+## Usabilidad
+El proyecto fue creado usando [maven](https://maven.apache.org/), por lo que es necesario tenerlo previamente instalado.
+Adicionalmente para ejecutar el main y las pruebas del proyecto deberá de estar en siguiente directorio del proyecto:
+`labisii2021.2\Collazos_Cerquera\Parking`
+### Ejecución
+Para ejecutar el main del proyecto correr el siguiente comando:
+~~~
+mvn clean compile exec:java
+~~~
+### Testing
+Para ejecutar las pruebas del proyecto ejecute el siguiente comando:
+~~~
+mvn test
+~~~

@@ -13,7 +13,7 @@ import java.util.Map;
  */
 public class ParkingCostFactory {
     private Map<TypeEnum, IParkingCost> dictionary;
-    private ParkingCostFactory instance;
+    private static ParkingCostFactory instance;
 
     public ParkingCostFactory() {
         dictionary.put(TypeEnum.CAR, new CarParkingCost());
@@ -26,12 +26,18 @@ public class ParkingCostFactory {
         
     } 
 
-    public ParkingCostFactory getInstance() {
+    public static ParkingCostFactory getInstance() {
+        if (instance == null) {
+            instance = new ParkingCostFactory();
+        }
         return instance;
     }
     
     public IParkingCost getParkingCost(TypeEnum vehiculo) {
-        
-        return 
+        IParkingCost result = null;
+        if (dictionary.containsKey(vehiculo)) {
+            result = dictionary.get(vehiculo);
+        }
+        return result;
     }
 }

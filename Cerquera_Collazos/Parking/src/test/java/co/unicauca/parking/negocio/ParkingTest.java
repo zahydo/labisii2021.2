@@ -9,6 +9,9 @@ import co.unicauca.parking.acceso.RepositoryFactory;
 import co.unicauca.parking.negocio.servicio.Service;
 import java.time.LocalDateTime;
 import java.time.Month;
+import java.util.List;
+import static junit.framework.Assert.assertEquals;
+import org.junit.jupiter.api.Test;
 
 /**
  *
@@ -107,6 +110,6 @@ public class ParkingTest {
         long expResult = 3L;
         long result = service.listVehicles().size();
         assertEquals(expResult, result);
-        assertEquals("QET-646", service.listVehicles().get(0).getPlate());
+        assertEquals("QET-646", service.listVehicles().get(0).getPlaca());
     }
 }

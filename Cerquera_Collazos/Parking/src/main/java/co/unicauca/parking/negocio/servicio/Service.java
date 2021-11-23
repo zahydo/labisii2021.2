@@ -6,6 +6,7 @@ package co.unicauca.parking.negocio.servicio;
 
 import co.unicauca.parking.acceso.IVehicleRepository;
 import co.unicauca.parking.negocio.IParkingCost;
+import co.unicauca.parking.negocio.ParkingCostFactory;
 import co.unicauca.parking.negocio.Vehicle;
 import java.time.LocalDateTime;
 import java.util.List;
@@ -28,9 +29,10 @@ public class Service {
     
     public long calculateParkingCost(Vehicle vehiculo, LocalDateTime input, LocalDateTime output) {
         long costo = 0;
-        if(vehiculo == null) {
+        if(vehiculo == null || input == null || output == null) {
             return -1;
-        }
+        }        
+        parkingCost = ParkingCostFactory.getInstance().getParkingCost(vehiculo.getTipoV());
         costo = parkingCost.calculatecost(vehiculo, output, output);
         return costo;
     }

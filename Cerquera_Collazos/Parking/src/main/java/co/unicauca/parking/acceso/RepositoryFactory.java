@@ -13,7 +13,7 @@ import java.util.List;
  */
 public class RepositoryFactory {
     
-    private RepositoryFactory instance;
+    private static RepositoryFactory instance;
 
     public RepositoryFactory() {
     }
@@ -22,7 +22,10 @@ public class RepositoryFactory {
         this.instance = instance;
     }
 
-    public RepositoryFactory getInstance() {
+    public static RepositoryFactory getInstance() {
+        if (instance == null) {
+            instance = new RepositoryFactory();
+        }
         return instance;
     }
     
@@ -31,6 +34,7 @@ public class RepositoryFactory {
         switch (type) {
             case "default":
                 iVehicleRepository = new VehicleRepository();
+                break;
         }
         return iVehicleRepository;
     }

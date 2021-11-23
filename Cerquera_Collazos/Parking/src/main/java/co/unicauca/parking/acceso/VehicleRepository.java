@@ -5,6 +5,12 @@
 package co.unicauca.parking.acceso;
 
 import co.unicauca.parking.negocio.Vehicle;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
 import java.util.List;
 
 /**
@@ -17,9 +23,12 @@ public class VehicleRepository implements IVehicleRepository{
     //Atributos
     //
     private List<Vehicle> vehiculos;    
+    private Connection conn = null;
 
     public VehicleRepository() {
     }
+    
+   
     
     @Override
     public List<Vehicle> list() {
