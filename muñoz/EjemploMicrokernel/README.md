@@ -3,7 +3,7 @@
 ## Integrantes 
 Andrés David Muñoz
 
-## Proceso en CLI 
+## Proceso para correr el programa por CLI:
 
 ### *Limpiar, instalar dependencias y construir .jar:*
 
