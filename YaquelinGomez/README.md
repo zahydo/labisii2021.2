@@ -5,3 +5,4 @@ Grupo B
 
 Practica 1 - Polimorfismo 27/Oct
 Practica 2 - Principios SOLID 19/Nov
+Practica 3 - Microkernel 10/Dic
