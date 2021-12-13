@@ -1,0 +1,5 @@
+#ignorar carpeta target y .vscode
+target/
+.vscode/
+dist/
+*.jar
