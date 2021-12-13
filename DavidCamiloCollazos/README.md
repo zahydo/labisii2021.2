@@ -18,3 +18,12 @@ Observaciones:
 Antes de ejecutar los comandos que estan dentro del README que se encuentra en la carpeta de la practiva se debe estar en el directorio correspondiente al proyecto.
 
 *** Al ejecutar el main propuesto en el taller, se guardan los datos en la BD y al ejecutarlo de nuevo como los datos ya estan guardados nos genera un error, para solucionarlo se deben eliminar los registros ya ingresados a la base de datos o probar con registros nuevos que no violen la llave principal.
+
+## 8/12/2021
+PRACTICA MICROKERNEL
+Esta practica consta de agregar el plugin para calculas envios a corea del sur.
+Observaciones:
+    - para ejecutar el programa ingresar el readme que se encuentra dentro de la tercera_practica.
+notas:
+    Al compilar el proyecto original entregado generaba un error con maven 1.5 y sugeria cambiarlo a 1.6, esto se realizo y el proyecto compilo
+    sin problemas luego de esto.
