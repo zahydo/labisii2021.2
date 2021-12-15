@@ -4,14 +4,13 @@ import co.unicauca.microkernel.common.entities.Delivery;
 import co.unicauca.microkernel.common.entities.Product;
 import co.unicauca.microkernel.common.interfaces.IDeliveryPlugin;
 /**
- * Plugin para envios a Mexico
- * @author Libardo, Julio
+ * Plugin para envios a corea del sur
  */
 public class CoreaDelSurDeliveryPlugin implements IDeliveryPlugin {
 
     /**
      * Calcular el costo de envío de un producto de la tienda enviado dentro de
-     * México.
+     * Corea del sur.
      *
      */
     public double calculateCost(Delivery delivery) {
@@ -27,7 +26,7 @@ public class CoreaDelSurDeliveryPlugin implements IDeliveryPlugin {
 
         } else {
 
-            //El peso adicional después de 2 kg se cobra a 0.5 por kilo.
+            //El peso adicional después de 4 kg se cobra a 0.7 por kilo.
             cost = 7 + (product.getWeight() - 4) * 0.7;
 
         }
