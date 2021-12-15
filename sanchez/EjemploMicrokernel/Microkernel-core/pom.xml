@@ -13,18 +13,8 @@
         </dependency>
         <dependency>
             <groupId>course.microkernel</groupId>
-            <artifactId>Microkernel-colombia-plugin</artifactId>
-            <version>0.1.0</version>
-        </dependency>
-        <dependency>
-            <groupId>course.microkernel</groupId>
-            <artifactId>Microkernel-mexico-plugin</artifactId>
-            <version>0.1.0</version>
-        </dependency>
-        <dependency>
-            <groupId>course.microkernel</groupId>
-            <artifactId>Microkernel-corea-del-sur-plugin</artifactId>
-            <version>0.1.0</version>
+            <artifactId>Microkernel-coreaDelSur-plugin</artifactId>
+            <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
     <properties>
