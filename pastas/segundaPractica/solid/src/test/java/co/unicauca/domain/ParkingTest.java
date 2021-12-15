@@ -94,6 +94,14 @@ public class ParkingTest {
         IVehicleRepository repo = RepositoryFactory.getInstance().getRepository("default");
         Service service = new Service(repo);
         service.saveVehicle(veh);
-
+	veh = new Vehicle("NBV-987", TypeEnum.CAR);
+ 	service.saveVehicle(veh);
+	 veh = new Vehicle("IJY-987", TypeEnum.TRUCK);
+	 service.saveVehicle(veh);
+	 List<Vehicle> list = service.listVehicles();
+	 long expResult = 3L;
+	 long result = service.listVehicles().size();
+	 assertEquals(expResult, result);
+	 assertEquals("QET-646", service.listVehicles().get(0).getPlate());
     }
 }

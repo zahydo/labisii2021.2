@@ -33,6 +33,7 @@ target/
 
 ## OS
 .DS_Store
+pastas/terceraPractica/microkernel/.vscode/settings.json
 
 ## Java
 # Compiled class file
