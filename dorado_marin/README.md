@@ -1,8 +1,9 @@
 labisii2021.1
 
-## Nombre completo
+## Nombres completo
 
 Hector Fernando Dorado Sapuyes
+Fabian David Marin Luna
 
 ## Grupo
 
