@@ -8,9 +8,9 @@ import co.unicauca.microkernel.common.interfaces.IDeliveryPlugin;
 
 /**
  *
- * @author juan sebastian
+ * @author Juan Sebastian
  */
-public class CoreaDeliveryPlugin {
+public class CoreaDeliveryPlugin implements IDeliveryPlugin{
  /**
      * El cálculo de corea del sur es una mezcla de peso y distancia.
      *
