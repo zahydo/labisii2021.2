@@ -16,3 +16,9 @@ para este caso se trata de polimorfismo y metodos abstractos.
 ## Segunda Práctica: Polimorfismo.
 
 Se busca dar solucion a un parqueadero usando principios SOLID.
+
+## Tercera Práctica: Microkernel.
+
+Se busca mostrar la aplicacion de Microkernel por medio de un proyecto 
+de envios a paises, donde se calcula el costo de envio por medio del 
+peso y distancia de envio.
