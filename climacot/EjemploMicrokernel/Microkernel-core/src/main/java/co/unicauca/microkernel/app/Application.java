@@ -14,7 +14,7 @@ public class Application {
     public static void main(String[] args) {
 
         //Inicializar el plugin manager con la ruta base de la aplicación.
-        String basePath = "./";
+        String basePath = getBaseFilePath();
         try {
             DeliveryPluginManager.init(basePath);
 
