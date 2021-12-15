@@ -1,18 +1,14 @@
 package co.unicauca.microkernel.plugins.southKorea;
-
 import co.unicauca.microkernel.common.entities.Delivery;
 import co.unicauca.microkernel.common.entities.Product;
 import co.unicauca.microkernel.common.interfaces.IDeliveryPlugin;
-/**
- * Plugin para envios a Mexico
- * @author Libardo, Julio
- */
+
 public class SouthKoreaDeliveryPlugin implements IDeliveryPlugin {
     /**
-     * El cÃ¡lculo de China es un impuesto si el peso >= 2 y siempre es peso * distancia.
+     * El cálculo de corea del sur es un impuesto si el peso >= 2 y siempre es peso * distancia..
      *
-     * @param delivery envÃ­o
-     * @return costo del envÃ­o
+     * @param delivery envío
+     * @return costo del envío
      */
     public double calculateCost(Delivery delivery) {
 
