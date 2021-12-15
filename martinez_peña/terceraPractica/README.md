@@ -3,12 +3,56 @@
 
 cd ...\labisii2021.2\martinez_peña\terceraPractica
 
-## Genera en primera instancia el archivo .jar:
+## Limpiar, instalar dependencias y construir .jar 
 
-mvn clean package
-## Para ejecutar el proyecto:
+1. Microkernel-common
+```
+cd ...\labisii2021.2\martinez_peña\terceraPractica\Microkernel-common
+```
+mvn clean install package 
 
-mvn java -cp target\principiosSolid-1.0-SNAPSHOT.jar Principal.ClientMain
+2. Microkernel-colombia-plugin 
+```
+cd ...\labisii2021.2\martinez_peña\terceraPractica>cd Microkernel-colombia-plugin
+```
+mvn clean install package 
 
-## Para las pruebas unitarias con JUnit:
-mvn test 
+3. Microkernel-coreadelsur-plugin 
+```
+cd ...\labisii2021.2\martinez_peña\terceraPractica\Microkernel-coreadelsur-plugin
+```
+mvn clean install package 
+
+4. Microkernel-peru-plugin 
+```
+cd ...\labisii2021.2\martinez_peña\terceraPractica\Microkernel-peru-plugin
+```
+mvn clean install package 
+
+5. Microkernel-china-plugin 
+```
+cd ...\labisii2021.2\martinez_peña\terceraPractica\Microkernel-china-plugin
+```
+mvn clean install package
+
+6. Microkernel-mexico-plugin 
+```
+cd ...\labisii2021.2\martinez_peña\terceraPractica\Microkernel-mexico-plugin
+```
+mvn clean install package
+
+7. Microkernel-core
+```
+cd ...\labisii2021.2\martinez_peña\terceraPractica\Microkernel-core
+```
+mvn clean install package
+
+## Correr el core 
+```
+cd ... \labisii2021.2\martinez_peña\terceraPractica\Microkernel-core
+```
+## Para ejecutar el microkernel-core :
+
+mvn exec:java -Dexec.mainClass="co.unicauca.microkernel.app.Application"
+
+
