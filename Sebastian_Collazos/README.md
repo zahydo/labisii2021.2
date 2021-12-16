@@ -11,3 +11,5 @@ En esta rama se agregarán las prácticas realizadas en el transcurso de la mate
 ## Entregas
 
 -  [x] 2/11/21 : Práctica de Laboratorio 1: Polimorfismo.
+
+-  [x] 15/12/21 : Práctica de Laboratorio 1: Polimorfismo.
