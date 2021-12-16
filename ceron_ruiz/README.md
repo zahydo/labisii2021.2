@@ -8,3 +8,4 @@
 
 # Projects maded
  * Practica 1: Polimorfismo
+ * Practica 2: Microkernel
