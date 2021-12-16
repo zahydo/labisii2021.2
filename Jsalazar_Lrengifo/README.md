@@ -1,8 +1,21 @@
 # JuanAndres\README.MD
+# Laboratorio Ingeniería de Software II
 
-## Nombres
-Juan Andres Salazar Gonzalez
-Laura Marcela Mendez Rengifo 
+# GRUPO B
 
-## Grupo de trabajo
-B
+# Integrantes: 
+Juan Andrés Salazar Gonzalez
+Laura Marcela Mendez Rengifo
+
+# Tercera practica
+
+Taller Microkernel
+
+# Segunda practica
+
+Taller principios SOLID
+
+# Primera practica
+
+Taller polimorfismo
+
