@@ -8,12 +8,12 @@ package co.unicauca.layersmvc.commons;
  *
  * @author David E
  */
-public class EnviarProducto {
+public class Product_protocol {
     
     private Product producto;
     private String accion;
     
-    public EnviarProducto(Product producto,String accion){
+    public Product_protocol(Product producto,String accion){
         this.producto = producto;
         this.accion = accion;
     }

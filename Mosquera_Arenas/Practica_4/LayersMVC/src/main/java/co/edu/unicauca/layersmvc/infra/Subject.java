@@ -2,7 +2,7 @@ package co.edu.unicauca.layersmvc.infra;
 
 import co.unicauca.layersmvc.commons.Product;
 import co.edu.unicauca.layersmvc.infra.Observer;
-import co.unicauca.layersmvc.commons.EnviarProducto;
+import co.unicauca.layersmvc.commons.Product_protocol;
 import com.google.gson.Gson;
 import java.util.ArrayList;
 
@@ -14,8 +14,7 @@ import java.util.ArrayList;
 public abstract class Subject {
 
     ArrayList<Observer> observers;
-    Publisher publicador = new Publisher();
-
+   
     public void Subject() {
 
     }
@@ -35,21 +34,13 @@ public abstract class Subject {
     /**
      * Notifica a todos los observadores que hubo un cambio en el modelo
      */
-    public void notifyAllObserves(Product producto,String accion) {
-        enviar(producto,accion);
+    public void notifyAllObserves() {
 
         for (Observer each : observers) {
             each.update(this);
         }
     }
     
-    private void enviar(Product producto,String accion){
-        
-        EnviarProducto env_p = new EnviarProducto(producto,accion);
-        Gson gson = new Gson();
-        String msgJson = gson.toJson(env_p);
-        publicador.publish(msgJson,"logs");
-        
-    }
+    
     
 }
