@@ -28,7 +28,7 @@ Adminer ->
   * localhost: http://localhost:8080/
   * Servidor: agency
   * Usuario: root
-  * Contraseña: 1234678
+  * Contraseña: 12345678
   * Base de datos: agency
 
 3. Script para crear la Tabla de la base de Datos
