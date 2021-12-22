@@ -43,7 +43,7 @@ mvn clean install package
 3. LayerMVC-Sub-BD
 4. LayersMVC-Sub-memory
 
-### Correr el LayersMVC quien servira de Publicador, luego LayersMVC-Sub-BD y LayersMVC-Sub-memory que seran los subscriptores
+### Correr el LayersMVC quien servira de Publicador.
 ```
 mvn exec:java -Dexec.mainClass="co.edu.unicauca.layersmvc.presentation.ClientMain"
 ```
