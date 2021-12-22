@@ -5,9 +5,9 @@ En este repositorio se irá guardando las practicas del semestre
 
 # Cuarta Practica - ACTUAL
 
-Taller sobre MVC y uso de RabbitMQ 
+Taller sobre MVC y uso de RabbitMQ.
 
-## Integrantes de la practica
+## Integrantes de la practica 4 mvc
 
 1. Climaco Fernando Rodriguez Tovar / LayersMVC
 2. Edwin Yahir Garces Romero / suscriptorSql
