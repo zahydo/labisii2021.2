@@ -21,5 +21,5 @@ mvn clean install package
 ## comandos de ejecucion de los proyectos
 
 ### Antes de usar el comando ubicarse en la raiz de cada uno de los proyectos
-El mismo comando para ejecutar los 3 proyectos
-1. mvn exec:java -Dexec.mainClass="co.edu.unicauca.layersmvc.presentation.ClientMain"
+El mismo comando para ejecutar layersMVC
+1. java -cp target/LayersMVC-1.jar co.edu.unicauca.layersmvc.presentation.ClientMain
