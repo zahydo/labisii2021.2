@@ -1,17 +1,13 @@
 package co.edu.unicauca.layersmvc.domain.service;
 
-import co.edu.unicauca.layersmvc.infra.Subject;
 import co.edu.unicauca.layersmvc.access.Factory;
 import co.edu.unicauca.layersmvc.access.IProductRepository;
 import co.edu.unicauca.layersmvc.domain.Product;
 import co.edu.unicauca.layersmvc.domain.Response;
-
-import java.io.IOException;
+import co.edu.unicauca.layersmvc.infra.PublicadorRabbit;
+import co.edu.unicauca.layersmvc.infra.Subject;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.TimeoutException;
-
-import com.google.gson.Gson;
 
 /**
  * Representa el Modelo del MVC
@@ -23,6 +19,8 @@ public class ServiceModel extends Subject {
     // Ahora hay una dependencia de una abstracción, no es algo concreto,
     // no sabe cómo está implementado.
     private IProductRepository repository;
+    private PublicadorRabbit publicador;
+    // private Gson json;
 
     /**
      * Inyección de dependencias en el constructor.Ya no conviene que el mismo
@@ -31,6 +29,8 @@ public class ServiceModel extends Subject {
      */
     public ServiceModel() {
         repository = Factory.getInstance().getRepository();
+        publicador = new PublicadorRabbit();
+        // json = new Gson();
     }
 
     public double calculateProductTax(Product product) {
@@ -60,17 +60,14 @@ public class ServiceModel extends Subject {
         }
 
         repository.save(newProduct);
-
-        Gson json = new Gson();
         Response response = new Response("post", newProduct);
-        String jsonResponse = json.toJson(response);
 
         // Notifica a todos los observadores que el modelo cambió
         try {
-            this.notifyAllObserves(jsonResponse);
-        } catch (IOException e) {
-        } catch (TimeoutException e) {
-        }
+            this.notifyAllObserves();
+            publicador.publicar(response);
+        } catch (Exception e) {}
+
         return true;
     }
 
@@ -88,16 +85,13 @@ public class ServiceModel extends Subject {
 
         // Notifica a todos los observadores que el modelo cambió
         repository.update(newProduct);
-
-        Gson json = new Gson();
         Response response = new Response("update", newProduct);
-        String jsonResponse = json.toJson(response);
 
         try {
-            this.notifyAllObserves(jsonResponse);
-        } catch (IOException e) {
-        } catch (TimeoutException e) {
-        }
+            this.notifyAllObserves();
+            publicador.publicar(response);
+        } catch (Exception e) {}
+
         return true;
     }
 }

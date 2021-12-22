@@ -4,6 +4,8 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.concurrent.TimeoutException;
 
+import co.edu.unicauca.layersmvc.domain.Response;
+
 /**
  * Sujeto, o tambien el observadoF
  *
@@ -31,20 +33,17 @@ public abstract class Subject {
      * @throws TimeoutException
      * @throws IOException
      */
-    public void notifyAllObserves(String response) throws IOException, TimeoutException {
-        notifyAllSuscipters(response);
+    public void notifyAllObserves() {
+        // notifyAllSuscipters(response);
         for (Observer each : observers)
             each.update(this);
     }
 
-    public void notifyAllSuscipters(String response) {
+    public void notifyAllSuscipters(Response response) {
         PublicadorRabbit rb = new PublicadorRabbit();
         try {
             rb.publicar(response);
-        } catch (IOException e) {
-            e.printStackTrace();
-        } catch (TimeoutException e) {
-            e.printStackTrace();
+        } catch (Exception e) {
         }
     }
 }

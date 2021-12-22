@@ -3,6 +3,8 @@ package co.edu.unicauca.layersmvc.infra;
 import java.io.IOException;
 import java.util.concurrent.TimeoutException;
 
+import co.edu.unicauca.layersmvc.domain.Response;
+
 public interface Publisher {
-  public void publicar(String s) throws IOException, TimeoutException ;
+  public void publicar(Response s) throws IOException, TimeoutException ;
 }
