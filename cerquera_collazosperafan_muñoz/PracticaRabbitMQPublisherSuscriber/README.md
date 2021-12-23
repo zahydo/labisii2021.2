@@ -1,8 +1,8 @@
 # Practica: RabbitMQ PublisherSusbcriber
 ## Integrantes 
-Andrés David Muñoz
-Eliana Cerquera Yacumal
-Diego Collazos Perafan
+- Andrés David Muñoz
+- Eliana Cerquera Yacumal
+- Diego Collazos Perafan
 
 ## Proceso para correr el programa por CLI:
 
