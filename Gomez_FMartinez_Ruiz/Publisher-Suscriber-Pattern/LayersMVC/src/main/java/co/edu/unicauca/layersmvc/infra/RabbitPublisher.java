@@ -20,7 +20,7 @@ import java.util.logging.Logger;
  */
 public class RabbitPublisher implements IPublisher{
     
-    private static String QUEUE_NAME = "products";
+    private static String EXCHANGE_NAME = "products";
     private static String EXCHANGE_TYPE = "fanout";
     ServiceModel service;
     
@@ -37,8 +37,8 @@ public class RabbitPublisher implements IPublisher{
         try {
             com.rabbitmq.client.Connection connection = factory.newConnection();
             com.rabbitmq.client.Channel channel = connection.createChannel();
-            channel.exchangeDeclare(QUEUE_NAME, EXCHANGE_TYPE);
-            channel.basicPublish(QUEUE_NAME, "", null, message.getBytes(StandardCharsets.UTF_8));
+            channel.exchangeDeclare(EXCHANGE_NAME, EXCHANGE_TYPE);
+            channel.basicPublish(EXCHANGE_NAME, "", null, message.getBytes(StandardCharsets.UTF_8));
             System.out.println(" [x] Sent '" + message + "'");
         } catch(IOException | TimeoutException ex) {
             Logger.getLogger(RabbitPublisher.class.getName()).log(Level.SEVERE, null, ex);
