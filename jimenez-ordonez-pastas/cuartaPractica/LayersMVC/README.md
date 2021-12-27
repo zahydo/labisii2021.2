@@ -58,5 +58,5 @@ java '-cp' '.\target\ProductConsumer-1.jar' 'co.edu.unicauca.productconsumer.pre
 
 ## Usabilidad
 Si desea o necesita cambiar el servidor donde está la instancia de rabbitmq modifique en `PublisherMVC` el archivo `Publisher.java` con los datos que coresponda, en `ProductConsumer` modifique el archivo `RabbitListener.java` según los datos que necesite. \
-Para la instancia de base de datos de MySQL modifique en `ProductConsumer` el archivo `DataBaseProductRepository` con los datos que corresponda.
+Para la instancia de base de datos de MySQL modifique en `ProductConsumer` el archivo `DataBaseProductRepository.java` con los datos que corresponda.
 
