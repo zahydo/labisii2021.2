@@ -1,7 +1,12 @@
 # Práctica LayerMVC con Publisher-Subscriber
+
+## Diagrama de componentes
+![Diagrama de componentes](./comp_diag_Publisher_Subscriber.jpg)
+
 ## Pasos previos
 El proyecto fue creado usando [maven](https://maven.apache.org/), asegúrese de tenerlo previamente instalado. \
 También el proyecto fue creado usando [sqlite](https://www.sqlite.org/index.html), asegúrese de tenerlo previamente instalado.
+
 ## Limpiar, instalar dependencias, construir y ejecutar los .jar corriendo los main correspondientes
 1. Para PublisherMVC: \
 Estando en el directorio `.\PublisherMVC`
