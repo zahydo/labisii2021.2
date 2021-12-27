@@ -34,7 +34,3 @@ java -cp target/RabbitMQ-Examples-1.0-SNAPSHOT Presentacion.Receptor
 ## Ubicarse en RabbitMQ-Recep-Memoria:
 java -cp target/RabbitMQ-Recep-Memoria-1.0-SNAPSHOT Presentacion.Receptor
 
-
-java -cp "./*:./plugins/*" co.unicauca.microkernel.app.Application
-```
-
