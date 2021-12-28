@@ -101,7 +101,7 @@ public class ProductRepository implements IProductRepository {
     public void connect() {
         // SQLite connection string
         //String url = "jdbc:sqlite:./mydatabase.db";
-        String url = "jdbc:sqlite::memory:";
+        String url = "jdbc:sqlite:./mydatabase.db";
         String user = "root";
         String password = "123";
         
@@ -109,6 +109,9 @@ public class ProductRepository implements IProductRepository {
             
             Class.forName("com.mysql.jdbc.Driver");
             conn = DriverManager.getConnection(url, user, password);
+            if(conn != null ){
+                System.out.println("Conexón existosa");
+            }
 
         } catch (SQLException ex) {
             Logger.getLogger(ServiceModel.class.getName()).log(Level.SEVERE, null, ex);

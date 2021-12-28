@@ -1,8 +1,6 @@
 package co.edu.unicauca.layersmvc.presentation;
 
 import co.edu.unicauca.layersmvc.domain.service.ServiceModel;
-import co.edu.unicauca.layersmvc.infra.Observer;
-import co.edu.unicauca.layersmvc.infra.RabbitPublisher;
 
 /**
  *

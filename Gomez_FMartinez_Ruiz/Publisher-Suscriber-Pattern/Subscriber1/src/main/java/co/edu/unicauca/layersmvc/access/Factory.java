@@ -40,7 +40,7 @@ public class Factory {
         IProductRepository result = null;
 
         try { 
-            result = (IProductRepository) Class.forName(Utilities.loadProperty("repositoryArrays")).getConstructor().newInstance();
+            result = (IProductRepository) Class.forName(Utilities.loadProperty("repositoryClass")).getConstructor().newInstance();
         } catch (ClassNotFoundException | NoSuchMethodException | SecurityException | InstantiationException | IllegalAccessException | IllegalArgumentException | InvocationTargetException ex) {
             Logger.getLogger(Factory.class.getName()).log(Level.SEVERE, null, ex);
         }

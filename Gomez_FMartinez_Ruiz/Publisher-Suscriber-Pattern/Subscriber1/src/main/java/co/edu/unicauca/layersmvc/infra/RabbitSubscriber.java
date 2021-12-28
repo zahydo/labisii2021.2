@@ -12,8 +12,6 @@ import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.ConnectionFactory;
 import com.rabbitmq.client.DeliverCallback;
 import java.io.IOException;
-import java.nio.charset.StandardCharsets;
-import java.util.concurrent.TimeoutException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -61,8 +59,10 @@ public class RabbitSubscriber implements Runnable{
                 
                 if(gsonProduct.getActionType().equals("Guardar")){
                     this.service.saveProduct(gsonProduct);
+                    System.out.println("Se agregó a la base de datos.");
                 }else{
                     this.service.updateProduct(gsonProduct);
+                    System.out.println("Se actualizó un producto de la base de datos.");
                 }
             };
             channel.basicConsume(qName, true, deliverCallback, consumerTag -> {

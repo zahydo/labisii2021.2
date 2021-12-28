@@ -13,10 +13,9 @@ import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.ConnectionFactory;
 import com.rabbitmq.client.DeliverCallback;
 import java.io.IOException;
-import java.nio.charset.StandardCharsets;
-import java.util.concurrent.TimeoutException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import java.util.ArrayList;
 
 /**
  *
@@ -61,16 +60,22 @@ public class RabbitSubscriber implements Runnable{
             System.out.println(" [*] Message Recived " + message);
             
             if(gsonProduct.getActionType().equals("Guardar")){
+                System.out.println("Se agregó un producto");
                 this.service.add(gsonProduct);
             }else{
+                System.out.println("Se modificó un producto");
                 this.service.update(gsonProduct);
             }
-            for(Product product: service.getProductRepo()){
-                System.out.println("Lista de productos: " + product.getName());
-            }
+
+            ArrayList<Product> products = service.getProductRepo();
+
             
+            for (int i = 0; i < products.size(); i++) {
+                System.out.println("Lista de productos: " + products.get(i).getName());
+            }  
         };
             channel.basicConsume(qName, true, deliverCallback, consumerTag -> {
+                
             });
         } catch (IOException ex) {
             Logger.getLogger(RabbitSubscriber.class.getName()).log(Level.SEVERE, null, ex);

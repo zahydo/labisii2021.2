@@ -99,7 +99,7 @@ public class ProductRepository implements IProductRepository {
     }
 
     public void connect() {
-        String url = "jdbc:sqlite::memory:";
+        String url = "jdbc:sqlite:./mydatabase.db";
         String user = "admin";
         String password = "12345";
         
@@ -107,6 +107,9 @@ public class ProductRepository implements IProductRepository {
             
             Class.forName("com.mysql.jdbc.Driver");
             conn = DriverManager.getConnection(url, user, password);
+            if(conn != null){
+                System.out.println("Conexión Existosa");
+            }
 
         } catch (SQLException ex) {
             Logger.getLogger(ServiceModel.class.getName()).log(Level.SEVERE, null, ex);

@@ -28,7 +28,7 @@ public class ServiceMemory {
     }
     
     public boolean add(Product product){
-        if(this.productExists(product) == -1){
+        if(this.productExists(product) != -1){
             return false;
         }else{
             this.productRepo.add(product);
