@@ -2,10 +2,9 @@
 
 En este repositorio se guardaran los trabajos y practicas del semestre
 
-# Tercera práctica - Actual
-Practica sobre MicroKernel
+# Práctica micro Kernel - Actual
 
-# Segunda práctica 
+# Segunda práctica - Actual
 
 Taller Parqueadero público – Requerimientos funcionales
 
