@@ -9,7 +9,6 @@ import co.edu.unicauca.commandrestaurant.domain.FindAllCommand;
 import co.edu.unicauca.commandrestaurant.domain.FindByIdCommand;
 import co.edu.unicauca.commandrestaurant.domain.FoodTypeEnum;
 import co.edu.unicauca.commandrestaurant.domain.UpdateCommand;
-import co.edu.unicauca.commandrestaurant.domain.DeleteCommand;
 import co.unicauca.commandRestaurant.infra.Messages;
 import java.util.List;
 import javax.swing.DefaultComboBoxModel;
