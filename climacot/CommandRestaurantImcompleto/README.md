@@ -2,9 +2,12 @@
 
 Taller sobre CommandRestaurantImcompleto Para aprender sobre Patron command
 
-# Ejecucion y compilacion
+## Integrantes de la practica 5 Patron commmand
 
-# Quinta Practica - ACTUAL
+1. Climaco Fernando Rodriguez Tovar
+2. Cristian Fernando Narvaez Castillo
+
+## Ejecucion y compilacion
 
 Para limpiar, descargar dependencias y compilar ejecutar en la raiz del proyecto:
 
