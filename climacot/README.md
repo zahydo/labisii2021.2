@@ -3,6 +3,15 @@
 En este repositorio se irá guardando las practicas del semestre
 
 
+# Quinta Practica - ACTUAL
+
+Taller sobre CommandRestaurantImcompleto Para aprender sobre Patron command
+
+## Integrantes de la practica 5 Patron commmand
+
+1. Climaco Fernando Rodriguez Tovar
+2. Cristian Fernando Narvaez Castillo
+
 # Cuarta Practica - ACTUAL
 
 Taller sobre MVC y uso de RabbitMQ.
