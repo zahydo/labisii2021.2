@@ -27,3 +27,10 @@ Observaciones:
 notas:
     Al compilar el proyecto original entregado generaba un error con maven 1.5 y sugeria cambiarlo a 1.6, esto se realizo y el proyecto compilo
     sin problemas luego de esto.
+
+## 16/02/2022
+PRACTICA COMMAND
+Esta practica consistia en implementar el codigo fuente faltante en el proyecto CommandRestaurantimcompleto, estas practica se realizo tiempo antes de la clase.
+
+
+    
