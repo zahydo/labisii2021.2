@@ -35,7 +35,7 @@ Observaciones:
     - para ejecutar el programa ingresar el readme que se encuentra dentro de la Practica_command.
 
 
-## 16/02/2022
+## 23/02/2022
 PRACTICA DECORATOR - ADAPTER
 La practica consiste en realizar una serie de cambios al codigo entregado, estos cambios van relacionados con el patron adapter y decorator.
 Observaciones:
