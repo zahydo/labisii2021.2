@@ -40,6 +40,8 @@ PRACTICA DECORATOR - ADAPTER
 La practica consiste en realizar una serie de cambios al codigo entregado, estos cambios van relacionados con el patron adapter y decorator.
 Observaciones:
     - para ejecutar el programa ingresar el readme que se encuentra dentro de la Practica Decorator-Adapter.
+    
 Nota:
+
     - En la carpeta diagramas se encuentra un pdf y un archivo que contienen los diagramas de secuencia de addFood y txtFocusLost(este busca la Food y muestra el nombre desencriptado).
     
