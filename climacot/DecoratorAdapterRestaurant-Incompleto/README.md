@@ -2,6 +2,10 @@
 
 Taller sobre DecoratorAdapterRestaurant-Incompleto Para aprender sobre Patron Decorator y Adapter
 
+## Integrantes de la practica 6
+
+1. Climaco Fernando Rodriguez Tovar
+2. Cristian Fernando Narvaez Castillo
 # Ejecucion y compilacion
 
 # Sexta Practica - ACTUAL
