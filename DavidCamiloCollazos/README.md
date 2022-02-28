@@ -27,3 +27,21 @@ Observaciones:
 notas:
     Al compilar el proyecto original entregado generaba un error con maven 1.5 y sugeria cambiarlo a 1.6, esto se realizo y el proyecto compilo
     sin problemas luego de esto.
+
+## 16/02/2022
+PRACTICA COMMAND
+Esta practica consistia en implementar el codigo fuente faltante en el proyecto CommandRestaurantimcompleto, estas practica se realizo tiempo antes de la clase.
+Observaciones:
+    - para ejecutar el programa ingresar el readme que se encuentra dentro de la Practica_command.
+
+
+## 23/02/2022
+PRACTICA DECORATOR - ADAPTER
+La practica consiste en realizar una serie de cambios al codigo entregado, estos cambios van relacionados con el patron adapter y decorator.
+Observaciones:
+    - para ejecutar el programa ingresar el readme que se encuentra dentro de la Practica Decorator-Adapter.
+    
+Nota:
+
+    - En la carpeta diagramas se encuentra un pdf y un archivo que contienen los diagramas de secuencia de addFood y txtFocusLost(este busca la Food y muestra el nombre desencriptado).
+    
