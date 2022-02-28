@@ -3,6 +3,23 @@
 En este repositorio se irá guardando las practicas del semestre
 
 
+# Sexta Practica - ACTUAL
+
+Taller sobre DecoratorAdapterRestaurant-Incompleto Para aprender sobre Patron Adapter y Decorator
+
+## Integrantes de la practica 6 Patron Adapter y Decorator
+
+1. Climaco Fernando Rodriguez Tovar
+2. Cristian Fernando Narvaez Castillo
+# Quinta Practica - ACTUAL
+
+Taller sobre CommandRestaurantImcompleto Para aprender sobre Patron command
+
+## Integrantes de la practica 5 Patron commmand
+
+1. Climaco Fernando Rodriguez Tovar
+2. Cristian Fernando Narvaez Castillo
+
 # Cuarta Practica - ACTUAL
 
 Taller sobre MVC y uso de RabbitMQ.
