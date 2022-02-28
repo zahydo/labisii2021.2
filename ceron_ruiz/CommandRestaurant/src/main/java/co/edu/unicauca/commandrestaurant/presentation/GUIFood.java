@@ -401,6 +401,11 @@ public class GUIFood extends javax.swing.JFrame {
         invoker.execute();
     }
 
+
+    }//GEN-LAST:event_btnDeleteActionPerformed
+
+
+
     /**
      * Limpia las cajas de texto
      */
