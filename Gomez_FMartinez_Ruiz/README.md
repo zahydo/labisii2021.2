@@ -8,4 +8,5 @@
 - B
 
 # Projects maded
- * Practica 4: Arquitectura Orientada a Eventos
+ * Práctica 4: Arquitectura Orientada a Eventos
+ * Práctica 6: Adapter-Decorator Pattern
