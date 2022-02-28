@@ -1,0 +1,3046 @@
+[33mcommit a09bc7c80c3f0680a4785f1c8ef439905c2b79ba[m[33m ([m[1;36mHEAD -> [m[1;32mCerón_Ruiz_GrupoB_CommandPattern[m[33m, [m[1;31morigin/Cerón_Ruiz_GrupoB_CommandPattern[m[33m)[m
+Author: dohimenezg <djimenezg@unicauca.edu.co>
+Date:   Thu Feb 24 22:05:08 2022 -0500
+
+    Revert "Práctica patrones adapter y decorator"
+    
+    This reverts commit 4f69fcfa97f9fdde8407f1f6e72a33d6d49f410c.
+
+[33mcommit 407f5956f5f986431acb36fee41fafbc19292008[m
+Author: dohimenezg <djimenezg@unicauca.edu.co>
+Date:   Thu Feb 24 21:51:54 2022 -0500
+
+    Práctica patrones adapter y decorator
+
+[33mcommit 62edefa4b75b0872105ab6a04463ce86e5214c96[m
+Author: David Jiménez Garzón <93263400+dohimenezg@users.noreply.github.com>
+Date:   Thu Feb 17 18:36:07 2022 -0500
+
+    Update README.md
+
+[33mcommit 4c86fe7b4167207abc978acfe5e0ded830dc5bb3[m
+Author: dohimenezg <djimenezg@unicauca.edu.co>
+Date:   Thu Feb 17 18:29:48 2022 -0500
+
+    Práctica patrón comando
+
+[33mcommit fd1d709d16443a4bf0e78b04cbf813419f73540d[m
+Author: pdaniel <pdaniel@unicauca.edu.co>
+Date:   Thu Feb 17 17:00:12 2022 -0500
+
+    PASTAS_DANIEL|A|PRACTICA4_PATRON_COMMAND: Se agrega la clase DeleteCommand.java y se actualiza la GUI para que el boton funcione
+
+[33mcommit ffd340140726a487b2a337625396c2a3c59fe65c[m
+Author: Anderson Diaz <andersondiaz@unicauca.edu.co>
+Date:   Wed Feb 16 15:00:02 2022 -0500
+
+    diaz_garcia-A-Patron Command: En esta practica se implemento el patron comando.
+
+[33mcommit c2dd34293c663069c760944d2ef982f5b7002b9f[m
+Author: kevindm9 <74603789+kevindm9@users.noreply.github.com>
+Date:   Wed Feb 16 10:00:14 2022 -0500
+
+    Kevin Daryany Morales Grupo A entrega de patron comando
+
+[33mcommit 4562502b48a7f50322f178ae6d1e00df1b81d97c[m
+Author: Jose Galíndez <jose.ricardo.7@hotmail.com>
+Date:   Thu Feb 24 20:56:32 2022 -0500
+
+    JOSE_GALINDEZ|GRUPOA-B|YAQUELIN_GOMEZ:Patron adaptador y decorador
+
+[33mcommit dfd9a421538276f24140cce43ad307df11d34aad[m
+Author: Jose Galíndez <jose.ricardo.7@hotmail.com>
+Date:   Wed Feb 16 09:45:06 2022 -0500
+
+    JOSE_GALINDEZ|GRUPO-A-B|YAQUELIN GOMEZ: Se envia practica completa de Patron command con delete y deshacer
+
+[33mcommit b824910bd60ca16de76483f8d4c0ca2d7df05de1[m
+Author: miguemm <mandresmosquera@gmail.com>
+Date:   Wed Feb 23 16:30:00 2022 -0500
+
+    Miguel_Mosquera|GRUPOA|Sebastian_Arenas: patron Adapter y Decorator
+
+[33mcommit 18937c995aacc59ff28acf12a33b8c8d23a6ebc3[m
+Author: s3rodriguez10 <s3rodriguez10@gmail.com>
+Date:   Wed Feb 16 09:23:03 2022 -0500
+
+    MiguelMosquera|GrupoA|SebastianArenas-Practica_5: Entrega Practica 5
+
+[33mcommit cc3109194a1a8736adad19d2805fbc300f55a4a5[m
+Author: Esteban R <70593544+XzzIsor@users.noreply.github.com>
+Date:   Fri Feb 18 01:07:21 2022 -0500
+
+    Cerón_Ruiz_GrupoB_CommandPattern
+
+[33mcommit 31198b280d89955fba81ba22796cc0b7c3603ac6[m[33m ([m[1;32mmain[m[33m)[m
+Merge: 159bd3f cfd20e6
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Fri Jan 21 15:49:43 2022 -0500
+
+    Merge pull request #117 from zahydo/ArtoroMax-patch-1
+    
+    Artoro max patch 1
+
+[33mcommit cfd20e6ffea32e24b7096d6fd53397a2256d8e1c[m[33m ([m[1;31morigin/ArtoroMax-patch-1[m[33m)[m
+Author: ArtoroMax <arturitohurtadomurillo@gmail.com>
+Date:   Fri Jan 21 10:34:46 2022 -0500
+
+    Practica microkernel
+
+[33mcommit 5aa65546c4a274585e0bfa6078c2bba2f11c3c7a[m
+Author: ArtoroMax <arturitohurtadomurillo@gmail.com>
+Date:   Tue Dec 14 23:18:44 2021 -0500
+
+    Practica microkernel plugin south korea by: Arturo Hurtado y Edwin Garces
+
+[33mcommit 159bd3f2ec6bb35e3c2ea389971cf039cfcec58f[m
+Merge: a5116a5 8c4ddd5
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Tue Jan 11 18:39:25 2022 -0500
+
+    Merge pull request #106 from zahydo/MiguelMosquera_SebastianArenas
+    
+    David_Collazos|Miguel_Mosquera|Sebastian_Arenas|GRUPO_A|LayersMVC PublicadorSubscriptor
+
+[33mcommit a5116a5251ba2067a4a215c114d2190ad5caafc2[m
+Merge: 614aa80 d9fa794
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Tue Jan 11 18:18:42 2022 -0500
+
+    Merge pull request #107 from zahydo/martinez_peña
+    
+    martinez_peña: Publisher-Subscriber Pattern
+
+[33mcommit 614aa8067871a7b1eb94563472cb1309ea66f9ff[m
+Merge: 1fd4a99 2308850
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Tue Jan 11 18:06:48 2022 -0500
+
+    Merge pull request #108 from zahydo/cerquera_collazosperafan_muñoz
+    
+    cerquera_collazosperafan_muñoz: carga de código fuente de repositorio
+
+[33mcommit 1fd4a997f765cd766491579b2e7dba6c283b5fb8[m
+Merge: 5223b39 8a5ce11
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Tue Jan 11 17:41:20 2022 -0500
+
+    Merge pull request #110 from zahydo/Collazos_Estrada_Rivera
+    
+    Collazos_Estrada_Rivera: se sube la Practica Publicador Subsciptor
+
+[33mcommit 5223b398d970573898d7656933388edc618baf9e[m
+Merge: c929460 24bcf69
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Tue Jan 11 14:58:11 2022 -0500
+
+    Merge pull request #113 from zahydo/Jabella_Jnino_Diaz
+    
+    Jabella_Jnino_GP:B_Diaz_GP:A_Practica_4: Actividad sobre arquitectura orientada a eventos
+
+[33mcommit c929460b3ae2295ad31eb84a29fa1a4173252128[m
+Merge: 8fb5ae6 c2c5a9e
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Tue Jan 11 12:09:44 2022 -0500
+
+    Merge pull request #114 from zahydo/JIMENEZ_ORDONEZ_PASTAS-PUBLISHER_SUBSCRIBER
+    
+    JimenezOrdonezPastas|GrupoA|PublisherSubscriber
+
+[33mcommit 8fb5ae649315d603b32be4c1d2f59e6cd2b989e1[m
+Merge: 90ebea2 4d8ccc3
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Tue Jan 11 11:49:02 2022 -0500
+
+    Merge pull request #105 from zahydo/CLIMACOT-A-LAYERSMVC
+    
+    Climacot a layersmvc
+
+[33mcommit 90ebea23b39726749da3ae54a4c5be0d0d357ba2[m
+Merge: 1bd25fb 569c23b
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Tue Jan 11 11:33:45 2022 -0500
+
+    Merge pull request #112 from zahydo/Gomez_FMartinez_Ruiz|B|ArquitecturaOrientadaEventos
+    
+    Gomez_FMartinez_Ruiz|B|ArquitecturaOrientadaEventos: project added
+
+[33mcommit 1bd25fbba9d6ebdee6f920af03496d8aa47dd20f[m
+Merge: e2a476b d49ebfe
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Tue Jan 11 11:00:09 2022 -0500
+
+    Merge pull request #115 from zahydo/fabianMarin_hectorDorado_juanSanchez_grupoB
+    
+    marin|dorado|sanchez|GRUPO_B|PublicadorSubscriptor
+
+[33mcommit e2a476b9098ccb166fa36a4d6780e219971b8538[m
+Merge: 40fde20 e873931
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Tue Jan 11 10:24:07 2022 -0500
+
+    Merge pull request #116 from zahydo/zapata_quitiaquez_espinosa-events_rabbitMQ
+    
+    zapata_quitiaquz_espinosa-events_rabbitMQ: Entrega de la practica de …
+
+[33mcommit 569c23b2082e2c6cd12eb489de533a9efeeae372[m[33m ([m[1;31morigin/Gomez_FMartinez_Ruiz|B|ArquitecturaOrientadaEventos[m[33m)[m
+Author: Angie Carolina Gómez <67878771+angiecgomez@users.noreply.github.com>
+Date:   Mon Dec 27 22:49:46 2021 -0500
+
+    Gomez_FMartinez_Ruiz|B|ArquitecturaOrientadaEventos: README updated
+
+[33mcommit e8739315cd7a5dfbc7ce9f0bf6975732944de6e3[m[33m ([m[1;31morigin/zapata_quitiaquez_espinosa-events_rabbitMQ[m[33m)[m
+Author: acrip <jazapata@unicauca.edu.co>
+Date:   Mon Dec 27 00:10:55 2021 -0500
+
+    zapata_quitiaquz_espinosa-events_rabbitMQ: Entrega de la practica de Arquitectura orientaa a eventos
+
+[33mcommit 173c81b1a9801fa8248b1cfd54dc313a8c37880e[m
+Author: Angie Carolina Gómez <67878771+angiecgomez@users.noreply.github.com>
+Date:   Sun Dec 26 23:14:50 2021 -0500
+
+    Gomez_FMartinez_Ruiz|B|ArquitecturaOrientadaEventos: updated files
+
+[33mcommit c2c5a9e7be96448f3aa976bec80c8e359876bc7b[m[33m ([m[1;31morigin/JIMENEZ_ORDONEZ_PASTAS-PUBLISHER_SUBSCRIBER[m[33m)[m
+Author: dohimenezg <djimenezg@unicauca.edu.co>
+Date:   Sun Dec 26 22:36:51 2021 -0500
+
+    Se agrega el diagrama de componentes
+
+[33mcommit 3958214aa7ccc5dd7221cef0919fbc9a3552a222[m
+Author: David Jiménez Garzón <93263400+dohimenezg@users.noreply.github.com>
+Date:   Sun Dec 26 22:20:53 2021 -0500
+
+    Update README.md
+
+[33mcommit 21b99ebdb8242bcad399cc6248f07821e8036226[m
+Author: dohimenezg <djimenezg@unicauca.edu.co>
+Date:   Sun Dec 26 22:10:56 2021 -0500
+
+    Se agrega la cuarta práctic Arquitectura Orientada a Eventos
+
+[33mcommit 24bcf6997e7465f522fae2435e92e40e60a4fd64[m[33m ([m[1;31morigin/Jabella_Jnino_Diaz[m[33m)[m
+Author: jabella1 <83263980+jabella1@users.noreply.github.com>
+Date:   Sun Dec 26 20:43:50 2021 -0500
+
+    Practica Sobre Arquitectura Orientada A Eventos
+    
+    Publicador-Suscriptor
+
+[33mcommit 81c0e05b75472ad792b4b503bb43b8d9992640ca[m
+Author: “[jabella1]” <“[juanfernandoam@hotmail.com]”>
+Date:   Sun Dec 26 20:40:02 2021 -0500
+
+    Jabella_Jnino_GP:B_Diaz_GP:A_Practica_4: Actividad sobre arquitectura orientada a eventos, Publicador-Suscriptor
+
+[33mcommit d49ebfe721e6a4cc7b18f412eba73eba04479dd4[m[33m ([m[1;31morigin/fabianMarin_hectorDorado_juanSanchez_grupoB[m[33m)[m
+Author: ssbastian <62351126+ssbastian@users.noreply.github.com>
+Date:   Sun Dec 26 19:49:58 2021 -0500
+
+    anexo practica_4
+
+[33mcommit 35eab54e6eb8acbb32e0d6b3e6efed86a21f3755[m
+Author: Angie Carolina Gómez <67878771+angiecgomez@users.noreply.github.com>
+Date:   Sun Dec 26 15:10:59 2021 -0500
+
+    Gomez_FMartinez_Ruiz|B|ArquitecturaOrientadaEventos: project added
+
+[33mcommit 8a5ce113ec8b611d2b9dd767e77545ca1cb30d4c[m[33m ([m[1;31morigin/Collazos_Estrada_Rivera[m[33m)[m
+Author: Antonio Estrada <antonioestrada@unicauca.edu.co>
+Date:   Fri Dec 24 11:32:57 2021 -0500
+
+    Collazos_Estrada_Rivera: se sube la Practica Publicador Subsciptor
+
+[33mcommit 23088509052dac06f91fa605fb11edc4a64c92c5[m[33m ([m[1;31morigin/cerquera_collazosperafan_muñoz[m[33m)[m
+Author: Tuldrum <90346628+Tuldrum@users.noreply.github.com>
+Date:   Wed Dec 22 22:17:30 2021 -0500
+
+    Diagrama de componentes
+
+[33mcommit 677dfe702a381b37beecfee18b83ba743bbe6bee[m
+Author: Andrés David Muñoz Cerón <90346628+Tuldrum@users.noreply.github.com>
+Date:   Wed Dec 22 19:55:02 2021 -0500
+
+    Update README.md
+
+[33mcommit a9e496a1a444d3fe17de418ac47f4c4f92450564[m
+Author: Tuldrum <90346628+Tuldrum@users.noreply.github.com>
+Date:   Wed Dec 22 19:22:19 2021 -0500
+
+    cerquera_collazosperafan_muñoz: carga de código fuente de repositorio
+
+[33mcommit d9fa794160d822195c43524a4f927df7588b4539[m
+Author: JulianSanti28 <juliansmartinez@unicauca.edu.co>
+Date:   Wed Dec 22 11:54:53 2021 -0500
+
+    martinez_peña: Publisher-Subscriber Pattern
+
+[33mcommit 8c4ddd5bfcee8921d2a8502c7c233c4a6cc894ee[m
+Author: miguemm <83250571+miguemm@users.noreply.github.com>
+Date:   Wed Dec 22 11:40:57 2021 -0500
+
+    Update README.md
+
+[33mcommit d27af205c0d2e5d83dff4735bbdc15cbcf6cbc8c[m
+Author: miguemm <mandresmosquera@gmail.com>
+Date:   Wed Dec 22 11:39:27 2021 -0500
+
+    DAVID_COLLAZOS|SEBASTIAN_ARENAS|MIGUEL_MOSQUERA|GRUPO_A|LayersMVC PublicadorSubscriptor: Se realiza entrega y correccion de la practica 4
+
+[33mcommit 4d8ccc34dc5f158b8438cb87bf3cc041138063fe[m[33m ([m[1;31morigin/CLIMACOT-A-LAYERSMVC[m[33m)[m
+Author: climacot <74675488+climacot@users.noreply.github.com>
+Date:   Wed Dec 22 08:30:38 2021 -0500
+
+    Update README.md
+
+[33mcommit 18fd287dce39f2231bc127f4f626cea3eabcef21[m
+Author: climacot <fermt111@gmail.com>
+Date:   Wed Dec 22 08:24:09 2021 -0500
+
+    cambios depues de sustentacion
+
+[33mcommit 407840591f83acadd8c4cf63ac682b7df8b3a2ee[m
+Author: climacot <fermt111@gmail.com>
+Date:   Wed Dec 22 00:31:08 2021 -0500
+
+    regresando layersMVC
+
+[33mcommit 1274b0afc1036d2a27bb7fcc15641aa8a0ef1178[m
+Author: climacot <fermt111@gmail.com>
+Date:   Wed Dec 22 00:29:14 2021 -0500
+
+    quitando layersmvc
+
+[33mcommit 6c2fcb2114f3bfd6ed47600229475e346d2f01aa[m
+Author: climacot <fermt111@gmail.com>
+Date:   Wed Dec 22 00:27:36 2021 -0500
+
+    ajustando el mvc
+
+[33mcommit dfa2053b192aad6155061079fd7964bb811b160d[m
+Author: climacot <fermt111@gmail.com>
+Date:   Wed Dec 22 00:20:15 2021 -0500
+
+    CLIMACOT-A-LAYERSMVC: Solucion de la practica layers MVC
+
+[33mcommit a19ae2d9d9ea39bd080dcd3ab83b9f1ab6481039[m
+Author: miguemm <mandresmosquera@gmail.com>
+Date:   Tue Dec 21 23:30:56 2021 -0500
+
+    David_Collazos|Miguel_Mosquera|Sebastian_Arenas|GRUPO_A|LayersMVC PublicadorSubscriptor: Correccion Readme Practica 4
+
+[33mcommit 83547d971beb997f3fcae621ae2f35f0395a8cb6[m
+Author: miguemm <mandresmosquera@gmail.com>
+Date:   Tue Dec 21 23:26:58 2021 -0500
+
+    David_Collazos|Miguel_Mosquera|Sebastian_Arenas|GRUPO_A|LayersMVC PublicadorSubscriptor: Se realiza entrega de la practica 4
+
+[33mcommit 40fde2087740c238d74c86287ac3e4110755fddf[m
+Merge: f0605b6 66becc8
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Thu Dec 16 11:45:54 2021 -0500
+
+    Merge pull request #104 from zahydo/DanielCerón_GrupoB_JuanRuiz-Microkernel
+    
+    Daniel Cerón_Grupo B_Juan Ruiz_Microkernel
+
+[33mcommit f0605b6d8ddb5e5ce161afa1f444b1594838ee72[m
+Merge: b8abc67 e6133fe
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Thu Dec 16 11:44:37 2021 -0500
+
+    Merge pull request #103 from zahydo/sebastian_collazos_b_microkernel
+    
+    Sebastian collazos b microkernel
+
+[33mcommit b8abc67930c7a5f7d7f8564ee4cc544cbee263fe[m
+Merge: 2dcac84 cc1f1cc
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Thu Dec 16 11:43:02 2021 -0500
+
+    Merge pull request #102 from zahydo/JuanSalazar-B-LauraRengifo-MicroKernel
+    
+    JuanSalazar-B-LauraRengifo-MicroKernel: Entrega de practica con Micro…
+
+[33mcommit 2dcac84b77584b22aa78d485e3537657bf8b4eb3[m
+Merge: 176f02a 8ac2ffb
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Thu Dec 16 11:39:58 2021 -0500
+
+    Merge pull request #101 from zahydo/Jabella_Jnino
+    
+    Juan_Abella|GP:B|Julian_Niño_Practica 3 : MicroKernel
+
+[33mcommit 176f02a65d9288c471751e2a74834901021edadc[m
+Merge: f957893 7467c2e
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Thu Dec 16 11:38:19 2021 -0500
+
+    Merge pull request #100 from zahydo/Morales_Cruz_Kevin_P2
+    
+    Morales cruz kevin
+
+[33mcommit f957893ef8474083c14bbc03c9f9dd6b66ed7ac6[m
+Merge: 7a07457 172970a
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Thu Dec 16 11:37:06 2021 -0500
+
+    Merge pull request #97 from zahydo/HectorDoradoGrupoB-Polimorfismo
+    
+    Hector_Dorado|Grupo B|Fabian_Marin:Microkernel
+
+[33mcommit 7a074574d85502611bb4faf2cc22a7fe17582868[m
+Merge: b1b91b3 0cfb3c8
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Thu Dec 16 11:35:41 2021 -0500
+
+    Merge pull request #96 from zahydo/ElianaCerquera_DiegoCollazos-B-Microkernel
+    
+    Eliana cerquera diego collazos b microkernel
+
+[33mcommit 66becc80c4455087f74ce1eb41efa238a6cdef36[m[33m ([m[1;31morigin/DanielCerón_GrupoB_JuanRuiz-Microkernel[m[33m)[m
+Author: Esteban R <70593544+XzzIsor@users.noreply.github.com>
+Date:   Thu Dec 16 00:14:14 2021 -0500
+
+    DanielCerón_GrupoB_JuanRuiz-Microkernel
+
+[33mcommit 172970a64e1d516ef5f1f41c41a28088c8b4c28d[m[33m ([m[1;31morigin/HectorDoradoGrupoB-Polimorfismo[m[33m)[m
+Author: fernandorado <79128983+fernandorado@users.noreply.github.com>
+Date:   Wed Dec 15 20:45:33 2021 -0500
+
+    Eliminación carpeta
+    
+    Se elimina de carpeta personal.
+
+[33mcommit a48939499e7a4a5fa02ce7e63399eb0428516d9a[m
+Author: fernandorado <79128983+fernandorado@users.noreply.github.com>
+Date:   Wed Dec 15 20:44:50 2021 -0500
+
+    Eliminación de carpeta
+    
+    Se elimina proyecto de capeta personal
+
+[33mcommit e6133fe145953e069b7e73de175e51be0279b5f2[m[33m ([m[1;31morigin/sebastian_collazos_b_microkernel[m[33m)[m
+Author: sebcollazos <52359963+secoveGordo@users.noreply.github.com>
+Date:   Wed Dec 15 18:43:54 2021 -0500
+
+    sebastian_collazos_b_microkernel: practica micro kernel
+
+[33mcommit 4a5be835139ea74f3d8b637aa62f30f1ff6d697f[m
+Author: sebcollazos <52359963+secoveGordo@users.noreply.github.com>
+Date:   Wed Dec 15 18:36:41 2021 -0500
+
+    sebastian_collazos_b_microkernel: practica micro kernel
+
+[33mcommit cc1f1cc53faa171cf7d34e80ad1fe25770dfa935[m[33m ([m[1;31morigin/JuanSalazar-B-LauraRengifo-MicroKernel[m[33m)[m
+Author: Juan Andres <sjuanandres94@gmail.com>
+Date:   Wed Dec 15 18:03:44 2021 -0500
+
+    JuanSalazar-B-LauraRengifo-MicroKernel: Entrega de practica con MicroKernel
+
+[33mcommit 8ac2ffbb58e7c198f4d9144e63be88aeaa80cf86[m[33m ([m[1;31morigin/Jabella_Jnino[m[33m)[m
+Author: JulianN2707 <93409409+JulianN2707@users.noreply.github.com>
+Date:   Wed Dec 15 15:55:42 2021 -0500
+
+    Update README.md
+
+[33mcommit 301193c4e98a5e76e029d717d853c17ac9518d45[m
+Author: JulianN2707 <jnino@unicauca.edu.co>
+Date:   Wed Dec 15 15:45:20 2021 -0500
+
+    Jabella_gp:B_Jnino_MicroKernel: Practica 3 : Implementacion plugins para sistemas de envios
+
+[33mcommit 7467c2eafbeeccbda61a5ed92b607daa37e423fa[m
+Merge: e2879ab 7ce4590
+Author: kevindm9 <74603789+kevindm9@users.noreply.github.com>
+Date:   Wed Dec 15 14:55:07 2021 -0500
+
+    Merge branch 'Morales_Cruz_Kevin_P2' of https://github.com/zahydo/labisii2021.2 into Morales_Cruz_Kevin_P2
+
+[33mcommit e2879ab5fcdf1914f08d2faf24974d6c418eb930[m
+Author: kevindm9 <74603789+kevindm9@users.noreply.github.com>
+Date:   Wed Dec 15 14:24:29 2021 -0500
+
+    Kevin_Morales_Grupo_A
+
+[33mcommit 77afca8ed38af9ed6c7adba26c98506b4bb8bce4[m
+Author: kevindm9 <74603789+kevindm9@users.noreply.github.com>
+Date:   Tue Dec 14 19:50:57 2021 -0500
+
+    Kevin_Morales_Grupo_A
+
+[33mcommit 44a7e42b4dfacf7a497ba989e8c489fea9e873d1[m
+Author: kevindm9 <74603789+kevindm9@users.noreply.github.com>
+Date:   Tue Dec 14 19:40:51 2021 -0500
+
+    Kevin_Morales_Grupo_A
+
+[33mcommit aaccd70fdb221b585800ab702a5d37a15a7582ef[m
+Author: fernandorado <hfdorado@unicauca.edu.co>
+Date:   Wed Dec 15 12:22:24 2021 -0500
+
+    Hector_Dorado|Grupo B|Fabian_Marin:Microkernel
+    
+    Anexo Tercera practica sobre Microkernel.
+
+[33mcommit 134a61716829bf605b8005a5aa4b4ab37f67fe32[m
+Author: fernandorado <79128983+fernandorado@users.noreply.github.com>
+Date:   Wed Dec 15 12:17:01 2021 -0500
+
+    Elimino Carpeta
+    
+    Elimino la carpeta para subirla nuevamente.
+
+[33mcommit ff0baa53132467c7169ad54d709a20ee74bd3e39[m
+Author: fernandorado <79128983+fernandorado@users.noreply.github.com>
+Date:   Wed Dec 15 12:04:58 2021 -0500
+
+    Add compañero de trabajo
+    
+    Se agrega el nombre de Fabian Marín al README.
+
+[33mcommit e3a05b7f141f06f67743ad305a9311401aecd2b9[m
+Author: fernandorado <79128983+fernandorado@users.noreply.github.com>
+Date:   Wed Dec 15 12:02:10 2021 -0500
+
+    Agrego README
+    
+    Se agrega README donde esta la información de las practicas realizadas.
+
+[33mcommit 433edf871b6b72532783b58222c9fc97f9b4b0fd[m
+Merge: b058fd7 75cb5b4
+Author: fernandorado <hfdorado@unicauca.edu.co>
+Date:   Wed Dec 15 11:51:52 2021 -0500
+
+    Merge branch 'HectorDoradoGrupoB-Polimorfismo' of https://github.com/zahydo/labisii2021.2 into HectorDoradoGrupoB-Polimorfismo
+
+[33mcommit b058fd7c14e14b055d96e4b1e8266951b0df865b[m
+Author: fernandorado <hfdorado@unicauca.edu.co>
+Date:   Wed Dec 15 11:51:40 2021 -0500
+
+    Hector_Dorado|Grupo B|Fabian_Marin:Microkernel
+    
+    Se busca mostrar la aplicacion de Microkernel por medio de un proyecto de envios a paises, donde se calcula el costo de envio por medio del peso y distancia de envio.
+
+[33mcommit 75cb5b45d001843158908af21c426c62dd6ab50c[m
+Author: fernandorado <79128983+fernandorado@users.noreply.github.com>
+Date:   Wed Dec 15 11:43:06 2021 -0500
+
+    Add tercera practica.
+    
+    Se agrega información de la tercera practica de Microkernel.
+
+[33mcommit b1b91b3193dccea9a640ec312068977f24bd9aee[m
+Merge: bb9bb75 6e3755c
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Wed Dec 15 11:28:16 2021 -0500
+
+    Merge pull request #99 from zahydo/gomez_martinez_B_Microkernel
+    
+    gomez_martinez_B_Microkernel: tercera practica
+
+[33mcommit 6e3755ca4d68dd34643712855cd7361700d9c4ab[m
+Author: Angie Carolina Gómez <67878771+angiecgomez@users.noreply.github.com>
+Date:   Wed Dec 15 10:28:26 2021 -0500
+
+    gomez_martinez_B_Microkernel: plugin.properties updated
+
+[33mcommit 661907160c67f54ff4a16e6dfd06c9a33b87f7e1[m
+Author: Angie Carolina Gómez <67878771+angiecgomez@users.noreply.github.com>
+Date:   Wed Dec 15 02:50:04 2021 -0500
+
+    gomez_martinez_B_Microkernel: tercera practica
+
+[33mcommit bb9bb7510051c4e68f3f9d819c85046099d7140e[m
+Merge: 328b3aa 93da01b
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Wed Dec 15 11:04:03 2021 -0500
+
+    Merge pull request #89 from zahydo/martinez_peña
+    
+    martinez_peña : tercera practica Patrón MicroKernel
+
+[33mcommit 93da01be95075f285a511b1ac06024d0c973d49a[m
+Author: Paula <ppena@unicauca.edu.co>
+Date:   Wed Dec 15 10:39:04 2021 -0500
+
+    martinez_peña : update README.md principal
+
+[33mcommit eada92cfa12b4918819fee421a7c58211e0a6c80[m
+Author: Paula <ppena@unicauca.edu.co>
+Date:   Wed Dec 15 10:35:16 2021 -0500
+
+    martinez_peña : update README.md
+
+[33mcommit 7746ac42d24e5db19a24c28be86967a0696dbcf0[m
+Author: Paula <ppena@unicauca.edu.co>
+Date:   Wed Dec 15 10:34:02 2021 -0500
+
+    cambio de ubicacióndel plugin.properties
+
+[33mcommit 8f2e6b021f4b4aeaf5eccc8ac7b08658a7ffa0aa[m
+Author: Paula <ppena@unicauca.edu.co>
+Date:   Tue Dec 14 12:23:43 2021 -0500
+
+    martinez_peña : tercera practica Patrón MicroKernel
+
+[33mcommit 328b3aa48e4a7440edfdc9d1ca6431d295028c2f[m
+Merge: 80c7af6 c5f49d8
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Wed Dec 15 09:55:42 2021 -0500
+
+    Merge pull request #91 from zahydo/diaz_rivera-A
+    
+    diaz_rivera-A: Practica#3-Microkernel
+
+[33mcommit 80c7af63513e6b998e4edcdd94e3e37093364c3b[m
+Merge: 14d0c10 881b08a
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Wed Dec 15 09:26:42 2021 -0500
+
+    Merge pull request #95 from zahydo/juansanchez_B
+    
+    juansanchez|Entrega3|grupoB|PatronMicroKernel
+
+[33mcommit 14d0c10c5088952b12f3f8b1f5ff25204081eb96[m
+Merge: 55ad5ee b2a2798
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Wed Dec 15 09:25:08 2021 -0500
+
+    Merge pull request #94 from zahydo/CLIMACOT-CRISTIANCAST-A-MICROKERNEL
+    
+    Climacot y cristiancast practica microkernel
+
+[33mcommit 55ad5eed0807fcebb6dc938fa1c6755ab2d17f41[m
+Merge: 3bb7e51 2983600
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Wed Dec 15 09:21:41 2021 -0500
+
+    Merge pull request #93 from zahydo/PastasDaniel
+    
+    pdaniel|Entrega#3|grupoA|PatronMicroKernel
+
+[33mcommit 298360085bc9f050bbc071f652357541a573d11a[m
+Merge: 8eb4ef6 3bb7e51
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Wed Dec 15 09:21:33 2021 -0500
+
+    Merge branch 'main' into PastasDaniel
+
+[33mcommit c5f49d820daf07b52b8239b3f525df5b80147ad4[m[33m ([m[1;31morigin/diaz_rivera-A[m[33m)[m
+Author: Anderson Diaz <93264065+Diaz2611@users.noreply.github.com>
+Date:   Wed Dec 15 09:17:58 2021 -0500
+
+    HectorRivera|A|AndersonDiaz-Practica3-Microkernel
+
+[33mcommit c48e590b617af641830c873961138dce1f4e329f[m
+Author: Esteban R <70593544+XzzIsor@users.noreply.github.com>
+Date:   Wed Dec 15 02:40:02 2021 -0500
+
+    JuanRuiz-GrupoB-Microkernel
+
+[33mcommit 6777fb53339f66e6bfd2b52f939fd81b97499ba9[m
+Author: fernandorado <hfdorado@unicauca.edu.co>
+Date:   Tue Dec 14 23:18:14 2021 -0500
+
+    Anexo Ejemplo Microkernel
+    
+    Pruebas del Ejemplo Microkernel.
+
+[33mcommit 0cfb3c84c0d4bc9377d1f8f54991ab4458db32b5[m[33m ([m[1;31morigin/ElianaCerquera_DiegoCollazos-B-Microkernel[m[33m)[m
+Author: UnSup_ <collazosdie@unicauca.edu.co>
+Date:   Tue Dec 14 23:14:27 2021 -0500
+
+    ElianaCerquera_DiegoCollazos-B-Microkernel: readme on microkernel
+
+[33mcommit 160849432864f94e864bfaf6f8741447157ed3c7[m
+Author: UnSup_ <collazosdie@unicauca.edu.co>
+Date:   Tue Dec 14 23:06:49 2021 -0500
+
+    ElianaCerquera_DiegoCollazos-B-Microkernel: Completada practica Microkernel
+
+[33mcommit 881b08a571c4eef4ee7074892e0b841e94fb188e[m[33m ([m[1;31morigin/juansanchez_B[m[33m)[m
+Author: ssbastian <62351126+ssbastian@users.noreply.github.com>
+Date:   Tue Dec 14 23:04:10 2021 -0500
+
+    carpeta dist
+    
+    add carpeta dist
+
+[33mcommit b2a27988d6ae24aa03dfcf819d33077871cacff4[m
+Author: climacot <74675488+climacot@users.noreply.github.com>
+Date:   Tue Dec 14 22:44:08 2021 -0500
+
+    Update Application.java
+
+[33mcommit 10645abf77511b08c9ab2015c16b6fef2ae3b9e4[m
+Author: climacot <74675488+climacot@users.noreply.github.com>
+Date:   Tue Dec 14 22:34:48 2021 -0500
+
+    Update CoreaDelSurDeliveryPlugin.java
+
+[33mcommit 8eb4ef62d340a93d9d592f2627241eeac98eb47f[m
+Author: pdaniel102 <pdaniel@unicauca.edu.co>
+Date:   Tue Dec 14 22:26:27 2021 -0500
+
+    Readme.md updates
+
+[33mcommit 1a46d5cfd80b4fbc7c87c64ce3d6aab75305dc8d[m
+Author: climacot <fermt111@gmail.com>
+Date:   Tue Dec 14 22:25:36 2021 -0500
+
+    CLIMACOT_CRISTIANCAST-A-MICROKERNEL: Actividad 3 agregar plugin corea del sur al proyecto de ejemplo
+
+[33mcommit 4ac84603bb9e1053f76fd6327e5ab480f35040e0[m
+Merge: e1f41df 6d79876
+Author: pdaniel102 <pdaniel@unicauca.edu.co>
+Date:   Tue Dec 14 21:51:23 2021 -0500
+
+    Merge branch 'PastasDaniel' of github.com:zahydo/labisii2021.2 into PastasDaniel
+
+[33mcommit e1f41df4ab16bf276c82dc0344e8edb3309b9b8d[m
+Author: pdaniel102 <pdaniel@unicauca.edu.co>
+Date:   Tue Dec 14 21:32:33 2021 -0500
+
+    gitignore updated
+
+[33mcommit e80d378c1c136a294cb2c6fb7c82806f6c8cce97[m
+Author: pdaniel102 <pdaniel@unicauca.edu.co>
+Date:   Tue Dec 14 21:31:12 2021 -0500
+
+    southKorea plugin added and tested, all OK
+
+[33mcommit fba276dca66e0890fad49a5714566312fe623c95[m
+Author: pdaniel102 <pdaniel@unicauca.edu.co>
+Date:   Tue Dec 14 21:03:37 2021 -0500
+
+    south korea plugin added, not tested yet
+
+[33mcommit 117294bfb613d15beb0cc9ddf9a9c9c34529807f[m
+Author: pdaniel102 <pdaniel@unicauca.edu.co>
+Date:   Tue Dec 14 20:44:40 2021 -0500
+
+    jar builded and moved to dist directory, base app tested
+
+[33mcommit 8ae4207ae9c42b7bc474f8169232a0cc4f0ef966[m
+Author: pdaniel102 <pdaniel@unicauca.edu.co>
+Date:   Tue Dec 14 20:25:21 2021 -0500
+
+    microkernel base added
+
+[33mcommit 7a06ccf0276aca542be4bf7a48cba4746fe4b754[m
+Author: pdaniel102 <pdaniel@unicauca.edu.co>
+Date:   Tue Dec 14 20:22:05 2021 -0500
+
+    1st commit before 3rd practice, parking test fixed
+
+[33mcommit 7ce4590eed8acd3c4c936b0ad3f446bf3fc4b974[m
+Author: kevindm9 <74603789+kevindm9@users.noreply.github.com>
+Date:   Tue Dec 14 19:50:57 2021 -0500
+
+    Kevin_Morales_Grupo_A
+
+[33mcommit 884575580841b410c11a87dcd83b2093e208cf84[m
+Author: kevindm9 <74603789+kevindm9@users.noreply.github.com>
+Date:   Tue Dec 14 19:40:51 2021 -0500
+
+    Kevin_Morales_Grupo_A
+
+[33mcommit 261adc1540abeaeebcd4db1db7d8e6970b11b927[m
+Author: Anderson Diaz <93264065+Diaz2611@users.noreply.github.com>
+Date:   Tue Dec 14 18:25:28 2021 -0500
+
+    diaz_rivera-A: Practica#3-Microkernel:
+    
+    Corrección de README.
+
+[33mcommit e167e59cda1a08c051f664cdadacbd700e5d3c65[m
+Author: Anderson Diaz <93264065+Diaz2611@users.noreply.github.com>
+Date:   Tue Dec 14 17:38:56 2021 -0500
+
+    diaz_rivera-A: Practica#3-Microkernel:
+    
+    Implementación de plugin.
+
+[33mcommit 0d6e762a3cb8e444ed6f855035c48141e2802001[m
+Author: Anderson Diaz <andersondiaz@unicauca.edu.co>
+Date:   Tue Dec 14 17:26:43 2021 -0500
+
+    diaz_rivera-A: Practica#3:Microkernel
+
+[33mcommit 3bb7e5144480bc1f67245989bba6fc12ebc55799[m
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Tue Dec 14 16:16:22 2021 -0500
+
+    Update .gitignore
+
+[33mcommit 1da9f46da68acf5ae520be2ed9c6b18cbf7baa6f[m
+Merge: fcf3d4b 43a0faa
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Tue Dec 14 11:12:32 2021 -0500
+
+    Merge pull request #88 from zahydo/juansanchez_B
+    
+    juansanchez_grupo:B_practica3_microkernel
+
+[33mcommit fcf3d4bf1662dc40aee1bfd4af2d5374fc5abf8c[m
+Merge: 2a9c093 e6b0766
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Tue Dec 14 11:10:26 2021 -0500
+
+    Merge pull request #87 from zahydo/FelipeGarcia_AndresGarcia-Polimorfismo
+    
+    FelipeGarcia|AndresGarcia: Practica3 - Microkernel
+
+[33mcommit e6b07668bd7f62a1613e50e1297fa9b1eab4f67b[m
+Author: Felipe Garcia <juanfelipegarciagil7@gmail.com>
+Date:   Mon Dec 13 21:56:06 2021 -0500
+
+    FelipeGarcia|AndresGarcia: Practica3 - Microkernel
+
+[33mcommit 43a0faaf654d14ca6f61c86f87360608ac08d2ac[m
+Author: ssbastian <62351126+ssbastian@users.noreply.github.com>
+Date:   Mon Dec 13 17:31:12 2021 -0500
+
+    add readme
+    
+    corrección readme
+
+[33mcommit 2a9c093a7dc5c41482469c95bd6299756316dbb0[m
+Merge: beee4be 661207f
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Mon Dec 13 17:27:21 2021 -0500
+
+    Merge pull request #85 from zahydo/MiguelMosquera_SebastianArenas
+    
+    Miguel_Mosquera|GRUPO_A|Sebastian_Arenas: Entrega 3
+
+[33mcommit beee4be890c60ad33d533d05ac1cc7d9ed75f69a[m
+Merge: e47861c d807aca
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Mon Dec 13 17:26:12 2021 -0500
+
+    Merge pull request #84 from zahydo/JIMENEZ_ORDONEZ-MICROKERNEL
+    
+    Entrega JimenezOrdoñez|GrupoB|Práctica3|Microkernel
+
+[33mcommit 4e5dd33ac75a3772f6fa56ad9c1092426e87de0b[m
+Author: ssbastian <62351126+ssbastian@users.noreply.github.com>
+Date:   Mon Dec 13 17:24:16 2021 -0500
+
+    Taller microkernel
+    
+    anexo taller microkernel
+
+[33mcommit e47861cdb02f514ebbeb346e3fefdb5502af40fe[m
+Merge: f3ebb16 baad1f9
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Mon Dec 13 17:18:53 2021 -0500
+
+    Merge pull request #83 from zahydo/JOSE_GALINDEZ
+    
+    JOSE_GALINDEZ
+
+[33mcommit f3ebb16fcc94bb76863809290024b97cf7e051aa[m
+Merge: e017d7b 9cd61e9
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Mon Dec 13 17:16:57 2021 -0500
+
+    Merge pull request #82 from zahydo/YaquelinGomez
+    
+    YaquelinGomez: Practica 3
+
+[33mcommit 661207f28d162500d418b0ba899ee3de63c97e7f[m
+Author: miguemm <mandresmosquera@gmail.com>
+Date:   Mon Dec 13 17:09:56 2021 -0500
+
+    MIGUEL_MOSQUERA|GRUPO_A|SEBASTIAN_ARENAS: Actualizacion Readme principal
+
+[33mcommit 588ddf90b9e9ba0e72ef38f1213e21e8f202a91c[m
+Author: miguemm <mandresmosquera@gmail.com>
+Date:   Mon Dec 13 17:04:55 2021 -0500
+
+    MIGUEL_MOSQUERA|GRUPO_A|SEBASTIAN_ARENAS: Se completa la practica de microkernel
+
+[33mcommit d807aca67409288b1335b6b53f788baacbd8d3b0[m[33m ([m[1;31morigin/JIMENEZ_ORDONEZ-MICROKERNEL[m[33m)[m
+Author: David Jiménez Garzón <93263400+dohimenezg@users.noreply.github.com>
+Date:   Mon Dec 13 14:49:36 2021 -0500
+
+    Update README.md
+
+[33mcommit baad1f921f470f75c125b93f951d4659f47a083b[m
+Author: Jose Galíndez <jose.ricardo.7@hotmail.com>
+Date:   Mon Dec 13 13:23:45 2021 -0500
+
+    JOSE_GALINDEZ
+
+[33mcommit 9cd61e915a7346f635c60907e5e8495e9777ab53[m[33m ([m[1;31morigin/YaquelinGomez[m[33m)[m
+Author: YaquelinG <yaquelineagp@unicauca.edu.co>
+Date:   Mon Dec 13 13:10:54 2021 -0500
+
+    YaquelinGomez: Practica 3
+
+[33mcommit e017d7b0b52cf7905cf4ab1ee1eb35fc96e29ad2[m
+Merge: 8d23cb8 8793aef
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Mon Dec 13 12:17:19 2021 -0500
+
+    Merge pull request #81 from zahydo/DavidCamilo
+    
+    DavidCamilo: Entrega practica microkernel
+
+[33mcommit 8d23cb8f995f9baf1e8b264c32d447b477e0f094[m
+Merge: 69c0396 2e4881e
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Mon Dec 13 12:14:54 2021 -0500
+
+    Merge pull request #80 from zahydo/muñoz_ceron
+    
+    Muñoz
+
+[33mcommit 8793aeffd50bb234aee1f563366465c33fac7bd1[m[33m ([m[1;31morigin/DavidCamilo[m[33m)[m
+Author: Dacoes <dacoes@unicauca.edu.co>
+Date:   Mon Dec 13 11:21:28 2021 -0500
+
+    DavidCamilo: Entrega practica microkernel
+
+[33mcommit c977c81d031117efee09f98956c5da468b3cd6c1[m
+Author: jandresordonez <jandresordonez@unicauca.edu.co>
+Date:   Mon Dec 13 11:19:25 2021 -0500
+
+    JIMENEZ_ORDONEZ-MICROKERNEL: primer commit se agrega un nuevo plugin
+
+[33mcommit 2e4881e4761e8eb589e2a7581da5d5e1d4401b82[m
+Author: Andrés David Muñoz Cerón <90346628+Tuldrum@users.noreply.github.com>
+Date:   Sat Dec 11 03:40:17 2021 -0500
+
+    Update README.md
+
+[33mcommit 69eb26e44fbb5c4df93d7f0acf6711b69ae222ed[m
+Author: Tuldrum <90346628+Tuldrum@users.noreply.github.com>
+Date:   Sat Dec 11 03:35:59 2021 -0500
+
+    muñoz: práctica microkernel-carga de código fuente en github
+
+[33mcommit 69c03963d196fcfc7c21f732704ec6feb4e43e2d[m
+Merge: 3d305fd cd64d0c
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Tue Nov 23 11:33:23 2021 -0500
+
+    Merge pull request #79 from zahydo/Jabella_Jnino
+    
+    Jabella_ Jnino
+
+[33mcommit 3d305fd2d092377c7f589fafcdf63f3e70ef2820[m
+Merge: 830f930 8e04734
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Tue Nov 23 11:24:07 2021 -0500
+
+    Merge pull request #78 from zahydo/Cerquera_Collazos_B_SOLID
+    
+    Cerquera_Collazos_B_SOLID: proyecto parking asociado a SOLID
+
+[33mcommit 8e04734ee1f3ad02cf629a86d93ca0eaaccf5f1b[m[33m ([m[1;31morigin/Cerquera_Collazos_B_SOLID[m[33m)[m
+Author: sebcollazos <52359963+secoveGordo@users.noreply.github.com>
+Date:   Mon Nov 22 20:03:03 2021 -0500
+
+    Solucion de errores
+
+[33mcommit cd64d0cc606738226bbfbf1e2c3392f7c9741a3d[m
+Author: JulianN2707 <93409409+JulianN2707@users.noreply.github.com>
+Date:   Mon Nov 22 18:13:10 2021 -0500
+
+    Rename README .md to README.md
+
+[33mcommit 4afd25dc1990fa9527c0beaf0aa9ea4b5d3c752f[m
+Author: JulianN2707 <jnino@unicauca.edu.co>
+Date:   Mon Nov 22 18:09:27 2021 -0500
+
+    Jabella_GPB_Jnino-Principios_Solid:Practica 2 sobre principiosSOLID
+
+[33mcommit 830f9304e8b127a8e08733293c979686352059db[m
+Merge: d9ccf14 66d554d
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Sun Nov 21 15:52:17 2021 -0500
+
+    Merge pull request #76 from zahydo/gomez_martinez|B|PrincipiosSOLID
+    
+    gomez_martinez|B|PrincipiosSOLID: second practice principios SOLID
+
+[33mcommit d9ccf140965916702c88f37d38e6b573933777ed[m
+Merge: 580935d a9218fc
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Sun Nov 21 14:22:48 2021 -0500
+
+    Merge pull request #75 from zahydo/Antonio
+    
+    Antonio: Practica parqueadero
+
+[33mcommit 580935d2f4cc75516ebf9f49ff6e73bdc60ff0ed[m
+Merge: 1201836 92b7105
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Sun Nov 21 14:18:11 2021 -0500
+
+    Merge pull request #74 from zahydo/YaquelinGomez
+    
+    YaquelinGomez: SegundaPractica
+
+[33mcommit 12018362ab2b5648a82cdb2cb2ca24634d34f02d[m
+Merge: 52ec982 f8a0b1a
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Sun Nov 21 14:14:56 2021 -0500
+
+    Merge pull request #72 from zahydo/DavidMarinGrupoB-Polimorfismo
+    
+    marin_dorado_sanchez |Grupo B|: Principios SOLID
+
+[33mcommit 52ec98212a8f335e162f1f0c8f3b2ede2efa062e[m
+Merge: 55b54ae ed52dca
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Sun Nov 21 13:47:08 2021 -0500
+
+    Merge pull request #71 from zahydo/HectorDoradoGrupoB-Polimorfismo
+    
+    dorado_marin_sanchez |Grupo B| : Entrega Practica 2
+
+[33mcommit 55b54ae30018fccca4af667b6b457b1231b50284[m
+Merge: 1117354 b7a8989
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Sun Nov 21 13:41:43 2021 -0500
+
+    Merge pull request #69 from zahydo/zapata_quitiaquez_espinoza_principiosSolid
+    
+    No se entrega programa funcional, no se implementan pruebas y tampoco se cumple con los principios
+
+[33mcommit 11173540362ce20799267a7799a85ede6acf65fd[m
+Merge: 35e76eb a9cc4d0
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Sat Nov 20 22:48:17 2021 -0500
+
+    Merge pull request #68 from zahydo/JuanSalazar-B-LauraRengifo-PracticeTwo
+    
+    JuanSalazar|B|LauraRengifo-PracticeTwo: Entrega parking
+
+[33mcommit 35e76eba1ef635406a4f731ef536f48af00b0568[m
+Merge: 36bf931 780dbb1
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Sat Nov 20 22:42:27 2021 -0500
+
+    Merge pull request #67 from zahydo/DanielCeron-B-JuanRuiz-PracticeTwo
+    
+    Daniel ceron b juan ruiz practice two
+
+[33mcommit 36bf93185426f127335b4535fb307b232cc83565[m
+Merge: e2dcd3e f8fb671
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Sat Nov 20 21:29:17 2021 -0500
+
+    Merge pull request #66 from zahydo/diaz_rivera-A
+    
+    Anderson_Diaz|A|Hector_Rivera_PrincipiosSOLID
+
+[33mcommit e2dcd3e807687fb0264d37d345edd6a072c94e39[m
+Merge: 4abf0e6 b3c41ad
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Sat Nov 20 21:12:59 2021 -0500
+
+    Merge pull request #65 from zahydo/DavidCamilo
+    
+    DavidCamilo: Nueva entrega taller
+
+[33mcommit 4abf0e6e5361f148b796c2cba61d605047a7a4c1[m
+Merge: 544d637 aef100d
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Sat Nov 20 21:04:28 2021 -0500
+
+    Merge pull request #55 from zahydo/AndresMunoz_DiegoCollazos-AB-Principios_Solid
+    
+    Andres munoz diego collazos ab principios SOLID
+
+[33mcommit 544d63728184c0323bf2409bec86e556902025b4[m
+Merge: 050d359 3f77acb
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Sat Nov 20 20:54:31 2021 -0500
+
+    Merge pull request #53 from zahydo/JOSE_GALINDEZ
+    
+    JOSE_GALINDEZ|GRUPO_A|PRINCIPIOS_SOLID: Se sube la practica del lab 2…
+
+[33mcommit 8c4c419819cef5440f00bb41321659e8732e7aa0[m
+Author: secoveGordo <sebcollazos@unicauca.edu.co>
+Date:   Sat Nov 20 20:30:40 2021 -0500
+
+    Cerquera_Collazos_B_SOLID: proyecto parking asociado a SOLID
+
+[33mcommit 66d554dbce34013b752c4664421c8690c00a2dfa[m[33m ([m[1;31morigin/gomez_martinez|B|PrincipiosSOLID[m[33m)[m
+Author: Angie Carolina Gómez <67878771+angiecgomez@users.noreply.github.com>
+Date:   Sat Nov 20 17:19:04 2021 -0500
+
+    gomez_martinez|B|PrincipiosSOLID: second practice principios SOLID
+
+[33mcommit a9218fce785dc0f081867a75c20729a5afee5fef[m[33m ([m[1;31morigin/Antonio[m[33m)[m
+Author: Antonio Estrada <antonioestrada@unicauca.edu.co>
+Date:   Sat Nov 20 16:57:59 2021 -0500
+
+    Antonio: Practica parqueadero
+
+[33mcommit 92b71051f0cace4f21c2ae2ef274b1c0288eedaa[m
+Author: YaquelinG <yaquelineagp@unicauca.edu.co>
+Date:   Sat Nov 20 16:21:40 2021 -0500
+
+    YaquelinGomez: SegundaPractica
+
+[33mcommit f8a0b1a33c948e13b4f2380342b72f972e6861cd[m[33m ([m[1;31morigin/DavidMarinGrupoB-Polimorfismo[m[33m)[m
+Author: fdavidmarin <fabianxd0496@unicauca.edu.co>
+Date:   Sat Nov 20 16:21:13 2021 -0500
+
+    Practica Principios SOLID
+    
+    Anexo practica de principios SOLID
+
+[33mcommit 0007f37aaede406a414e0b20011cdc9b287fc2bb[m
+Author: sebastian <tatan873@gmail.com>
+Date:   Sat Nov 20 16:18:50 2021 -0500
+
+    correccion README
+
+[33mcommit 5d191ce970bf50d9a9845f9ac0c848bdaa66c633[m
+Author: sebastian <tatan873@gmail.com>
+Date:   Sat Nov 20 16:15:10 2021 -0500
+
+    anexo README
+
+[33mcommit b35964b9fdb6743a4612cbe4a48ef2f76e2b2403[m
+Author: sebastian <tatan873@gmail.com>
+Date:   Sat Nov 20 16:13:47 2021 -0500
+
+    error
+
+[33mcommit 2ad52938f610a1a8f528d0dd13670368b9c6daaa[m
+Author: fdavidmarin <fabianxd0496@unicauca.edu.co>
+Date:   Sat Nov 20 16:12:57 2021 -0500
+
+    Anexo de READMEs
+
+[33mcommit c77aca4126b8a72b67d9c27c67518e7f07f4b8b0[m
+Author: sebastian <tatan873@gmail.com>
+Date:   Sat Nov 20 16:12:20 2021 -0500
+
+    correccion
+
+[33mcommit 35995eff160012b75fba3f6525c9c4a5d642ce6b[m
+Author: fdavidmarin <fabianxd0496@unicauca.edu.co>
+Date:   Sat Nov 20 16:05:05 2021 -0500
+
+    Practica Principios SOLID
+    
+    Anexo solución de la practica sobre SOLID
+
+[33mcommit ed52dcabbd65ccf49cab293429637b698e7be68a[m
+Author: fernandorado <hfdorado@unicauca.edu.co>
+Date:   Sat Nov 20 16:01:27 2021 -0500
+
+    Practica Principios SOLID
+    
+    Anexo practica de Principios SOLID
+
+[33mcommit b7a89894214d29927dac9bc6c5ef7ec27c62ffb1[m[33m ([m[1;31morigin/zapata_quitiaquez_espinoza_principiosSolid[m[33m)[m
+Author: acrip <jazapata@unicauca.edu.co>
+Date:   Sat Nov 20 15:57:10 2021 -0500
+
+    zapata_quitiaquez_espinoza_princiosSolid: Entrega practica 2 principios solid
+
+[33mcommit 0a139ed4cdfc50d6dc0740dbafcd68ed5b00dac1[m
+Author: sebastian <tatan873@gmail.com>
+Date:   Sat Nov 20 15:55:40 2021 -0500
+
+    anexo practica Principios SOLID
+    
+    Practica principios solid
+
+[33mcommit a9cc4d01dd401bf976e3eaf74bef8f16f3e905f3[m[33m ([m[1;31morigin/JuanSalazar-B-LauraRengifo-PracticeTwo[m[33m)[m
+Author: Juan Andres <sjuanandres94@gmail.com>
+Date:   Fri Nov 19 20:04:45 2021 -0500
+
+    JuanSalazar|B|LauraRengifo-PracticeTwo: Entrega parking
+
+[33mcommit 780dbb1607feb1fa6102b1d573b2b70c9f3670de[m[33m ([m[1;31morigin/DanielCeron-B-JuanRuiz-PracticeTwo[m[33m)[m
+Author: Daniel Cerón <62627348+DanielCeron-dc@users.noreply.github.com>
+Date:   Fri Nov 19 19:45:09 2021 -0500
+
+    Update README.md
+
+[33mcommit 2f5f791ac0d1f6074641415f90f41610887a729f[m
+Author: Daniel Cerón <62627348+DanielCeron-dc@users.noreply.github.com>
+Date:   Fri Nov 19 19:44:25 2021 -0500
+
+    DanielCeron|B|JuanRuiz-PRACTICETWO:readme Added
+
+[33mcommit efe746d93f40303bcdf48cbb7b15bc1ffe1e37ba[m
+Author: Daniel Cerón <62627348+DanielCeron-dc@users.noreply.github.com>
+Date:   Fri Nov 19 19:23:19 2021 -0500
+
+    DanielCeron|B|JuanRuiz-PRACTICETWO:project added
+
+[33mcommit 3f77acb11c6358e4a6ff4a7426909ab20e60a9d3[m
+Author: Jose Galíndez <jose.ricardo.7@hotmail.com>
+Date:   Fri Nov 19 10:14:00 2021 -0500
+
+    JOSE_GALINDEZ|GRUPO_A|PRINCIPIOS_SOLID: Se sube correcion en el REAME de proyecto
+
+[33mcommit 8cbb3355be1019140a1eea487bb35511c2523899[m
+Author: Jose Galíndez <jose.ricardo.7@hotmail.com>
+Date:   Wed Nov 17 15:47:46 2021 -0500
+
+    JOSE_GALINDEZ|GRUPO_A|PRINCIPIOS_SOLID: Se sube la practica del lab 2 de pricipios SOLID
+
+[33mcommit aef100dcbde4bd966dbacc305cdec065c1d55748[m[33m ([m[1;31morigin/AndresMunoz_DiegoCollazos-AB-Principios_Solid[m[33m)[m
+Author: Andrés David Muñoz Cerón <90346628+Tuldrum@users.noreply.github.com>
+Date:   Thu Nov 18 14:53:02 2021 -0500
+
+    Update README.md
+
+[33mcommit 726a4cb36f03786923c6a8445b14aabe3e488e6d[m
+Author: Andrés David Muñoz Cerón <90346628+Tuldrum@users.noreply.github.com>
+Date:   Thu Nov 18 14:51:27 2021 -0500
+
+    Update README.md
+
+[33mcommit 5d18bfff459745e807ba341e94f5d196484c0b60[m
+Author: Andrés David Muñoz Cerón <90346628+Tuldrum@users.noreply.github.com>
+Date:   Thu Nov 18 14:50:06 2021 -0500
+
+    Update README.md
+
+[33mcommit 22d1dc2866a48716ea21990a745d47754f6b1f07[m
+Author: Andrés David Muñoz Cerón <90346628+Tuldrum@users.noreply.github.com>
+Date:   Thu Nov 18 14:47:34 2021 -0500
+
+    Update README.md
+
+[33mcommit e1af49afc418d81d52aae9def2f7b14910412e15[m
+Author: Tuldrum <90346628+Tuldrum@users.noreply.github.com>
+Date:   Thu Nov 18 14:45:38 2021 -0500
+
+    collazosperafan_muñoz: actualizaciones especificadas en \AndresMunoz_DiegoCollazos\README.md
+
+[33mcommit f8fb6719b36d6e3312dce5b023f106b22f1c887a[m
+Author: Anderson Diaz <93264065+Diaz2611@users.noreply.github.com>
+Date:   Thu Nov 18 14:19:53 2021 -0500
+
+    Update README.md
+
+[33mcommit bf34311a4e48639bf2398f9b9d76319ccf1239d4[m
+Author: Anderson Diaz <93264065+Diaz2611@users.noreply.github.com>
+Date:   Thu Nov 18 14:18:18 2021 -0500
+
+    Update README.md
+
+[33mcommit fd46f995b2af1d1ccb2b98f3d45522fbf64d328a[m
+Author: Anderson Diaz <andersondiaz@unicauca.edu.co>
+Date:   Thu Nov 18 14:14:35 2021 -0500
+
+    diaz_rivera-A: Correccion de PrincipiosSOLID
+
+[33mcommit b3c41ad293fa6a1d8d8cfc963adafecbca7af54d[m
+Author: Dacoes <dacoes@unicauca.edu.co>
+Date:   Thu Nov 18 12:59:18 2021 -0500
+
+    DavidCamilo: Nueva entrega taller
+
+[33mcommit 050d3598d3a30f82bb85600d7ebe4f21538c2984[m[33m ([m[1;31morigin/JuanSalazar|B|LauraRengifo-PracticeTwo[m[33m)[m
+Merge: d7d3aa2 6d79876
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Thu Nov 18 12:35:09 2021 -0500
+
+    Merge pull request #59 from zahydo/PastasDaniel
+    
+    Entrega 2da practica
+
+[33mcommit d7d3aa28773de467d9dd6e2c26535c225498f99e[m
+Merge: 4984c47 323c378
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Thu Nov 18 12:22:01 2021 -0500
+
+    Merge pull request #64 from zahydo/Morales_Cruz_Kevin_P2
+    
+    Principios Solid
+
+[33mcommit 4984c4731e7513f2851bdde714e7a9e1633a0f7b[m
+Merge: e33f170 1b49a08
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Thu Nov 18 12:11:51 2021 -0500
+
+    Merge pull request #61 from zahydo/rivera_diaz-A
+    
+    rivera_diaz-A: Taller de principios SOLID
+
+[33mcommit e33f1706754513143f8ca5d2bc16168fbad5c854[m
+Merge: bf2922c 7c5da7e
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Thu Nov 18 11:53:29 2021 -0500
+
+    Merge pull request #60 from zahydo/JIMENEZ_ORDONEZ-SOLID
+    
+    Jimenez_Ordonez|GrupoB|PrincipiosSOLID: Entrega segundo laboratorio
+
+[33mcommit bf2922c5d274e9bd44de45717353224acdd55a23[m
+Merge: 6c1473d 3b01126
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Thu Nov 18 11:45:02 2021 -0500
+
+    Merge pull request #58 from zahydo/martinez_peña
+    
+    martinez_peña : Práctica 2: Principios SOLID
+
+[33mcommit 6c1473df132e35aecf8c23acbce4c713f4baf9b7[m
+Merge: a2b165b 5d94e0d
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Thu Nov 18 11:29:02 2021 -0500
+
+    Merge pull request #57 from zahydo/FelipeGarcia_AndresGarcia-Polimorfismo
+    
+    FelipeGarcia|AndresGarcia: Entrega principios SOLID
+
+[33mcommit 323c37825d7c6e3b3f543b9d28d34b8096231fd4[m
+Author: kevindm9 <74603789+kevindm9@users.noreply.github.com>
+Date:   Thu Nov 18 11:28:17 2021 -0500
+
+    Principios SOLID
+
+[33mcommit a2b165b4995c4302a6677dbb65beffe31b8357fd[m
+Merge: 31d6066 f67463c
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Thu Nov 18 11:01:42 2021 -0500
+
+    Merge pull request #54 from zahydo/MiguelMosquera_SebastianArenas
+    
+    MiguelMosquera_SebastianArenas|GRUPO_A|PRINCIPIOS_SOLID: Se sube la practica Principios SOLID correpondiente a la Practica 2
+
+[33mcommit f67463ccf7ef89147662282435facd63572b81de[m
+Author: Santiago Hyun <santiago.hyun@inxeption.com>
+Date:   Thu Nov 18 10:52:19 2021 -0500
+
+    Removing target
+
+[33mcommit 218e0746088e8fe144d0f869d5602609bfd0bb00[m
+Author: miguemm <mandresmosquera@gmail.com>
+Date:   Wed Nov 17 15:48:05 2021 -0500
+
+    MiguelMosquera||SebastianArenas-PrincipiosSOLID: Correccion README
+
+[33mcommit d2c235c7f07360c49d37e1e71cb0123ec9115a45[m
+Author: miguemm <mandresmosquera@gmail.com>
+Date:   Wed Nov 17 15:45:04 2021 -0500
+
+    MiguelMosquera||SebastianArenas-PrincipiosSOLID: Subimos todo el programa correspondiente a la practica mencionada
+
+[33mcommit 31d606638530f117e73cb4e0f6810d7dc7331849[m
+Author: Santiago Hyun <santiago.hyun@inxeption.com>
+Date:   Thu Nov 18 10:48:14 2021 -0500
+
+    Removing target/ folders from git versioning
+
+[33mcommit d032c2a7d3d1f7bba38fdc5a1cbcc485d5d45663[m
+Author: Santiago Hyun <santiago.hyun@inxeption.com>
+Date:   Thu Nov 18 10:48:14 2021 -0500
+
+    Removing target/ folders from git versioning
+
+[33mcommit 27326e11847dd7032de8fc0a5f2b42fa974d326c[m
+Merge: 2f24f50 3dcdb5f
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Thu Nov 18 09:58:42 2021 -0500
+
+    Merge pull request #51 from zahydo/CLIMACOT-CRISTIANCAST-A-PARKINGLOT
+    
+    CLIMACOT-CRISTIANCAST-A-PARKINGLOT
+
+[33mcommit 2f24f50768214f53f12874afc0109b26956fdb08[m
+Merge: 8c98acc e2bb7b9
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Thu Nov 18 09:52:17 2021 -0500
+
+    Merge pull request #50 from zahydo/ArtoroMax-patch-1
+    
+    Arturo-GrupoA-Hurtado-Garces_Practica2:PracticaLab2
+
+[33mcommit 1b49a0894542352b7ae1c3aafe5ce77a4c0594c4[m[33m ([m[1;31morigin/rivera_diaz-A[m[33m)[m
+Author: Anderson Diaz <andersondiaz@unicauca.edu.co>
+Date:   Wed Nov 17 20:37:26 2021 -0500
+
+    rivera_diaz-A: Taller de principios SOLID
+
+[33mcommit 7e7f7145557e99560b193f38997780846c6eba2b[m
+Author: UnSup_ <collazosdie@unicauca.edu.co>
+Date:   Wed Nov 17 19:32:09 2021 -0500
+
+    AndresMunoz_DiegoCollazos-AB-Principios_Solid: Documentacion de variables
+
+[33mcommit 7c5da7e922546b9f193c103efa01e49e28b69be1[m[33m ([m[1;31morigin/JIMENEZ_ORDONEZ-SOLID[m[33m)[m
+Author: dohimenezg <djimenezg@unicauca.edu.co>
+Date:   Wed Nov 17 18:28:00 2021 -0500
+
+    Se agrega JAVADOC
+
+[33mcommit 6d798764841dde5a2f2b4c30b4faa8ad3931e960[m
+Author: pdaniel102 <74683312+pdaniel102@users.noreply.github.com>
+Date:   Wed Nov 17 18:20:02 2021 -0500
+
+    Update README.md
+    
+    Editado para visibilidad
+
+[33mcommit 3b01126ead5fdd014f77632340f40ab06f7ba6c8[m
+Author: Julián Santiago Martinez Trullo <67648220+JulianSanti28@users.noreply.github.com>
+Date:   Wed Nov 17 17:44:45 2021 -0500
+
+    Update README.md
+
+[33mcommit ae3aed04ef906d0979705a83422e5b2996208796[m
+Author: pdaniel102 <pdaniel@unicauca.edu.co>
+Date:   Wed Nov 17 17:44:31 2021 -0500
+
+    2nd pratice README fixed
+
+[33mcommit 30c3c77e1b5d2646cd2f6895ccab1f9cedd376f1[m
+Author: pdaniel102 <pdaniel@unicauca.edu.co>
+Date:   Wed Nov 17 17:39:32 2021 -0500
+
+    some methods has been commented manually, readme for 2nd practice updated
+
+[33mcommit 633315938a34f05149240b268581e5dcadca44c3[m
+Author: Julián Santiago Martinez Trullo <67648220+JulianSanti28@users.noreply.github.com>
+Date:   Wed Nov 17 17:37:34 2021 -0500
+
+    martinez_peña: Update: README.md
+
+[33mcommit 822820d711c9aa2c49fe15358995de80be2d568f[m
+Author: juleMay <jandresordonez@unicauca.edu.co>
+Date:   Wed Nov 17 17:34:25 2021 -0500
+
+    Se agregan comentarios y el sorteo
+
+[33mcommit db90b90095e1d5a1e4f94f43391f2ca932444b65[m
+Author: Julián Santiago Martinez Trullo <67648220+JulianSanti28@users.noreply.github.com>
+Date:   Wed Nov 17 17:32:01 2021 -0500
+
+    Update ClientMain.java
+
+[33mcommit 9564658d3a0bfb829c18abcffe6f9a3bdb868520[m
+Author: Paula Peña Constain <67760493+paulap015@users.noreply.github.com>
+Date:   Wed Nov 17 17:30:22 2021 -0500
+
+    Update README.md
+
+[33mcommit 16f6f21aa9441850298e322e4af5d42bc0aa57cf[m
+Author: pdaniel102 <pdaniel@unicauca.edu.co>
+Date:   Wed Nov 17 17:19:22 2021 -0500
+
+    some methods has been commented manually, lottery method for 100% discount on truck parking rate added
+
+[33mcommit 3383a8d627990211cd2e5fd93742afaa06d4668f[m
+Author: Julián Santiago Martinez Trullo <67648220+JulianSanti28@users.noreply.github.com>
+Date:   Wed Nov 17 17:15:17 2021 -0500
+
+    Update README.md
+
+[33mcommit 9a9a49f94efb9eb9c844cfc351825b011150d1ff[m
+Author: Julián Santiago Martinez Trullo <67648220+JulianSanti28@users.noreply.github.com>
+Date:   Wed Nov 17 17:13:46 2021 -0500
+
+    Update README.md
+
+[33mcommit 7fc8ef6d7e625b1417f4b914c012aca46add02ad[m
+Author: Paula <ppena@unicauca.edu.co>
+Date:   Wed Nov 17 17:12:18 2021 -0500
+
+    martinez_peña : Práctica 2: Principios SOLID
+
+[33mcommit d69d661b2c3ef8ae8ffea7be1bba0129dd150ce2[m
+Author: juleMay <jandresordonez@unicauca.edu.co>
+Date:   Wed Nov 17 17:01:46 2021 -0500
+
+    Quinto commit: refactor clases singleton
+
+[33mcommit 329d147a011f6f3ed73d46c38a1c990c77b68f0a[m
+Author: juleMay <jandresordonez@unicauca.edu.co>
+Date:   Wed Nov 17 16:40:18 2021 -0500
+
+    Cuarto commit
+
+[33mcommit f7e0e67dbe8a6d909c12fc7f860e8e3aaa73bbf4[m
+Author: Andrés David Muñoz Cerón <90346628+Tuldrum@users.noreply.github.com>
+Date:   Wed Nov 17 16:35:30 2021 -0500
+
+    Update README.md
+
+[33mcommit 5fb65383c6cba01079c8b83e52b8666dcfae1504[m
+Author: Tuldrum <90346628+Tuldrum@users.noreply.github.com>
+Date:   Wed Nov 17 16:33:07 2021 -0500
+
+    collazosperafan_muñoz: inclusión de AndresMunoz_DiegoCollazos/README.md
+
+[33mcommit 2dfe102be1cc690a964efe9df54bf12f2a46137a[m
+Author: pdaniel102 <pdaniel@unicauca.edu.co>
+Date:   Wed Nov 17 16:25:36 2021 -0500
+
+    comments added with Javadoc tools plugin
+
+[33mcommit dd2505cc52d442fd2a9cf9d13e1a1b76549359b7[m
+Author: pdaniel102 <pdaniel@unicauca.edu.co>
+Date:   Wed Nov 17 16:12:25 2021 -0500
+
+    previous gitignore updated
+
+[33mcommit e3b378fcfca3c3f3d30bc14e6e35a8baaeb7cc02[m
+Merge: 70f6aa1 420db83
+Author: pdaniel102 <pdaniel@unicauca.edu.co>
+Date:   Wed Nov 17 16:09:22 2021 -0500
+
+    Merge branch 'PastasDaniel' of github.com:zahydo/labisii2021.2 into PastasDaniel
+
+[33mcommit 5d94e0d3ccb4cceca08702afae0f9ff2fcc361d7[m
+Author: Felipe Garcia <juanfelipegarciagil7@gmail.com>
+Date:   Wed Nov 17 16:02:43 2021 -0500
+
+    FelipeGarcia|AndresGarcia-Practica2: Taller polimorfismo
+
+[33mcommit 70f6aa12d2a70bbb5bfafabd3f13e6c58d02b1d2[m
+Author: pdaniel102 <pdaniel@unicauca.edu.co>
+Date:   Wed Nov 17 16:08:24 2021 -0500
+
+    2nd practice README updated
+
+[33mcommit 9226f9bf4d06f2cc3843812981cd51f749600ec4[m
+Author: Felipe Garcia <juanfelipegarciagil7@gmail.com>
+Date:   Wed Nov 17 16:07:19 2021 -0500
+
+    FelipeGarcia|AndresGarcia-Practica2: Taller polimorfismo
+
+[33mcommit 3ff36af028b87a6bd4c6035436dfa080140532a7[m
+Author: Tuldrum <90346628+Tuldrum@users.noreply.github.com>
+Date:   Wed Nov 17 16:01:21 2021 -0500
+
+    collazosperafan: inclusión de /PrincipiosSolid/README.md
+
+[33mcommit c62dced0223d149a3bb692ee6226aa9475725f2c[m
+Author: juleMay <jandresordonez@unicauca.edu.co>
+Date:   Wed Nov 17 15:56:21 2021 -0500
+
+    Tercer commit
+
+[33mcommit b4ed36979dcbf3284c7619643a9771a6fab0b546[m
+Author: dohimenezg <djimenezg@unicauca.edu.co>
+Date:   Wed Nov 17 15:53:24 2021 -0500
+
+    Se impelementa servicios
+
+[33mcommit a5a25c7999bf14c460e272e50be03e009116c71b[m
+Author: pdaniel102 <pdaniel@unicauca.edu.co>
+Date:   Wed Nov 17 15:45:23 2021 -0500
+
+    general README updated
+
+[33mcommit fe59b56913f45fa2c6325f5fc4985b04b4105f63[m
+Author: pdaniel102 <pdaniel@unicauca.edu.co>
+Date:   Wed Nov 17 15:44:38 2021 -0500
+
+    commit before push
+
+[33mcommit 673e40bad225e4899486a9eb47f72859f5cb71fb[m
+Author: Tuldrum <90346628+Tuldrum@users.noreply.github.com>
+Date:   Wed Nov 17 15:39:12 2021 -0500
+
+    collazosperafan_muñoz: documentación de código
+
+[33mcommit e3dae91551fdd06e7017fb6fcb30a08f3cd20879[m
+Author: dohimenezg <djimenezg@unicauca.edu.co>
+Date:   Wed Nov 17 15:36:17 2021 -0500
+
+    Se impelementa servivios
+
+[33mcommit ae08429cde8d87c3118f2eafb5dfcfa446246d20[m
+Author: pdaniel102 <pdaniel@unicauca.edu.co>
+Date:   Wed Nov 17 15:36:00 2021 -0500
+
+    db attached, test pass OK, still uncommented
+
+[33mcommit 00d2542026cb3d82ec65ec67d57153a737cab25d[m
+Merge: bd73995 c7f42e9
+Author: Tuldrum <90346628+Tuldrum@users.noreply.github.com>
+Date:   Wed Nov 17 15:02:26 2021 -0500
+
+    collazosperafan_muñoz: actualizacion
+
+[33mcommit f81eb560a645257d713706d2e1264cc5d5438464[m
+Author: juleMay <jandresordonez@unicauca.edu.co>
+Date:   Wed Nov 17 14:58:21 2021 -0500
+
+    Segundo commit
+
+[33mcommit bd739952278767592959f78795f25f3b92647760[m
+Author: Tuldrum <90346628+Tuldrum@users.noreply.github.com>
+Date:   Wed Nov 17 14:52:50 2021 -0500
+
+    collazosperafan_muñoz: actualizacion domain commit presentacion
+
+[33mcommit 6198109ee99c5e2ba7dbfffb46c0472aceef86d3[m
+Author: pdaniel102 <pdaniel@unicauca.edu.co>
+Date:   Wed Nov 17 13:04:57 2021 -0500
+
+    methods declared in access and domain classes, main cleared
+
+[33mcommit c7f42e9d3ca6c86907cff0d3f4babdaac7c5f7fe[m
+Author: UnSup_ <collazosdie@unicauca.edu.co>
+Date:   Wed Nov 17 13:03:56 2021 -0500
+
+    cosas
+
+[33mcommit 2d17239dcc5d190f9422325bf0f0e5670bc5b239[m
+Author: UnSup_ <collazosdie@unicauca.edu.co>
+Date:   Wed Nov 17 13:01:50 2021 -0500
+
+    main
+
+[33mcommit b5d99c69ad313a20f96a5aeeaecfa2ce4fffa975[m
+Author: UnSup_ <collazosdie@unicauca.edu.co>
+Date:   Wed Nov 17 12:53:10 2021 -0500
+
+    pull
+
+[33mcommit 1891ec7177b1f1aa9567873983e416da95828648[m
+Author: UnSup17 <66703550+UnSup17@users.noreply.github.com>
+Date:   Wed Nov 17 12:49:17 2021 -0500
+
+    Update CarParkingCost.java
+    
+    actualizacion
+
+[33mcommit 72a7fe651914b67e52f14628f28357f5f0f4b1ef[m
+Merge: 389b4fc 49ae800
+Author: Tuldrum <90346628+Tuldrum@users.noreply.github.com>
+Date:   Wed Nov 17 12:47:49 2021 -0500
+
+    collazosperafan_muñoz: actualizacion
+
+[33mcommit 389b4fcf0c03a2c2fbd8d2400f3794754c3b25b4[m
+Author: Tuldrum <90346628+Tuldrum@users.noreply.github.com>
+Date:   Wed Nov 17 12:44:38 2021 -0500
+
+    collazosperafan_muñoz: actualizacion
+
+[33mcommit 49ae8005f19ac53341d69a99d21d49ab9b65ceca[m
+Merge: 9f1b840 4c02db1
+Author: UnSup_ <collazosdie@unicauca.edu.co>
+Date:   Wed Nov 17 12:42:14 2021 -0500
+
+    cosas
+
+[33mcommit 291eb6d8196fedb45952bef385d15b4913c34644[m
+Author: pdaniel102 <pdaniel@unicauca.edu.co>
+Date:   Wed Nov 17 12:39:30 2021 -0500
+
+    Parking Cost interface methods implemented
+
+[33mcommit 9f1b840dadd1fa2dcd568c0b815f24df6ca10dd5[m
+Author: UnSup_ <collazosdie@unicauca.edu.co>
+Date:   Wed Nov 17 12:28:45 2021 -0500
+
+    AndresMunoz_DiegoCollazos-AB-Principios_Solid: services
+
+[33mcommit 4c02db107458db84e962543026ad291214c63fde[m
+Author: Tuldrum <90346628+Tuldrum@users.noreply.github.com>
+Date:   Wed Nov 17 12:20:56 2021 -0500
+
+    collazosperafan_muñoz: actualizacion en ../parkinglot/infra/Utilities.java
+
+[33mcommit 837d15ea6f55377d6aa8abe72faa391ad458d8ca[m
+Author: dohimenezg <djimenezg@unicauca.edu.co>
+Date:   Wed Nov 17 12:10:36 2021 -0500
+
+    Base
+
+[33mcommit f242d1a9c41fb5d0bb955723dca229fd7178a082[m
+Author: UnSup17 <66703550+UnSup17@users.noreply.github.com>
+Date:   Wed Nov 17 11:54:49 2021 -0500
+
+    Update MotoParkingCost.java
+    
+    correcion línea 19, costo -> cost
+
+[33mcommit aa63e5c93a4fa5073491af98604d01eab68eec76[m
+Author: UnSup_ <collazosdie@unicauca.edu.co>
+Date:   Wed Nov 17 11:52:02 2021 -0500
+
+    AndresMunoz_DiegoCollazos-AB-Principios_Solid: CarParkingCost, MotoParkingCost done
+
+[33mcommit e1b476a24934c71bd3a6be07e1fa2d3e985fc5f1[m
+Author: Tuldrum <90346628+Tuldrum@users.noreply.github.com>
+Date:   Wed Nov 17 11:47:19 2021 -0500
+
+    collazosperafan_muñoz: actualizacion calculo costos
+
+[33mcommit aa858ffde08d15cfb67aeb1d3c76fa25fa895b51[m
+Author: UnSup_ <collazosdie@unicauca.edu.co>
+Date:   Wed Nov 17 11:47:13 2021 -0500
+
+    The behavior change would not be obvious on a quick review of the code; you’d need to read the (sparse)
+
+[33mcommit cf68187effcffdb6c38088e574c2b8abfea07b65[m
+Author: UnSup_ <collazosdie@unicauca.edu.co>
+Date:   Wed Nov 17 11:00:05 2021 -0500
+
+    collazos_munoz: compila
+
+[33mcommit 96712c3f19e22d163c44594689d2336780075aa0[m
+Author: UnSup_ <collazosdie@unicauca.edu.co>
+Date:   Wed Nov 17 10:32:27 2021 -0500
+
+    AndresMunoz_DiegoCollazos-AB-Principios_Solid: dirs done
+
+[33mcommit 6cf30634c80743f2a1cfd429da1bd58a7721eb81[m
+Author: UnSup_ <collazosdie@unicauca.edu.co>
+Date:   Wed Nov 17 10:22:45 2021 -0500
+
+    AndresMunoz_DiegoCollazos-AB-Principios_Solid: presentacion done
+
+[33mcommit 9511a4a478931d6016d1fb9c5298ad3d07890802[m
+Author: Tuldrum <90346628+Tuldrum@users.noreply.github.com>
+Date:   Wed Nov 17 10:20:42 2021 -0500
+
+    collazos_muñoz: actualizacion domain
+
+[33mcommit b092eae738f6310d04fd0490170fd9ac8dbe418c[m
+Author: UnSup_ <collazosdie@unicauca.edu.co>
+Date:   Wed Nov 17 10:01:25 2021 -0500
+
+    AndresMunoz_DiegoCollazos-AB-Principios_Solid: access, service done
+
+[33mcommit 3dcdb5fd363fcbfbf94d0492730729ab6c426c31[m
+Author: climacot <fermt111@gmail.com>
+Date:   Wed Nov 17 09:44:33 2021 -0500
+
+    CLIMACOT-CRISTIANCAST-A-PARKINGLOT
+
+[33mcommit f31164b38c511a5be899af0ab99a549eb8fd6e3b[m
+Author: dohimenezg <djimenezg@unicauca.edu.co>
+Date:   Wed Nov 17 09:24:01 2021 -0500
+
+    Se agregan primeras funcionalidades
+
+[33mcommit e2bb7b96739a30dbbe51d5018ce36fd457477159[m
+Author: ArtoroMax <arturitohurtadomurillo@gmail.com>
+Date:   Wed Nov 17 09:13:47 2021 -0500
+
+    Arturo-GrupoA-Hurtado-Garces_Practica2:PracticaLab2
+
+[33mcommit c3788e8a22d47ae0f651cf4c6f2202ea2dcf5748[m
+Author: juleMay <jandresordonez@unicauca.edu.co>
+Date:   Wed Nov 17 08:50:34 2021 -0500
+
+    Estructura del proyecto de segunda práctica
+
+[33mcommit 48c68c2483818afc7b699e4cd9c918bd12c6dedd[m
+Author: juleMay <jandresordonez@unicauca.edu.co>
+Date:   Wed Nov 17 08:49:17 2021 -0500
+
+    Estructura del proyecto de segunda práctica
+
+[33mcommit af5ff4f457a5ee31ed40e32e5a0cd0ddd506bb7d[m
+Author: juleMay <jandresordonez@unicauca.edu.co>
+Date:   Wed Nov 17 08:23:55 2021 -0500
+
+    Estructura de proyecto de segunda práctica
+
+[33mcommit bab70add2bfbc08777fcbf8637eb5add4998665f[m
+Author: pdaniel102 <pdaniel@unicauca.edu.co>
+Date:   Wed Nov 17 08:23:53 2021 -0500
+
+    2nd practice: folder structure created, git ignore added
+
+[33mcommit d8e6a4e455da931deda2405cf00c780817902eef[m
+Author: UnSup_ <collazosdie@unicauca.edu.co>
+Date:   Wed Nov 17 08:02:14 2021 -0500
+
+    AndresMunoz_DiegoCollazos-AB-Principios_Solid: creacion proyecto
+
+[33mcommit d3701660baf88f542d8180e545ec9f1b5690c548[m
+Author: juleMay <jandresordonez@unicauca.edu.co>
+Date:   Wed Nov 17 07:56:55 2021 -0500
+
+    Esquema para practica dos
+
+[33mcommit 0ea09772abc6e7b5244993b6531c6dae0c76ed2f[m
+Author: pdaniel102 <pdaniel@unicauca.edu.co>
+Date:   Wed Nov 17 07:56:43 2021 -0500
+
+    backup commit before 2nd practice
+
+[33mcommit c270e15127afea44d4a7a9631c860c4cf99c2b62[m
+Author: dohimenezg <djimenezg@unicauca.edu.co>
+Date:   Wed Nov 17 07:36:13 2021 -0500
+
+    Esquema para practica dos
+
+[33mcommit 8c98acc010ff9926219ac781df87c4bcf93acd28[m
+Merge: 2cb152d b884ab6
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Mon Nov 8 10:03:23 2021 -0500
+
+    Merge pull request #49 from zahydo/juansanchez_B
+    
+    nueva rama correccion
+
+[33mcommit b884ab64facb1adf5e219767cd7054ecfecd3e95[m
+Author: ssbastian <tatan873@gmail.com>
+Date:   Mon Nov 8 09:48:39 2021 -0500
+
+    nueva rama correccion
+
+[33mcommit 2cb152d2ad3f191bd72ad1df22e75cb29bbfef7d[m
+Merge: e728de9 e997595
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Sun Nov 7 19:25:43 2021 -0500
+
+    Merge pull request #6 from zahydo/JOSE_GALINDEZ
+    
+    JOSE_GALINDEZ|GRUPO: Practica 1 polimorfismo
+
+[33mcommit e728de9a81447f816456d5c30410cdb72e6e7ddb[m
+Merge: 0a53763 41f7427
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Sun Nov 7 19:23:39 2021 -0500
+
+    Merge pull request #13 from zahydo/YaquelinGomez
+    
+    YaquelinGomez: Practica 1 final
+
+[33mcommit 0a537630150a9c61c1c69a09abb9155d7faec8bc[m
+Merge: 9d407fd c1520f5
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Sun Nov 7 19:22:33 2021 -0500
+
+    Merge pull request #14 from zahydo/Diego_Collazos-Eliana_Cerquera-Polimorfismo
+    
+    Diego collazos eliana cerquera polimorfismo
+
+[33mcommit 9d407fd2d0e543365b495fe7b42d9a6a15eb0f2c[m
+Merge: 3d05868 f2eec05
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Sun Nov 7 19:21:35 2021 -0500
+
+    Merge pull request #27 from zahydo/ArtoroMax-patch-1
+    
+    Practica 1 full
+
+[33mcommit 3d05868fcf8c9cbbde08602186581a6168b2a2c9[m
+Merge: 63b6d82 fc4a83b
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Sun Nov 7 19:19:21 2021 -0500
+
+    Merge pull request #28 from zahydo/sebcollazos_B_polimorfismo
+    
+    primera practica
+
+[33mcommit 63b6d82698a4aec1c92bb7a6a45187e4263a18de[m
+Merge: 8224c47 f0f27fe
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Sun Nov 7 19:15:10 2021 -0500
+
+    Merge pull request #29 from zahydo/CLIMACOT-CRISTIANCAST-A-POLIMORFISMO
+    
+    CLIMACOT-CRISTIANCAST-A-POLIMORFISMO: Desarrollo de la practica
+
+[33mcommit 8224c47899a21bd03c3e40e33b223376ff36d4bf[m
+Merge: 99aa807 a60e850
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Sun Nov 7 19:14:00 2021 -0500
+
+    Merge pull request #32 from zahydo/Andres_Zapata_Polimorfismo
+    
+    AndresZapata-Polimorfismo: first commit on branch Andres_Zapata_Polimorfismo
+
+[33mcommit 99aa807369548bc707ff17beabe469b815e6c3ae[m
+Merge: 1f528f3 ac8d862
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Sun Nov 7 19:11:04 2021 -0500
+
+    Merge pull request #37 from edwinREJ/EdwinEspinosaJ
+    
+    Entrega
+
+[33mcommit 1f528f309516e6257ea757b2f6cf5f25ed62eaa3[m
+Merge: da12ce0 aaecb2a
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Sun Nov 7 19:08:16 2021 -0500
+
+    Merge pull request #41 from zahydo/JuanAndresSalazar_LauraRengifo_POLIMORFISMO
+    
+    Entrega
+
+[33mcommit da12ce0b5b1911c10cabf259966451a976211160[m
+Merge: 0ebe66b 45d6f5c
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Sun Nov 7 19:05:33 2021 -0500
+
+    Merge pull request #42 from zahydo/HectorDoradoGrupoB-Polimorfismo
+    
+    HectorDoradoGrupoB-Polimorfismo
+
+[33mcommit 0ebe66b208728450b5ec552e293969299e7b38c2[m
+Merge: 208ef62 19fcdc4
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Sun Nov 7 19:01:22 2021 -0500
+
+    Merge pull request #45 from zahydo/DanielCeron-B-JuanRuiz-fix_ups
+    
+    ceron_ruiz:folders names fixed
+
+[33mcommit 208ef62a93ef54820b17d201d4530598981aa3c9[m
+Merge: c0796cc bbe3e7a
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Sun Nov 7 18:59:19 2021 -0500
+
+    Merge pull request #46 from zahydo/Jnino_Jabella
+    
+    Jnino_Jabella: Practica_1 sobre Polimorfismo y primer trabajo subido utilizando comandos git
+
+[33mcommit c0796cc71e3b2149f7c5e04291585fbd06650e89[m
+Merge: c751b04 55a0d91
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Sun Nov 7 18:58:13 2021 -0500
+
+    Merge pull request #47 from zahydo/zapata
+    
+    zapata: entrega primera practica polimorfismo utilizando maven.
+
+[33mcommit c751b047baeee9b780b539db8d8173ac0aa4ae90[m
+Merge: ca5411f 72518e2
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Sun Nov 7 18:55:17 2021 -0500
+
+    Merge pull request #48 from zahydo/Antonio
+    
+    Antonio
+
+[33mcommit 41f7427f29fdf233a9c8a5c27a752ce44da779a2[m
+Author: YaquelinG <yaquelineagp@unicauca.edu.co>
+Date:   Fri Nov 5 21:48:16 2021 -0500
+
+    YaquelinGomez: Correcion README
+
+[33mcommit 72518e2b4ac346a1c8215a62d4dd604b820658b3[m
+Author: Antonio Estrada <antonioestrada@unicauca.edu.co>
+Date:   Fri Nov 5 21:12:59 2021 -0500
+
+    Antonio: Correccíon practica 1 polimorfismo
+
+[33mcommit 55a0d9130f65752f2ed4337d6ee3d6190c035b97[m[33m ([m[1;31morigin/zapata[m[33m)[m
+Author: acrip <jazapata@unicauca.edu.co>
+Date:   Fri Nov 5 20:45:36 2021 -0500
+
+    zapata: Entrega primera practica polimorfismo utilizando maven
+
+[33mcommit bbe3e7a8b831cab14e104481149cc93f8566d352[m
+Author: “[jabella1]” <“[juanfernandoam@hotmail.com]”>
+Date:   Fri Nov 5 20:39:58 2021 -0500
+
+    Jnino_Jabella: Practica_1 sobre Polimorfismo y primer trabajo subido por comandos git
+
+[33mcommit 19fcdc47fa7ddb8737349846bce0e6058bbc140a[m
+Author: Angie Carolina Gómez <67878771+angiecgomez@users.noreply.github.com>
+Date:   Fri Nov 5 19:54:49 2021 -0500
+
+    gomez_martinez: README updated
+
+[33mcommit aead7fd5ef4f710e3f5bb731c5e6f896165af0f0[m
+Author: YaquelinG <yaquelineagp@unicauca.edu.co>
+Date:   Fri Nov 5 18:58:22 2021 -0500
+
+    Yaquelin Gomez: Add README
+
+[33mcommit 101cde5ebb8901b726904b56a3191080e3e77b72[m
+Author: Daniel Cerón <62627348+DanielCeron-dc@users.noreply.github.com>
+Date:   Fri Nov 5 17:56:44 2021 -0500
+
+    folders names fixed
+
+[33mcommit c1520f51217736fc9e52fb0e65ce32d9765ed458[m[33m ([m[1;31morigin/Diego_Collazos-Eliana_Cerquera-Polimorfismo[m[33m)[m
+Author: UnSup_ <collazosdie@unicauca.edu.co>
+Date:   Fri Nov 5 17:08:52 2021 -0500
+
+    Diego-Eliana-Polimorfismo: Actualizacion de readme
+
+[33mcommit d950fb54dfdb70a642d65165e16c05cf10e135ec[m
+Author: Antonio Estrada <antonioestrada@unicauca.edu.co>
+Date:   Fri Nov 5 17:03:51 2021 -0500
+
+    Antonio: Practica 1 polimorfismo
+
+[33mcommit 3c31eaeb5283bfc55dc29ad1865758036181f78c[m
+Author: YaquelinG <yaquelineagp@unicauca.edu.co>
+Date:   Sun Oct 31 20:08:43 2021 -0500
+
+    YaquelinGomez: Practica 1 final
+
+[33mcommit f9b093f581d5898acdc53a73d19436e7476828dc[m
+Merge: 57c7e47 ca5411f
+Author: UnSup_ <collazosdie@unicauca.edu.co>
+Date:   Fri Nov 5 16:37:54 2021 -0500
+
+    Merge branch 'main' of https://github.com/zahydo/labisii2021.2 into Diego_Collazos-Eliana_Cerquera-Polimorfismo
+
+[33mcommit 45d6f5cdbb7ce82c4621dcdf6f9f5d8306438793[m
+Author: fernandorado <79128983+fernandorado@users.noreply.github.com>
+Date:   Thu Nov 4 20:23:06 2021 -0500
+
+    Modificación README
+    
+    Editando README.
+    Equivocación en el anterior commit escribiendo por error "Medicación".
+
+[33mcommit 5e86dd49a3f921760b65ff8f32cbf3abf65bbb33[m
+Author: fernandorado <79128983+fernandorado@users.noreply.github.com>
+Date:   Thu Nov 4 20:14:52 2021 -0500
+
+    Medicación README
+    
+    Editando el README
+
+[33mcommit 62cef32dda6ced614309977be01b409aee39c3a8[m
+Author: fernandorado <hfdorado@unicauca.edu.co>
+Date:   Thu Nov 4 20:04:23 2021 -0500
+
+    HectorDoradoGrupoB-Polimorfismo: Incluyendo primera practica sobre polimorfismo y maven
+
+[33mcommit aaecb2a25934a5a78e313ba5bb198c52cb40aa6a[m[33m ([m[1;31morigin/JuanAndresSalazar_LauraRengifo_POLIMORFISMO[m[33m)[m
+Author: Juan Andres <sjuanandres94@gmail.com>
+Date:   Thu Nov 4 19:58:20 2021 -0500
+
+    Entrega
+
+[33mcommit f0f27feadcd25aabf10e462ba07d2e1c75f1900d[m
+Author: climacot <fermt111@gmail.com>
+Date:   Thu Nov 4 19:40:15 2021 -0500
+
+    CLIMACOT-CRISTIANCAST-A-POLIMORFISMO: Actualizado readme.md
+
+[33mcommit ca5411f3270fa307df4a16ae218a4e6113591a83[m
+Merge: 6f14f45 e9d27c0
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Thu Nov 4 15:31:10 2021 -0500
+
+    Merge pull request #39 from zahydo/diaz
+    
+    Diaz
+
+[33mcommit 6f14f458836cf8fd347536dfc8dd1a64c411c2e6[m
+Merge: d0cdacc 9b52822
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Thu Nov 4 15:29:53 2021 -0500
+
+    Merge pull request #35 from zahydo/Montes_Muñoz
+    
+    Montes muñoz
+
+[33mcommit e9d27c0d1972d70f7bd64e214cfc39f3eb4826d6[m[33m ([m[1;31morigin/diaz[m[33m)[m
+Author: Anderson Diaz <andersondiaz@unicauca.edu.co>
+Date:   Thu Nov 4 15:25:13 2021 -0500
+
+    Restableciendo archivos
+
+[33mcommit 9b528226413590840f2aef6edd0c23dbee93be63[m[33m ([m[1;31morigin/Montes_Muñoz[m[33m)[m
+Author: Tuldrum <90346628+Tuldrum@users.noreply.github.com>
+Date:   Thu Nov 4 15:21:17 2021 -0500
+
+    montes_muñoz: Adición del README.md
+
+[33mcommit cf6246413dc98fc97c682448e569af0f3633a900[m
+Author: Anderson Diaz <andersondiaz@unicauca.edu.co>
+Date:   Thu Nov 4 13:52:40 2021 -0500
+
+    andersondiaz:actualizacion en maven
+
+[33mcommit 86a85c2a49bfc037388f82f360312e2811803329[m
+Author: Anderson Diaz <andersondiaz@unicauca.edu.co>
+Date:   Mon Nov 1 17:11:36 2021 -0500
+
+    andersondiaz: Practica Polimorfismo
+
+[33mcommit 5f42e5f73ba4faf443b7bb6e5e9f737b084952c9[m
+Merge: ca1ed95 25ca4ce
+Author: Tuldrum <90346628+Tuldrum@users.noreply.github.com>
+Date:   Thu Nov 4 15:19:26 2021 -0500
+
+    Merge branch 'Montes_Muñoz' of https://github.com/zahydo/labisii2021.2 into Montes_Muñoz
+
+[33mcommit ca1ed95aebc3c1ed1c553dffc480b9013ca363f1[m
+Author: Tuldrum <90346628+Tuldrum@users.noreply.github.com>
+Date:   Thu Nov 4 15:16:27 2021 -0500
+
+    montes_muñoz: adición de README.md
+
+[33mcommit b000b5d395fe2130589c3e073470e68ae30d3841[m
+Author: Tuldrum <90346628+Tuldrum@users.noreply.github.com>
+Date:   Thu Nov 4 14:55:59 2021 -0500
+
+    montes_muñoz: actualizacion de la carpeta
+
+[33mcommit dfb08ac40ab5805fe85c635d61dd1e49378e2587[m
+Author: Tuldrum <90346628+Tuldrum@users.noreply.github.com>
+Date:   Thu Nov 4 14:41:07 2021 -0500
+
+    montes_muñoz: actualización de montes_muñoz/README.md
+
+[33mcommit 8c4e34a6683a27d44f1ce6759357ae7edc2b2a5e[m
+Author: Andrés David Muñoz Cerón <90346628+Tuldrum@users.noreply.github.com>
+Date:   Thu Nov 4 14:36:21 2021 -0500
+
+    Update README.md
+
+[33mcommit 43374c32346fd887a96031404eb08dad2e595fb7[m
+Author: Andrés David Muñoz Cerón <90346628+Tuldrum@users.noreply.github.com>
+Date:   Thu Nov 4 14:35:53 2021 -0500
+
+    Update README.md
+
+[33mcommit 64628f3df31ac1b406c1cbbbf7ffe9f2d3eeaef0[m
+Author: Tuldrum <90346628+Tuldrum@users.noreply.github.com>
+Date:   Thu Nov 4 14:34:14 2021 -0500
+
+    montes_muñoz: reorganización de la rama
+
+[33mcommit 3cc0b4988b99ae70c4b0f42273079665d79f1d6e[m
+Author: Tuldrum <90346628+Tuldrum@users.noreply.github.com>
+Date:   Wed Nov 3 21:37:03 2021 -0500
+
+    Montes_Muñoz: Actualización de Practica1/README.md
+
+[33mcommit 3ecbafb116f3fe204c5d55e1befee9252ddf4a2d[m
+Author: Tuldrum <90346628+Tuldrum@users.noreply.github.com>
+Date:   Wed Nov 3 21:33:27 2021 -0500
+
+    Montes_Muñoz: Actualización de READMEs
+
+[33mcommit de4b7192dd01d620dfd196c5c4663709f2bf086a[m
+Author: Tuldrum <90346628+Tuldrum@users.noreply.github.com>
+Date:   Wed Nov 3 14:30:28 2021 -0500
+
+    JonatanMontes_AndresMuñoz: Modificación maven, Practica Poliformismo
+
+[33mcommit cb27790c77cbd257f5312ac3ff0f88723238e160[m
+Author: Andrés David Muñoz Cerón <90346628+Tuldrum@users.noreply.github.com>
+Date:   Wed Nov 3 14:18:02 2021 -0500
+
+    Update README.txt
+
+[33mcommit b7875e0ac1e2baceb792dd320c686a50ee258836[m
+Author: jonatanmf11 <jonatanmf11@gmail.com>
+Date:   Wed Oct 27 16:41:01 2021 -0500
+
+    JonatanMontes_AndresMuñoz: Primera entrega.
+
+[33mcommit 87d6c44db5347bd8de0712c52c596bab166d7d07[m
+Author: Tuldrum <90346628+Tuldrum@users.noreply.github.com>
+Date:   Wed Oct 27 16:12:43 2021 -0500
+
+    JonatanMontes_AndresMuñoz: Primera entrega
+
+[33mcommit 6dad87a0f549588b5fb49c83f960bf6e0774890b[m
+Author: Tuldrum <90346628+Tuldrum@users.noreply.github.com>
+Date:   Wed Oct 27 16:03:07 2021 -0500
+
+    JonatanMontes_AndresMuñoz: PrimeraEntrega
+
+[33mcommit 25ca4ce8a1f766d7bd77479b874618b5f28b705a[m
+Author: Tuldrum <90346628+Tuldrum@users.noreply.github.com>
+Date:   Thu Nov 4 14:55:59 2021 -0500
+
+    montes_muñoz: actualizacion de la carpeta
+
+[33mcommit 5c401079822639bd9708e518f30fc55f25e1aeb8[m
+Merge: d4506cb d0cdacc
+Author: Tuldrum <90346628+Tuldrum@users.noreply.github.com>
+Date:   Thu Nov 4 14:49:55 2021 -0500
+
+    Merge branch 'main' of https://github.com/zahydo/labisii2021.2 into Montes_Muñoz
+
+[33mcommit d4506cb129a1b40b3402f5320adf62ba3d2fe8f5[m
+Author: Tuldrum <90346628+Tuldrum@users.noreply.github.com>
+Date:   Thu Nov 4 14:41:07 2021 -0500
+
+    montes_muñoz: actualización de montes_muñoz/README.md
+
+[33mcommit b356c2e39ae41746381d620698b4d00ec01c1144[m
+Author: Andrés David Muñoz Cerón <90346628+Tuldrum@users.noreply.github.com>
+Date:   Thu Nov 4 14:36:21 2021 -0500
+
+    Update README.md
+
+[33mcommit 7a59cd602661515dfdbe7d6edb22656b2265336b[m
+Author: Andrés David Muñoz Cerón <90346628+Tuldrum@users.noreply.github.com>
+Date:   Thu Nov 4 14:35:53 2021 -0500
+
+    Update README.md
+
+[33mcommit 162bb21591d7cd2effb15921ed810f74a60c7d57[m
+Author: Tuldrum <90346628+Tuldrum@users.noreply.github.com>
+Date:   Thu Nov 4 14:34:14 2021 -0500
+
+    montes_muñoz: reorganización de la rama
+
+[33mcommit d0cdaccd5a5985d3e90065e5e159a768bb22389e[m
+Merge: 27d13f4 e5c3c57
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Thu Nov 4 12:08:23 2021 -0500
+
+    Merge pull request #23 from zahydo/FelipeGarcia_AndresGarcia-Polimorfismo
+    
+    Felipe garcia andres garcia polimorfismo
+
+[33mcommit e5c3c57afb313e92488208038b245dbb142c2bd3[m
+Author: andresgarcia99 <93263588+andresgarcia99@users.noreply.github.com>
+Date:   Thu Nov 4 12:04:04 2021 -0500
+
+    add readme instructions
+
+[33mcommit ac8d862d62886be531bae6235409e1641afd6b4c[m
+Author: edwinREJ <67400332+edwinREJ@users.noreply.github.com>
+Date:   Thu Nov 4 12:02:33 2021 -0500
+
+    edwin
+
+[33mcommit 27d13f4f88338d6f6a41825cafcc9f42c282f275[m
+Merge: db86aa9 08ff1c1
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Thu Nov 4 10:41:23 2021 -0500
+
+    Merge pull request #21 from kevindm9/Morales_Cruz_kevin
+    
+    Morales cruz kevin
+
+[33mcommit 08ff1c1edcf9e71ddc64245bb81b6d2a4c818d0b[m
+Author: kevindm9 <74603789+kevindm9@users.noreply.github.com>
+Date:   Thu Nov 4 10:38:50 2021 -0500
+
+    Entrega Listo
+
+[33mcommit db86aa9df20af7f41db18f555c741db82e10478f[m
+Merge: fc8dfac aa12ccf
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Thu Nov 4 10:06:45 2021 -0500
+
+    Merge pull request #20 from zahydo/DavidCollazos
+    
+    David collazos
+
+[33mcommit aa12ccfce4d459d1a6608737fc92fb159daa04a5[m
+Merge: a6b347c fc8dfac
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Thu Nov 4 10:06:35 2021 -0500
+
+    Merge branch 'main' into DavidCollazos
+
+[33mcommit fc8dfaca0f82eb8e5c9d62d6bf4a1dcc11733b95[m
+Merge: d4f9c47 7630654
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Thu Nov 4 09:26:34 2021 -0500
+
+    Merge pull request #36 from zahydo/DavidMarinGrupoB-Polimorfismo
+    
+    DavidMarinGrupoB-Polimorfismo
+
+[33mcommit 7630654a281eeb4155e58fbd482c88956f4dcc85[m
+Author: fdavidmarin <fabianxd0496@unicauca.edu.co>
+Date:   Thu Nov 4 08:05:21 2021 -0500
+
+    DavidMarinGrupoB-Polimorfismo: Taller polimorfismo, ejecucion por CID con maven, documentacion
+
+[33mcommit a6b347caac946b1a358da584505b8421edbebae3[m
+Author: Dacoes <dacoes@unicauca.edu.co>
+Date:   Wed Nov 3 22:58:40 2021 -0500
+
+    DavidCollazos:Entrega laboratorio_1, ya terminado con lo planteado en la ultima clase (Maven)
+
+[33mcommit 7fe5ac56da31792341cd7a4dfa06d3c3eddba2ae[m
+Author: Tuldrum <90346628+Tuldrum@users.noreply.github.com>
+Date:   Wed Nov 3 21:37:03 2021 -0500
+
+    Montes_Muñoz: Actualización de Practica1/README.md
+
+[33mcommit e9c371ed2c7b6af53155660b35525feabbe98882[m
+Author: Tuldrum <90346628+Tuldrum@users.noreply.github.com>
+Date:   Wed Nov 3 21:33:27 2021 -0500
+
+    Montes_Muñoz: Actualización de READMEs
+
+[33mcommit d4f9c476ac94f3843cbd7b66e1dfbb495f915626[m
+Merge: 0e21762 c9f75cf
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Wed Nov 3 18:31:41 2021 -0500
+
+    Merge pull request #5 from zahydo/martinez_peña
+    
+    martinez_peña: Laboratorio 1 Polimorfismo
+
+[33mcommit c9f75cfc9d88a4f82ee03fbf2ced3945f9b9e631[m
+Author: JulianSanti28 <juliansmartinez@unicauca.edu.co>
+Date:   Wed Nov 3 18:01:33 2021 -0500
+
+    martinez_peña: update README
+
+[33mcommit bcd40da72172df23270f8e7035904a02b3489f0d[m
+Author: JulianSanti28 <juliansmartinez@unicauca.edu.co>
+Date:   Wed Nov 3 17:41:06 2021 -0500
+
+    martinez_peña: add README in project folder
+
+[33mcommit 6095285627e59264acf50166b6eea656b01c8c37[m
+Author: Tuldrum <90346628+Tuldrum@users.noreply.github.com>
+Date:   Wed Nov 3 14:30:28 2021 -0500
+
+    JonatanMontes_AndresMuñoz: Modificación maven, Practica Poliformismo
+
+[33mcommit edfa8a6c323fd2a133e4f80e88cf4fe29b3e43cb[m
+Author: Andrés David Muñoz Cerón <90346628+Tuldrum@users.noreply.github.com>
+Date:   Wed Nov 3 14:18:02 2021 -0500
+
+    Update README.txt
+
+[33mcommit a60e850479be33332feccc336cbdcc3f504a22e6[m[33m ([m[1;31morigin/Andres_Zapata_Polimorfismo[m[33m)[m
+Author: acrip <jazapata@unicauca.edu.co>
+Date:   Wed Nov 3 09:23:54 2021 -0500
+
+    AndresZapata-Polimorfismo: first commit on branch Andres_Zapata_Polimorfismo. Se agrega la primera practica y se actualiza el archivo readme
+
+[33mcommit 0e2176296b3e00731bf6c5af86f4791b42be66dd[m
+Merge: 470a303 effd454
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Wed Nov 3 09:02:40 2021 -0500
+
+    Merge pull request #2 from zahydo/MiguelMosquera_SebastianArenas
+    
+    Entrega Practica 1 | Mosquera y Arenas
+
+[33mcommit 470a3037c3efd29d0e20aa2b11bec9f6f241060d[m
+Merge: a40f9cf ba34769
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Wed Nov 3 08:57:11 2021 -0500
+
+    Merge pull request #25 from zahydo/JIMENEZ_ORDONEZ-POLIMORFISMO
+    
+    Jimenez Ordonez: Polimorfismo
+
+[33mcommit a40f9cf1065fd8a0261468ea3e8f8cca1f365228[m
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Wed Nov 3 08:12:30 2021 -0500
+
+    Update .gitignore
+
+[33mcommit 9a1b2552420817088e46e80c9d5c3047b1610afd[m
+Merge: f16b229 aeea2db
+Author: David Jiménez Garzón <93263400+dohimenezg@users.noreply.github.com>
+Date:   Wed Nov 3 08:06:25 2021 -0500
+
+    Merge pull request #30 from zahydo/config/gitignore
+    
+    config/gitignore: updating .gitignore to include java files
+
+[33mcommit aeea2db3524ddd778cb63c6e5c427c075a11fe84[m[33m ([m[1;31morigin/config/gitignore[m[33m)[m
+Author: Santiago Hyun <santiago.hyun@inxeption.com>
+Date:   Wed Nov 3 07:52:55 2021 -0500
+
+    Conflictos solucionados para: config/gitignore: updating .gitignore to include java files
+
+[33mcommit f16b229bcb8d41d88f1a582b72dc26695bc3aa19[m
+Author: Santiago Hyun <santiago.hyun@inxeption.com>
+Date:   Wed Nov 3 07:56:39 2021 -0500
+
+    se actualiza el gitignore
+
+[33mcommit fc4a83b74d7aad754f5d49712adbccfc59a72e87[m[33m ([m[1;31morigin/sebcollazos_B_polimorfismo[m[33m)[m
+Author: secoveGordo <sebcollazos@unicauca.edu.co>
+Date:   Tue Nov 2 23:09:53 2021 -0500
+
+    primera practica
+
+[33mcommit 9d668e91f80e31f5e808358d2c140cd850b35333[m
+Author: kevindm9 <74603789+kevindm9@users.noreply.github.com>
+Date:   Tue Nov 2 22:46:56 2021 -0500
+
+    readme
+
+[33mcommit f2eec05dc8b3943bd14f53d811f63fb1c0736abc[m
+Author: ArtoroMax <62391728+ArtoroMax@users.noreply.github.com>
+Date:   Tue Nov 2 21:31:09 2021 -0600
+
+    Add files via upload
+
+[33mcommit ca5dfe0032e2cedac94fdf6a1b9a6bac2cb42519[m
+Merge: cbb8b5e 83ddf4b
+Author: kevindm9 <74603789+kevindm9@users.noreply.github.com>
+Date:   Tue Nov 2 22:06:53 2021 -0500
+
+    Merge remote-tracking branch 'upstream/Morales_Cruz_kevin' into Morales_Cruz_kevin
+
+[33mcommit ba34769dbe6a649c41ca5c469a61f77831f2e9c8[m[33m ([m[1;31morigin/JIMENEZ_ORDONEZ-POLIMORFISMO[m[33m)[m
+Author: dohimenezg <djimenezg@unicauca.edu.co>
+Date:   Tue Nov 2 21:31:50 2021 -0500
+
+    Corrección de errores
+
+[33mcommit 83ddf4b24e8e513fbe9cafabd8c371f144e07c5b[m[33m ([m[1;31morigin/Morales_Cruz_kevin[m[33m)[m
+Author: Santiago Hyun <santiago.hyun@inxeption.com>
+Date:   Tue Nov 2 20:56:50 2021 -0500
+
+    .DS_Store banished!
+
+[33mcommit df049c173458576903da93f0b0b4c61ff4650582[m
+Merge: 8a67ff5 0cd817d
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Tue Nov 2 20:48:03 2021 -0500
+
+    Merge pull request #24 from zahydo/AngieGomez|B|FernandaMartinez_Polimorfismo
+    
+    AngieGomez|B|FernandaMartinez_Polimorfismo
+
+[33mcommit 0cd817d3fcdefc73d5bf1d6512864cfe734f9eba[m
+Author: Angie Carolina Gómez <67878771+angiecgomez@users.noreply.github.com>
+Date:   Tue Nov 2 19:52:44 2021 -0500
+
+    Delete .DS_Store
+
+[33mcommit 16f7e14f1efcaa31c133f427084da2f370795fce[m
+Author: Angie Carolina Gómez <67878771+angiecgomez@users.noreply.github.com>
+Date:   Tue Nov 2 19:51:16 2021 -0500
+
+    Delete .DS_Store
+
+[33mcommit 4d98ab189175010d28ee904531909086530230c3[m
+Author: Angie Carolina Gómez <67878771+angiecgomez@users.noreply.github.com>
+Date:   Tue Nov 2 19:51:08 2021 -0500
+
+    Delete .DS_Store
+
+[33mcommit 5169c043f52fa4410a6b1ee171e5c04ca8facb5a[m
+Author: Angie Carolina Gómez <67878771+angiecgomez@users.noreply.github.com>
+Date:   Tue Nov 2 19:50:58 2021 -0500
+
+    Delete .DS_Store
+
+[33mcommit 072fdb48a74a2e98cc03937cd9c0a4ad70eac9ff[m
+Author: Angie Carolina Gómez <67878771+angiecgomez@users.noreply.github.com>
+Date:   Tue Nov 2 19:36:06 2021 -0500
+
+    Delete .DS_Store
+
+[33mcommit 3b37401ce071b60148369a81ed669738eda76b4e[m
+Author: Angie Carolina Gómez <67878771+angiecgomez@users.noreply.github.com>
+Date:   Tue Nov 2 19:35:58 2021 -0500
+
+    Delete .DS_Store
+
+[33mcommit adca5a1b86d9f4c8845f34b3f6fb20673bf45001[m
+Author: Angie Carolina Gómez <67878771+angiecgomez@users.noreply.github.com>
+Date:   Tue Nov 2 19:35:44 2021 -0500
+
+    Delete .DS_Store
+
+[33mcommit b4b4377167badbb41ff38946a0e135f792a14178[m
+Author: Angie Carolina Gómez <67878771+angiecgomez@users.noreply.github.com>
+Date:   Tue Nov 2 19:30:54 2021 -0500
+
+    Delete .DS_Store
+
+[33mcommit 638115bd13f9a67dc57b2d56f0d82e2d882091c3[m
+Author: Angie Carolina Gómez <67878771+angiecgomez@users.noreply.github.com>
+Date:   Tue Nov 2 19:30:46 2021 -0500
+
+    Delete .DS_Store
+
+[33mcommit 087fca67162c94a4791e1f96e7b83cee3ec327ee[m
+Author: Angie Carolina Gómez <67878771+angiecgomez@users.noreply.github.com>
+Date:   Tue Nov 2 19:30:37 2021 -0500
+
+    Delete .DS_Store
+
+[33mcommit e071fa821363a38acac66a47770c3fc60ebcd7ec[m
+Author: Angie Carolina Gómez <67878771+angiecgomez@users.noreply.github.com>
+Date:   Tue Nov 2 19:30:21 2021 -0500
+
+    Delete .DS_Store
+
+[33mcommit e130f4b8eb6a3c0b60f03e3a11230b684cce5646[m
+Author: Angie Carolina Gómez <67878771+angiecgomez@users.noreply.github.com>
+Date:   Tue Nov 2 17:40:50 2021 -0500
+
+    AngieGomez|B|FernandaMartinez_Polimorfismo: project name changed
+
+[33mcommit 89b75b0f0f3aebb02961c924df24cee3c5312e67[m
+Author: Angie Carolina Gómez <67878771+angiecgomez@users.noreply.github.com>
+Date:   Tue Nov 2 17:08:57 2021 -0500
+
+    AngieGomez|B|FernandaMartinez_Polimorfismo: description added
+
+[33mcommit c517599522e086ba42dfa0b80e40c4238a950a5f[m
+Author: Angie Carolina Gómez <67878771+angiecgomez@users.noreply.github.com>
+Date:   Tue Nov 2 13:43:38 2021 -0500
+
+    project added
+
+[33mcommit 75c8def2a54479bb0dc8361b297174ceee899d34[m
+Author: Dacoes <dacoes@unicauca.edu.co>
+Date:   Tue Nov 2 18:24:44 2021 -0500
+
+    DavidCollazos:Corrigiendo README.md y haciendo pruebas para ejecutar con MAVEN, queda listo para hacerlo desde la consola
+
+[33mcommit effd4546d5c88787bc7aeaa5cfa21477c2bc75cc[m
+Author: miguemm <mandresmosquera@gmail.com>
+Date:   Tue Nov 2 16:25:42 2021 -0500
+
+    cambios en el readme Proyecto_1
+
+[33mcommit 2de8350203d8a201715f0c494d94a7b60a3defb4[m
+Author: s3rodriguez10 <s3rodriguez10@gmail.com>
+Date:   Tue Nov 2 16:12:20 2021 -0500
+
+    Se utilizo maven
+
+[33mcommit ef0608a273c346fdb085b9f88ddfdd41c9b0a459[m
+Merge: 08bfd37 8a67ff5
+Author: David Jiménez Garzón <93263400+dohimenezg@users.noreply.github.com>
+Date:   Tue Nov 2 15:14:02 2021 -0500
+
+    Merge branch 'main' into JIMENEZ_ORDONEZ-POLIMORFISMO
+
+[33mcommit 556d27987c14c9d77c3347d776819c87a43dfeb9[m
+Author: Felipe2509 <73291908+Felipe2509@users.noreply.github.com>
+Date:   Tue Nov 2 14:18:21 2021 -0500
+
+    Update README.md
+
+[33mcommit 8a67ff5a56de3eb80d9643243f7238b2498973dc[m
+Merge: ee4b070 6299b52
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Tue Nov 2 14:07:05 2021 -0500
+
+    Merge pull request #22 from zahydo/DanielCeron-JuanRuiz-b_POLIMORFISMO
+    
+    DanielCeron_juanRuiz|B|POLIMORFISMO
+
+[33mcommit 41f1d348b508feadf0368df5091d0f3945f77745[m
+Author: Felipe Garcia <juanfelipegarciagil7@gmail.com>
+Date:   Tue Nov 2 13:55:08 2021 -0500
+
+    add README.md
+
+[33mcommit 0e77d216bf6511add784635c7afe43d21534f775[m
+Author: Felipe Garcia <juanfelipegarciagil7@gmail.com>
+Date:   Tue Nov 2 13:31:28 2021 -0500
+
+    entrega primera practica
+
+[33mcommit 6299b52e2b955f1693e9895051e066dc686af749[m
+Author: Daniel Cerón <62627348+DanielCeron-dc@users.noreply.github.com>
+Date:   Tue Nov 2 13:11:58 2021 -0500
+
+    mayusculas quitadas
+
+[33mcommit de2451e908b59f88378ab2ea3db1108b5f01c3f3[m
+Author: Daniel Cerón <62627348+DanielCeron-dc@users.noreply.github.com>
+Date:   Tue Nov 2 13:10:30 2021 -0500
+
+    readme improve
+
+[33mcommit 78d25b5e1cdd3cf53a729c88ba61eb24ab70fd52[m
+Author: Daniel Cerón <62627348+DanielCeron-dc@users.noreply.github.com>
+Date:   Tue Nov 2 13:05:21 2021 -0500
+
+    DanielCeron|B|JuanRuiz-POLIMORFISMO: se agregó un readme en el proyecto
+
+[33mcommit 57c7e47297ae1fcdfdeddbc08a607055f8146226[m
+Author: UnSup_ <collazosdie@unicauca.edu.co>
+Date:   Tue Nov 2 11:17:57 2021 -0500
+
+    Diego_Collazos-Eliana_Cerquera-Polimorfismo
+
+[33mcommit 01513ef7a5ad1278b9ba84c1ad311b08eddd5e6b[m
+Author: miguemm <mandresmosquera@gmail.com>
+Date:   Tue Nov 2 11:04:31 2021 -0500
+
+    Cambios Adicionales al readme
+
+[33mcommit 2adbd2463161f60d7e563557131c2d8b860b1706[m
+Author: UnSup_ <collazosdie@unicauca.edu.co>
+Date:   Tue Nov 2 10:56:31 2021 -0500
+
+    Diego_Collazos-Eliana_Cerquera-Polimorfismo: AppTest deleted
+
+[33mcommit 8894d458e400ea648b940967f7f5bbe140cf0269[m
+Author: miguemm <mandresmosquera@gmail.com>
+Date:   Tue Nov 2 10:54:06 2021 -0500
+
+    Arreglo de carpetas dentro de Practica_1
+
+[33mcommit 429118113c965ace7b4a5108e3098f340d12eb3c[m
+Author: miguemm <mandresmosquera@gmail.com>
+Date:   Tue Nov 2 10:50:08 2021 -0500
+
+    mas cambios readme
+
+[33mcommit 9e6abe9da2a56419ef50e8f6a70cc02e369d98de[m
+Author: UnSup_ <collazosdie@unicauca.edu.co>
+Date:   Tue Nov 2 10:49:48 2021 -0500
+
+    Diego_Collazos-Eliana_Cerquera-Polimorfismo: Delete more residual files from Practica_1
+
+[33mcommit 3c456705505bf64dc1d5e446faa61c0ee26643a1[m
+Author: miguemm <mandresmosquera@gmail.com>
+Date:   Tue Nov 2 10:47:22 2021 -0500
+
+    arreglos al readme
+
+[33mcommit d33ea1acecf54d8c5fbc124052e24d780782c6aa[m
+Author: UnSup_ <collazosdie@unicauca.edu.co>
+Date:   Tue Nov 2 10:47:04 2021 -0500
+
+    Diego_Collazos-Eliana_Cerquera-Polimorfismo
+
+[33mcommit dce0bac9c2dffe10c70bf9b7b43b3ed6e7cbea92[m
+Author: UnSup_ <collazosdie@unicauca.edu.co>
+Date:   Tue Nov 2 10:24:41 2021 -0500
+
+    Diego_Collazos-Eliana_Cerquera-Polimorfismo: Porteo a proyecto maven, desarrollo por CLI funcional, documentacion agregada en Diego_Eliana/README.txt
+
+[33mcommit f7bdc83fb782e1881d5d01556a9661e342bf5e1c[m
+Author: UnSup_ <collazosdie@unicauca.edu.co>
+Date:   Mon Nov 1 15:18:13 2021 -0500
+
+    Diego-Eliana-Polimorfismo: Prueba de consola y Junit funcionales, practica terminada
+
+[33mcommit 40d16df9ea6d897bd201cf8dd4015939e34075ed[m
+Author: UnSup_ <collazosdie@unicauca.edu.co>
+Date:   Mon Nov 1 14:27:52 2021 -0500
+
+    Diego-Eliana-Polimorfismo: Creacion de proyecto en carpeta nueva y readme
+
+[33mcommit 4bc2187fd5ae8c2bda165fd2d781ad2bad43f610[m
+Author: miguemm <mandresmosquera@gmail.com>
+Date:   Tue Nov 2 10:16:30 2021 -0500
+
+    MiguelMosquera_SebastianArenas: cambios en readme
+
+[33mcommit ee4b0704425157e34fd650c9268a905a8c132447[m
+Merge: 3bfcdd7 9c075dd
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Tue Nov 2 09:38:49 2021 -0500
+
+    Merge pull request #16 from zahydo/sebastian_mauricio_polimorfismo
+    
+    Sebastian mauricio polimorfismo
+
+[33mcommit cbb8b5e3af0fa81d7ce083956235dfb2c82febfd[m
+Author: kevindm9 <74603789+kevindm9@users.noreply.github.com>
+Date:   Tue Nov 2 09:35:05 2021 -0500
+
+    Carpeta entrega de trabajos
+
+[33mcommit 912efc635a6c22493e5d87f618ca75f1406098b7[m
+Author: kevindm9 <74603789+kevindm9@users.noreply.github.com>
+Date:   Tue Nov 2 09:29:17 2021 -0500
+
+    Carpeta entrega trabajo
+
+[33mcommit 3bfcdd74c9412e1aea4d90b177ec98b481a8d6fa[m
+Merge: 505d248 420db83
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Tue Nov 2 09:27:45 2021 -0500
+
+    Merge pull request #18 from zahydo/PastasDaniel
+    
+    PastasDaniel Practica1
+
+[33mcommit 420db83fd31440afa209eeeeecc017763bc326fd[m
+Merge: d247164 505d248
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Tue Nov 2 09:27:21 2021 -0500
+
+    Merge branch 'main' into PastasDaniel
+
+[33mcommit d2471647b3b65e832f44ff1c6e7dc02bc6f6631a[m
+Author: pdaniel102 <pdaniel@unicauca.edu.co>
+Date:   Tue Nov 2 00:11:58 2021 -0500
+
+    git cache cleared
+
+[33mcommit 08bfd3761d6ffbf5929fa524b620e0658e883ed0[m
+Author: juleMay <jandresordonez@unicauca.edu.co>
+Date:   Tue Nov 2 00:05:56 2021 -0500
+
+    Proyecto corregido de acuerdo a los cambios requeridos
+
+[33mcommit 3b8171ecf1ca58eb782e67ee43f351d78f439398[m
+Author: pdaniel102 <pdaniel@unicauca.edu.co>
+Date:   Tue Nov 2 00:03:46 2021 -0500
+
+    root gitignore added
+
+[33mcommit d41cef50cec88e8ee2995923362662d97f370925[m
+Author: pdaniel102 <pdaniel@unicauca.edu.co>
+Date:   Mon Nov 1 23:58:30 2021 -0500
+
+    gitignore relocated
+
+[33mcommit ad8dc3a3b7f86758bed485b415d1137dffe8921b[m
+Author: pdaniel102 <pdaniel@unicauca.edu.co>
+Date:   Mon Nov 1 23:54:42 2021 -0500
+
+    .vscode added to gitignore
+
+[33mcommit 851f15e2bd7b5fe8449aba2ef42eee099c37adbf[m
+Author: pdaniel102 <pdaniel@unicauca.edu.co>
+Date:   Mon Nov 1 23:47:55 2021 -0500
+
+    1st practice readme updated
+
+[33mcommit 12bb88fad5701241f13fb3a15b482db2921ada5e[m
+Author: pdaniel102 <pdaniel@unicauca.edu.co>
+Date:   Mon Nov 1 23:06:18 2021 -0500
+
+    commit for second rebase
+
+[33mcommit 6ad7fe9cd93447d3ec485d193f48074cc7e58391[m
+Author: pdaniel102 <pdaniel@unicauca.edu.co>
+Date:   Mon Nov 1 23:02:57 2021 -0500
+
+    gitignore added
+
+[33mcommit 940f28385d6bf5fd1bff08c0d450be0bf198449b[m
+Author: pdaniel102 <pdaniel@unicauca.edu.co>
+Date:   Mon Nov 1 22:57:20 2021 -0500
+
+    maven files created, readme updated in local
+
+[33mcommit e136ccb181c554d475ed4e4643a51667477d6bee[m
+Author: juleMay <jandresordonez@unicauca.edu.co>
+Date:   Mon Nov 1 23:57:20 2021 -0500
+
+    Proyecto corregido de acuerdo a los cambios requeridos
+
+[33mcommit 80ce7622e2c58cd64bc2e3dc691c5df51e876d85[m
+Author: juleMay <jandresordonez@unicauca.edu.co>
+Date:   Mon Nov 1 23:55:14 2021 -0500
+
+    Proyecto corregido de acuerdo a los cambios requeridos
+
+[33mcommit 80c05949db70e164ea017165371381e42a3b0a6f[m
+Author: juleMay <jandresordonez@unicauca.edu.co>
+Date:   Mon Nov 1 23:50:30 2021 -0500
+
+    Proyecto corregido de acuerdo a los cambios requeridos
+
+[33mcommit 47b13840168f119c307d588fde197a575736acaf[m
+Author: juleMay <jandresordonez@unicauca.edu.co>
+Date:   Mon Nov 1 23:03:04 2021 -0500
+
+    Segundo commit: se agrega gitignore
+
+[33mcommit d46e2352d71995710fe2707abaf213e0682563a0[m
+Author: Santiago Hyun <santiago.hyun@inxeption.com>
+Date:   Mon Nov 1 20:16:43 2021 -0500
+
+    config: adding .gitignore in the root path
+
+[33mcommit c82dbdb5e26c9fd9c0f68ed4e04c432064d7ed3c[m
+Author: Santiago Hyun <santiago.hyun@inxeption.com>
+Date:   Mon Nov 1 20:16:43 2021 -0500
+
+    config: adding .gitignore in the root path
+
+[33mcommit 8663a3f9140f35fe4e06b769f10bb982d66eccc6[m
+Author: Santiago Hyun <santiago.hyun@inxeption.com>
+Date:   Mon Nov 1 20:16:43 2021 -0500
+
+    config: adding .gitignore in the root path
+
+[33mcommit 33e9868f3f67c6b969be40c47e849eab665c79f7[m
+Author: Santiago Hyun <santiago.hyun@inxeption.com>
+Date:   Fri Oct 29 16:51:48 2021 -0500
+
+    hyun-primeraPractica: se explica el uso de git al grupo B
+
+[33mcommit 2000512d3c2c8d725dc170d9736ef80c39749fc5[m
+Author: pdaniel102 <74683312+pdaniel102@users.noreply.github.com>
+Date:   Mon Nov 1 22:35:51 2021 -0500
+
+    Update README.md
+
+[33mcommit 9c075dd3ffaabb3094f7f4407520f6aad70cb9a1[m[33m ([m[1;31morigin/sebastian_mauricio_polimorfismo[m[33m)[m
+Author: heils <sebasmauro3@gmail.com>
+Date:   Mon Nov 1 21:41:36 2021 -0500
+
+    Arreglados los errores
+
+[33mcommit 3963256e8deaf9448448f1516e5d40fe0a780f8b[m
+Author: Dacoes <dacoes@unicauca.edu.co>
+Date:   Mon Nov 1 20:24:58 2021 -0500
+
+    DavidCollazos:Modificando el readme de la carpera personal
+
+[33mcommit 505d24804c969ef3f0471101b547fca90160c776[m
+Author: Santiago Hyun <santiago.hyun@inxeption.com>
+Date:   Mon Nov 1 20:16:43 2021 -0500
+
+    config: adding .gitignore in the root path
+
+[33mcommit 6848e1830cf8b450cfbde7d6e62dd18b9f77381e[m
+Author: Santiago Hyun <santiago.hyun@inxeption.com>
+Date:   Mon Nov 1 20:16:43 2021 -0500
+
+    config: adding .gitignore in the root path
+
+[33mcommit d50422d0e55b016c18fc8a4d1ee36c3d8821044b[m
+Author: Santiago Hyun <santiago.hyun@inxeption.com>
+Date:   Mon Nov 1 20:16:43 2021 -0500
+
+    config: adding .gitignore in the root path
+
+[33mcommit dd2c5db4896b9140dcb698a8da75d686fbda7e0c[m
+Author: Dacoes <93240662+Dacoes@users.noreply.github.com>
+Date:   Mon Nov 1 19:55:07 2021 -0500
+
+    create Readme.md
+
+[33mcommit db73f8db29465b2715f3a484b686520c853e7339[m
+Author: Dacoes <dacoes@unicauca.edu.co>
+Date:   Mon Nov 1 19:52:07 2021 -0500
+
+    DavidCollazos:Entraga Practica_1
+
+[33mcommit cd612ae969f8802ae64fc93493b8a835af918070[m
+Author: Dacoes <dacoes@unicauca.edu.co>
+Date:   Mon Nov 1 19:48:56 2021 -0500
+
+    DavidCollazos: prueba
+
+[33mcommit ce1be4cd5e80fee5ccabb99ee8af33e275de455e[m
+Merge: f92d68b 39b3b9a
+Author: Dacoes <dacoes@unicauca.edu.co>
+Date:   Mon Nov 1 19:47:29 2021 -0500
+
+    Merge branch 'DavidCollazos' of https://github.com/zahydo/labisii2021.2 into DavidCollazos
+
+[33mcommit f92d68b6b691a6be77d186cf59e75ae6daf0a55a[m
+Author: Dacoes <dacoes@unicauca.edu.co>
+Date:   Mon Nov 1 19:47:10 2021 -0500
+
+    DavidCollazos:arreglando carpeta
+
+[33mcommit 1c6ef76bc29c7055b7cbec6812cd3d7169e55b7a[m
+Author: Dacoes <dacoes@unicauca.edu.co>
+Date:   Mon Nov 1 19:45:11 2021 -0500
+
+    DavidCollazos:pruebaotra
+
+[33mcommit 4d8a1100a0a8fb178fd3709a46a7b80e47755419[m
+Author: Dacoes <dacoes@unicauca.edu.co>
+Date:   Mon Nov 1 19:24:27 2021 -0500
+
+    DavidCollazos: limpiando carpeta
+
+[33mcommit 9f3fa0777e718c1c091ee9b1267ab6099c581938[m
+Author: Dacoes <dacoes@unicauca.edu.co>
+Date:   Thu Oct 28 21:31:24 2021 -0500
+
+    DavidCollazos: prueba2 esta si
+
+[33mcommit 8eaefd15b0ff6106160706b88705ba900b522e33[m
+Author: Dacoes <dacoes@unicauca.edu.co>
+Date:   Thu Oct 28 21:24:54 2021 -0500
+
+    DavidCollazos: probandoGit
+
+[33mcommit 39b3b9a1c73cd0ea3689d398ae296eabb5173852[m
+Author: Dacoes <dacoes@unicauca.edu.co>
+Date:   Mon Nov 1 19:45:11 2021 -0500
+
+    DavidCollazos:pruebaotra
+
+[33mcommit 0d305784a61d4c142ecb9e311ca6198074e854c3[m
+Author: s3rodriguez10 <78859283+s3rodriguez10@users.noreply.github.com>
+Date:   Mon Nov 1 19:36:52 2021 -0500
+
+    Create README.md
+
+[33mcommit b2022aae70407027025e45742b04a2fbedc1f4cd[m
+Author: s3rodriguez10 <s3rodriguez10@gmail.com>
+Date:   Mon Nov 1 19:32:52 2021 -0500
+
+    Organizando Carpetas
+
+[33mcommit dd59100f48cceea95f99b81c0e0b64a897c30317[m
+Author: Dacoes <dacoes@unicauca.edu.co>
+Date:   Mon Nov 1 19:24:27 2021 -0500
+
+    DavidCollazos: limpiando carpeta
+
+[33mcommit 307eb23d6550420a9077d5a3d0c56a70caed4241[m
+Author: heils <sebasmauro3@gmail.com>
+Date:   Mon Nov 1 19:09:23 2021 -0500
+
+    primer commit
+
+[33mcommit 41a59d64a0e8b1f85efe7e427cd5bcce065c4882[m
+Author: s3rodriguez10 <s3rodriguez10@gmail.com>
+Date:   Mon Nov 1 13:35:00 2021 -0500
+
+    Practica 1 - Polimorfismo
+
+[33mcommit 32f92d2626d78a28061079b98e16a4a95f528b61[m
+Author: Daniel Cerón <62627348+DanielCeron-dc@users.noreply.github.com>
+Date:   Sat Oct 30 16:29:57 2021 -0500
+
+    DanielCeron-B-POLIMORFISMO: project added
+
+[33mcommit f1002a1293afb3b53440f53bc7837a3fdf9ad26f[m
+Merge: 43ad735 ed686f3
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Fri Oct 29 17:02:50 2021 -0500
+
+    Merge pull request #8 from zahydo/hyun-primeraPractica
+    
+    hyun-primeraPractica: se explica el uso de git al grupo B
+
+[33mcommit ed686f352aa116f6d47c665337d76cbd51547061[m
+Author: Santiago Hyun <santiago.hyun@inxeption.com>
+Date:   Fri Oct 29 16:51:48 2021 -0500
+
+    hyun-primeraPractica: se explica el uso de git al grupo B
+
+[33mcommit d2a3d56d634b09807fe763fae21df235bb09113b[m
+Author: pdaniel102 <pdaniel@unicauca.edu.co>
+Date:   Fri Oct 29 12:50:40 2021 -0500
+
+    Second commit
+
+[33mcommit 4b5cec32b87bdec5ef84cfd98002675215998bad[m
+Author: pdaniel102 <pdaniel@unicauca.edu.co>
+Date:   Fri Oct 29 12:29:58 2021 -0500
+
+    Initial commit
+
+[33mcommit e997595b1022320e7e5f771f57fcfcab4271df65[m
+Author: jrgalindez <jrgalindez@unicauca.edu.co>
+Date:   Fri Oct 29 11:21:14 2021 -0500
+
+    JOSE_GALINDEZ|GRUPO: Practica 1 polimorfismo
+
+[33mcommit 209a529eedc03893845640369363dba14b1b1be0[m
+Author: Dacoes <dacoes@unicauca.edu.co>
+Date:   Thu Oct 28 21:31:24 2021 -0500
+
+    DavidCollazos: prueba2 esta si
+
+[33mcommit c6c05df162fd04c53c2f2f983c0d3b939d19767e[m
+Author: Dacoes <dacoes@unicauca.edu.co>
+Date:   Thu Oct 28 21:24:54 2021 -0500
+
+    DavidCollazos: probandoGit
+
+[33mcommit 2570cc6c12c4a9e37778a0a295496379231a8159[m
+Author: juleMay <jandresordonez@unicauca.edu.co>
+Date:   Thu Oct 28 00:42:40 2021 -0500
+
+    Primera entrega: polimorfismo David Jimenez-Julian Ordoñez
+
+[33mcommit eabe704d03e9ca3429e26892d2915821cb057270[m
+Author: jonatanmf11 <jonatanmf11@gmail.com>
+Date:   Wed Oct 27 16:41:01 2021 -0500
+
+    JonatanMontes_AndresMuñoz: Primera entrega.
+
+[33mcommit 352fde4ff3dc14f59f2177bc0347a3fb920968c1[m
+Author: Tuldrum <90346628+Tuldrum@users.noreply.github.com>
+Date:   Wed Oct 27 16:12:43 2021 -0500
+
+    JonatanMontes_AndresMuñoz: Primera entrega
+
+[33mcommit 82ff761cd2c2d9cb77e46dd73640a173d211e303[m
+Author: Tuldrum <90346628+Tuldrum@users.noreply.github.com>
+Date:   Wed Oct 27 16:03:07 2021 -0500
+
+    JonatanMontes_AndresMuñoz: PrimeraEntrega
+
+[33mcommit 663589d29cdfd5ad1d1c0bf2557f70182a821e0c[m
+Author: s3rodriguez10 <s3rodriguez10@gmail.com>
+Date:   Wed Oct 27 13:25:25 2021 -0500
+
+    MiguelMosquera_SebastianArenas : Probando Git v3
+
+[33mcommit d0e6a5291d65fc369c5be1f412872c54186fcede[m
+Author: s3rodriguez10 <s3rodriguez10@gmail.com>
+Date:   Wed Oct 27 12:44:29 2021 -0500
+
+    MiguelMosquera_SebastianArenas: Explorando git 3
+
+[33mcommit b1645fa2f9ab322d149e2e94901f4ac7fcb1ef8d[m
+Author: miguemm <mandresmosquera@gmail.com>
+Date:   Wed Oct 27 12:24:55 2021 -0500
+
+    MiguelMosquera_SebastianArenas: practicando github
+
+[33mcommit 361bbdc0a7ea5875ec31c53c380a0a12b205af5a[m
+Author: miguemm <mandresmosquera@gmail.com>
+Date:   Wed Oct 27 12:11:03 2021 -0500
+
+    MiguelMosquera_SebastianArenas: practicando git
+
+[33mcommit 56804470119a35edcc6ebcdac4e25dceec866d10[m
+Author: miguemm <83250571+miguemm@users.noreply.github.com>
+Date:   Wed Oct 27 12:02:36 2021 -0500
+
+    Delete hyun directory
+
+[33mcommit eb3c829e97886eddc84011f0a555c85b5dfd5fd4[m
+Author: juleMay <jandresordonez@unicauca.edu.co>
+Date:   Wed Oct 27 09:06:39 2021 -0500
+
+    Se crea la rama del grupo
+
+[33mcommit 43ad7358fa4255c9f4e6553254928d2e3bbb7793[m
+Merge: 3096458 8ebf568
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Wed Oct 27 08:10:38 2021 -0500
+
+    Merge pull request #1 from zahydo/hyun/PrimeraPractica
+    
+    hyun/PrimeraPractica: Este es el primer ejemplo de CI
+
+[33mcommit 8ebf56895430a0253c87e5ce05a191242e425a01[m
+Author: Santiago Hyun <santiago.hyun@inxeption.com>
+Date:   Wed Oct 27 07:54:31 2021 -0500
+
+    hyun/PrimeraPractica: Este es el primer ejemplo de CI
+
+[33mcommit 3096458280d78f1243b7632684b1d606a1c22970[m
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Tue Oct 26 12:40:45 2021 -0500
+
+    Updating README
+    
+    No important changes
+
+[33mcommit 62e621778e5d92358e6a3e263858a69bf0b86c6a[m
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Tue Oct 26 12:36:25 2021 -0500
+
+    Updating README with CI steps
+    
+    Explaining CI process and Code Review process.
+
+[33mcommit c0d438938f503ea998dd7bab7d8d91e42f1228d6[m
+Author: Santiago Hyun Dorado <santiagodorado@unicauca.edu.co>
+Date:   Tue Oct 26 12:12:22 2021 -0500
+
+    Initial commit

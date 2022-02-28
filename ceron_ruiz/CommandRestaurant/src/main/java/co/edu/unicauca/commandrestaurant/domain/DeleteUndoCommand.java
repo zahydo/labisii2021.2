@@ -4,6 +4,12 @@
  */
 package co.edu.unicauca.commandrestaurant.domain;
 
+import co.edu.unicauca.commandrestaurant.access.IFoodRepository;
+import co.edu.unicauca.commandrestaurant.access.RepositoryFactory;
+import co.edu.unicauca.commandrestaurant.domain.service.FoodService;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 /**
  *
  * @author XssIsor
@@ -35,7 +41,7 @@ public class DeleteUndoCommand extends Command {
         service.create(food);
     }
     
-      public DeleteCommand(Food food) {
+    public void DeleteCommand(Food food) {
         this.food = food;
         IFoodRepository repo = RepositoryFactory.getInstance().getRepository("default");
         service = new FoodService(repo);

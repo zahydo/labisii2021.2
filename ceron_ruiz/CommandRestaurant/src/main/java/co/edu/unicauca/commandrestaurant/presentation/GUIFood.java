@@ -1,6 +1,7 @@
 package co.edu.unicauca.commandrestaurant.presentation;
 
 import co.edu.unicauca.commandrestaurant.domain.CreateCommand;
+import co.edu.unicauca.commandrestaurant.domain.DeleteUndoCommand;
 import co.edu.unicauca.commandrestaurant.domain.Food;
 import javax.swing.table.DefaultTableModel;
 import co.edu.unicauca.commandrestaurant.domain.Invoker;
@@ -368,8 +369,41 @@ public class GUIFood extends javax.swing.JFrame {
     }//GEN-LAST:event_txtIdKeyPressed
 
     private void btnDeleteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDeleteActionPerformed
+         //Obtener el id de la comida a eliminar
+        int id = Integer.parseInt(txtId.getText());
+        //Fija el comando del invoker para buscar comida por id
+        invoker.setCommand(new FindByIdCommand());
+        //Pasa parámetros al comando
+        FindByIdCommand findByIdCommand = (FindByIdCommand) invoker.getCommand();
+        findByIdCommand.setFoodId(id);
+        //Ejecuta el comando
+        invoker.execute();
+        Food food = findByIdCommand.getFood();
+        deleteFood(food);
+        
+        //Instrucciones posteriores
+        Messages.successMessage("Comida eliminada con éxito", "Atención");
+        clearControls();
+        initStateButtons();
+        loadDataTable();
+    }//GEN-LAST:event_btnDeleteActionPerformed
+
+    
+    /**
+     * Llama a la logica de negocio para eliminar una comida mediante el comando
+     * 
+     * @param food comida a eliminar
+     */
+    public void deleteFood(Food food){
+        //Fija el DeleteCommand
+        invoker.setCommand(new DeleteUndoCommand(food));
+        //Ejecuta el comando
+        invoker.execute();
+    }
+
 
     }//GEN-LAST:event_btnDeleteActionPerformed
+
 
 
     /**
