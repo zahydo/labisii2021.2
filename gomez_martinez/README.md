@@ -13,3 +13,4 @@
 -  [x] 02/11/21 : Primera Práctica: Polimorfismo.
 -  [x] 20/11/21 : Segunda Práctica: Principios SOLID.
 -  [x] 15/12/21 : Tercera Práctica: Microkernel.
+-  [x] 18/02/22 : Cuarta Práctica: Patrón Command.
