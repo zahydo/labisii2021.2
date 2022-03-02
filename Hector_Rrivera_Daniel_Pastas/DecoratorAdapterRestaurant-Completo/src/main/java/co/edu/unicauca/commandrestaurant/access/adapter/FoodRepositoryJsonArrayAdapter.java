@@ -10,6 +10,7 @@ import co.edu.unicauca.commandrestaurant.access.IFoodRepository;
 import co.edu.unicauca.commandrestaurant.domain.Food;
 import co.edu.unicauca.commandrestaurant.domain.decorator.CapitalFood;
 import co.edu.unicauca.commandrestaurant.domain.decorator.CryptFood;
+import co.edu.unicauca.commandrestaurant.infra.Utilities;
 
 public class FoodRepositoryJsonArrayAdapter implements IFoodRepository {
 	/**
@@ -26,7 +27,11 @@ public class FoodRepositoryJsonArrayAdapter implements IFoodRepository {
 
     @Override
     public Food findById(int id) {
-        return adaptedRepository.getById(id);
+    	Food f = adaptedRepository.getById(id);
+    	
+    	//f.setName(Utilities.decrypt(f.getName()));
+    	
+        return f;
     }
 
     @Override
@@ -45,19 +50,19 @@ public class FoodRepositoryJsonArrayAdapter implements IFoodRepository {
 
     @Override
     public boolean create(Food food) {
-    	System.out.println("Utilizando Json Array Adapter");
+    	
         return adaptedRepository.add(food);
     }
 
     @Override
     public boolean update(Food food) {
-    	System.out.println("Utilizando Json Array Adapter");
+    	
         return adaptedRepository.modify(food);
     }
 
     @Override
     public void delete(int id) {
-    	System.out.println("Utilizando Json Array Adapter");
+    	
         adaptedRepository.remove(id);
     }
 }

@@ -1,17 +1,15 @@
 package co.edu.unicauca.commandrestaurant.access.adapter;
 
 import java.util.ArrayList;
-
+import java.util.Iterator;
 import java.util.List;
 
-
 import com.google.gson.Gson;
-import com.google.gson.JsonObject;
 
 import co.edu.unicauca.commandrestaurant.domain.Food;
 import co.edu.unicauca.commandrestaurant.domain.FoodTypeEnum;
-import co.edu.unicauca.commandrestaurant.domain.decorator.CapitalFood;
 import co.edu.unicauca.commandrestaurant.domain.decorator.CryptFood;
+import co.edu.unicauca.commandrestaurant.infra.Utilities;
 
 public class FoodJsonArrayRepository {
     private static List<String> foods;
@@ -19,8 +17,8 @@ public class FoodJsonArrayRepository {
 
     public FoodJsonArrayRepository() {
         if (foods == null) {
-        	
-            foods = new ArrayList<String>();
+
+            foods = new ArrayList<>();
             initData();
         }
     }
@@ -32,15 +30,15 @@ public class FoodJsonArrayRepository {
     	Food f1 = new CryptFood(1, "Frijoles", FoodTypeEnum.PRINCIPIO);
     	Food f2 = new CryptFood(2, "Sopa de Verduras", FoodTypeEnum.ENTRADA);
     	Food f3 = new CryptFood(3, "Jugo de mango", FoodTypeEnum.JUGO);
-    	
+
     	String str = gson.toJson(f1);
     	foods.add(str);
     	str = gson.toJson(f2);
     	foods.add(str);
     	str = gson.toJson(f3);
     	foods.add(str);
-    	
-    	
+
+
     	//foods.add("{\"id\":\"1\",\"name\":\"Frijoles\",\"FoodTypeEnum:\":\"PRINCIPIO\"}");
     	//foods.add("{\"id\":\"2\",\"name\":\"Sopa de Verduras\",\"FoodTypeEnum:\":\"ENTRADA\"}");
     	//foods.add("{\"id\":\"3\",\"name\":\"Jugo de mango\",\"FoodTypeEnum:\":\"JUGO\"}");
@@ -53,11 +51,13 @@ public class FoodJsonArrayRepository {
      */
     public Food getById(int id) {
     	Gson g = new Gson();
-        Food ret = null;
+        CryptFood cf = null;
         for(String aux : foods){
-            ret = g.fromJson(aux, CryptFood.class);
-            if (ret.getId() == id){
-                return ret;
+        	System.out.println(aux);
+            cf = g.fromJson(aux, CryptFood.class);
+            if (cf.getId() == id){
+
+                return new Food(cf.getId(), Utilities.decrypt(cf.getName()),cf.getType());
             }
         }
         return null;
@@ -68,9 +68,10 @@ public class FoodJsonArrayRepository {
      * @return true si la agrega, false en caso contrario
      */
     public boolean add(Food food) {
-    	
-        if (getById(food.getId()) == null) {
-        	String str = gson.toJson(food);
+    	CryptFood newFood = new CryptFood(food.getId(), food.getName(), food.getType());
+    	if (getById(food.getId()) == null) {
+        	String str = gson.toJson(newFood);
+        	System.out.println(str);
             foods.add(str);
             return true;
         }
@@ -97,8 +98,13 @@ public class FoodJsonArrayRepository {
      * @param id identificador de la comida
      */
     public void remove(int id) {
-    	String rem = gson.toJson(getById(id)); 
-        foods.remove(rem);
+    	 Iterator it = foods.iterator();
+    	while (it.hasNext()) {
+            Food element = gson.fromJson((String)it.next(), CryptFood.class);
+            if (element.getId() == id){
+                it.remove();
+            }
+        }
     }
 
     /**
@@ -108,6 +114,6 @@ public class FoodJsonArrayRepository {
     public List<String> getAll() {
         return foods;
     }
-    
-    
+
+
 }

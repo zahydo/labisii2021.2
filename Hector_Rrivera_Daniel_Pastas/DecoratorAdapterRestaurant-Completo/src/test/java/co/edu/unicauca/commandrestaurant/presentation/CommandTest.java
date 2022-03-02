@@ -7,6 +7,8 @@ import co.edu.unicauca.commandrestaurant.domain.Food;
 import co.edu.unicauca.commandrestaurant.domain.FoodTypeEnum;
 import co.edu.unicauca.commandrestaurant.domain.Invoker;
 import co.edu.unicauca.commandrestaurant.domain.UpdateCommand;
+import co.edu.unicauca.commandrestaurant.domain.decorator.CryptFood;
+
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeEach;

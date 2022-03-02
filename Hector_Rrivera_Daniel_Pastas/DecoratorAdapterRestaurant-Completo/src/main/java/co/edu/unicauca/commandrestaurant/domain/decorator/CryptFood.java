@@ -31,6 +31,7 @@ public class CryptFood extends Food {
         myDecoratedFood.setName(Utilities.encrypt(name));
     }
 
+
     @Override
     public String getName() {
         return myDecoratedFood.getName();
