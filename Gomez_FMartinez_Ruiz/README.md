@@ -9,4 +9,4 @@
 
 # Projects maded
  * Práctica 4: Arquitectura Orientada a Eventos
- * Práctica 6: Adapter-Decorator Pattern
+ * Práctica 5: Adapter-Decorator Pattern
