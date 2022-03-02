@@ -12,6 +12,7 @@ import co.edu.unicauca.commandrestaurant.domain.FindAllCommand;
 import co.edu.unicauca.commandrestaurant.domain.FindByIdCommand;
 import co.edu.unicauca.commandrestaurant.domain.FoodTypeEnum;
 import co.edu.unicauca.commandrestaurant.domain.UpdateCommand;
+import co.edu.unicauca.commandrestaurant.infra.Utilities;
 
 import java.util.List;
 import javax.swing.DefaultComboBoxModel;
@@ -141,6 +142,11 @@ public class GUIFood extends javax.swing.JFrame {
         txtId.addFocusListener(new java.awt.event.FocusAdapter() {
             public void focusLost(java.awt.event.FocusEvent evt) {
                 txtIdFocusLost(evt);
+            }
+        });
+        txtId.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtIdActionPerformed(evt);
             }
         });
         txtId.addKeyListener(new java.awt.event.KeyAdapter() {
@@ -357,7 +363,7 @@ public class GUIFood extends javax.swing.JFrame {
             btnUpdate.setEnabled(true);
             btnDelete.setEnabled(true);
             btnUndo.setEnabled(false);
-            txtName.setText(food.getName());
+            txtName.setText(Utilities.decrypt(food.getName()));
             cboType.setSelectedItem(food.getType().toString());
         }
 
@@ -397,6 +403,10 @@ public class GUIFood extends javax.swing.JFrame {
         initStateButtons();
         loadDataTable();
     }//GEN-LAST:event_btnDeleteActionPerformed
+
+    private void txtIdActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtIdActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtIdActionPerformed
     /**
      * Llama a la logica de negocio para comida comida mediante el comando
      *

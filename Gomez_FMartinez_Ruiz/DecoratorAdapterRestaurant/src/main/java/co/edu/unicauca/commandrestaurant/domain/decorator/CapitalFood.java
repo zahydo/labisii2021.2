@@ -23,7 +23,7 @@ public class CapitalFood extends Food {
     public CapitalFood(int id, String name, FoodTypeEnum type) {
         //Lo convierte a mayúsculas
         String capitalizeFoodName = Utilities.capitalize(name);
-        myDecoratedFood = new Food(id, capitalizeFoodName, type);
+        myDecoratedFood = new CryptFood(id, capitalizeFoodName, type);
     }
 
     @Override
