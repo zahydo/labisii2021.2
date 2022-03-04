@@ -6,6 +6,9 @@
 # Integrantes: 
 Juan Andrés Salazar Gonzalez
 Laura Marcela Mendez Rengifo
+# Patrón Comando
+
+Patrón Comando
 
 # Tercera practica
 
