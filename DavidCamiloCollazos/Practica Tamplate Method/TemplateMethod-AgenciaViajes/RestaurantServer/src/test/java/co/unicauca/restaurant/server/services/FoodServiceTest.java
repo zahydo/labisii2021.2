@@ -57,7 +57,7 @@ public class FoodServiceTest {
         assertEquals(expResult, result.getId());
         
         // Customer que no existe
-        result = instance.findByIdl(10);
+        result = instance.findByIdl(100);
         assertEquals(null, result);
     }
     

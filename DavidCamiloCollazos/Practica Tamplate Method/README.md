@@ -23,6 +23,11 @@ Para compilar el proyecto:
     *   4. Restaurant-Client: 
         *   mvn clean install package
 
+Para correr el test:
+    Se debe estar en la carpeta donde se encuentra el proyecto:
+    *   1. RestaurantServer: 
+        *   mvn test   
+
 Para correr el proyecto:
     *   Ubicarse en la terminal en la carpeta indicada y correr el siguiente comando:
     *   1. RestaurantServer:
