@@ -2,7 +2,13 @@
 
 En este repositorio se irá guardando las practicas del semestre
 
+# Septima Practica - ACTUAL
 
+Taller sobre Metodo Plantilla
+
+## Integrantes de la practica 7
+
+1. Climaco Fernando Rodriguez Tovar
 # Sexta Practica - ACTUAL
 
 Taller sobre DecoratorAdapterRestaurant-Incompleto Para aprender sobre Patron Adapter y Decorator
