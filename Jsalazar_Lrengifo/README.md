@@ -6,6 +6,13 @@
 # Integrantes: 
 Juan Andrés Salazar Gonzalez
 Laura Marcela Mendez Rengifo
+# Patrón Adaptador y Decorador
+
+Patrón Adaptador y Decorador
+
+# Patrón Comando
+
+Patrón Comando
 
 # Tercera practica
 

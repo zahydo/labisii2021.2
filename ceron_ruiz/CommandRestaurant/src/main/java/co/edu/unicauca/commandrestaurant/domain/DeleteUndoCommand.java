@@ -41,7 +41,7 @@ public class DeleteUndoCommand extends Command {
         service.create(food);
     }
     
-     public DeleteUndoCommand(Food food) {
+    public void DeleteCommand(Food food) {
         this.food = food;
         IFoodRepository repo = RepositoryFactory.getInstance().getRepository("default");
         service = new FoodService(repo);
