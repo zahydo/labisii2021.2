@@ -54,6 +54,7 @@ public class ClaimGui extends javax.swing.JFrame {
         TiposClaim = new javax.swing.JComboBox<>();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Caja de reclamos ");
 
         AceptButton.setText("Enviar ");
         AceptButton.setActionCommand("AcceptButon");
