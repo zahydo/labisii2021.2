@@ -13,35 +13,53 @@ Andrés David Muñoz
 mvn clean install package
 ```
 
-1. ubicarse en ..\labisii2021.2\muñoz\TemplateMethod-FoodApp\ServerSocketTemplate y ejecutar: 
+2. ubicarse en ..\labisii2021.2\muñoz\TemplateMethod-FoodApp\ServerSocketTemplate y ejecutar: 
 ```
 mvn clean install package
 ```
 
-1. ubicarse en ..\labisii2021.2\muñoz\TemplateMethod-FoodApp\FoodApp-Server y ejecutar: 
+3. ubicarse en ..\labisii2021.2\muñoz\TemplateMethod-FoodApp\FoodApp-Server y ejecutar: 
 ```
 mvn clean install package
 ```
 
-2. En una nueva terminal, ubicarse en ..\labisii2021.2\muñoz\TemplateMethod-FoodApp\FoodApp-Client y ejecutar: 
+4. En una nueva terminal, ubicarse en ..\labisii2021.2\muñoz\TemplateMethod-FoodApp\FoodApp-Client y ejecutar: 
 ```
 mvn clean install package
 ```
 
 
-### *Ejecutar los .jar y correr los  main*
-1. Ubicarse en la terminal en la carpeta del proyecto  ..\labisii2021.2\muñoz\TemplateMethod-FoodApp\FoodApp-Server y correr el siguiente comando:
+### *Configuración de los jar y carpetas client y server*
+
+5. Ubicarse en la carpeta del proyecto ..\labisii2021.2\muñoz\TemplateMethod-FoodApp y crear una carpeta "server", y una carpeta "client"
+
+6. En la carpeta ..\labisii2021.2\muñoz\TemplateMethod-FoodApp\client y en la carpeta ..\labisii2021.2\muñoz\TemplateMethod-FoodApp\server, crear una copia del archivo ..\labisii2021.2\muñoz\TemplateMethod-FoodApp\ServerSocketTemplate\target\ServerSocketTemplate-1.0.jar
+
+7.En la carpeta ..\labisii2021.2\muñoz\TemplateMethod-FoodApp\client y en la carpeta ..\labisii2021.2\muñoz\TemplateMethod-FoodApp\server, crear una copia del archivo ..\labisii2021.2\muñoz\TemplateMethod-FoodApp\FoodApp-commons\target\FoodApp-commons-1.0-SNAPSHOT.jar
+
+8. Ubicarse en ..\labisii2021.2\muñoz\TemplateMethod-FoodApp\server y hacer una copia del archivo "config.properties" ubicado en ..\labisii2021.2\muñoz\TemplateMethod-FoodApp\FoodApp-Server
+
+9. Ubicarse en ..\labisii2021.2\muñoz\TemplateMethod-FoodApp\server y hacer una copia del archivo "FoodApp-Server-1.0-SNAPSHOT.jar" ubicado en ..\labisii2021.2\muñoz\TemplateMethod-FoodApp\FoodApp-Server\target
+
+10. Ubicarse en ..\labisii2021.2\muñoz\TemplateMethod-FoodApp\client y hacer una copia del archivo "config.properties" ubicado en ..\labisii2021.2\muñoz\TemplateMethod-FoodApp\FoodApp-Client
+
+11. Ubicarse en ..\labisii2021.2\muñoz\TemplateMethod-FoodApp\client y hacer una copia del archivo "FoodApp-Client-1.0-SNAPSHOT.jar" ubicado en ..\labisii2021.2\muñoz\TemplateMethod-FoodApp\FoodApp-Client\target
+
+
+### *Ejecución de las aplicaciones *
+
+
+12. Para correr la aplicación del servidor ubicarse en ..\labisii2021.2\muñoz\TemplateMethod-FoodApp\server y ejecutar en el cmd 
 
 ```
-java -cp target/FoodApp-Server-1.0-SNAPSHOT.jar co.unicauca.foodapp.server.app.FoodServerApplication
+java -cp FoodApp-Server-1.0-SNAPSHOT.jar co.unicauca.foodapp.server.app.FoodServerApplication 
 ```
 
-1. Ubicarse en la terminal en la carpeta del proyecto ..\labisii2021.2\muñoz\TemplateMethod-FoodApp\FoodApp-Client y correr el siguiente comando:
+13. Para correr la aplicación del cliente ubicarse en ..\labisii2021.2\muñoz\TemplateMethod-FoodApp\client y ejecutar en el cmd 
 
 ```
-java -cp target/FoodApp-Client-1.0-SNAPSHOT.jar co.unicauca.foodapp.client.presentation.GUIFood
+java -cp FoodApp-Client-1.0-SNAPSHOT.jar co.unicauca.foodapp.client.presentation.GUIFood
 
 ```
 
-### Nota: al ejecutarlo en mvn aparece un error de importanción de paquetes, que no recuerdo cómo resolver, de cualquier manera, si se ejecuta en el netbeans, el proyecto funciona adecuadamente. 
-
+### nota: se agrega en la carpeta ..\labisii2021.2\muñoz\TemplateMethod-FoodApp\PNGS_configuración_directorios donde se muestra la configuración final de la carpeta principal, el server, y el cliente 
