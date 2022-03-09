@@ -4,7 +4,7 @@ En este repositorio se irá guardando las practicas del semestre
 
 # Octava Practica - ACTUAL
 
-Taller sobre Metodo Plantilla
+Taller sobre Cambio de responsabilidad
 
 ## Integrantes de la practica 8
 
