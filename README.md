@@ -10,14 +10,6 @@ La ubiación de este README será la raíz del proyecto, partiendo desde aquí, 
 
 ### Ejemplo
 
-/hyun/README.md
-
-/hyun/primeraPractica
-
-/hyun/segundaPractica
-
-/hyun/segundaPractica
-
 ## Estrategia de Integración Continua
 Vamos a seguir buenas prácticas para integración continua como [feature branching](https://www.atlassian.com/es/git/tutorials/comparing-workflows/feature-branch-workflow) y [code review](https://github.com/features/code-review/). Para ello, vamos a seguir el siguiente proceso cada vez que vayan a subir una nueva práctica:
 
