@@ -6,5 +6,5 @@ package co.edu.unicauca.cor.domain;
  * @author Libardo, Julio
  */
 public enum TypeEnum {
-    UNCLASSIFIED, BASIC, DELIVERY, HIGH;
+    UNCLASSIFIED, BASIC, DELIVERY, HIGH, URGENT;
 }

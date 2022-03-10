@@ -25,8 +25,7 @@ public class LevelThree extends ClaimHandler {
             return true;
 
         } else {
-            System.out.println("No se puede atender. El reclamo está sin clasificar");
-            return false;
+        	return getNextHandler().attend(claim);
         }
     }
 

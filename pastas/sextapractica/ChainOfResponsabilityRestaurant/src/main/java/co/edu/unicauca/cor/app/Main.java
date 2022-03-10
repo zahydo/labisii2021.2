@@ -23,8 +23,11 @@ public class Main {
 
         claim = new Claim(3, "Calidad del producto", "La comida del restaurante popayan casero estaba fria", TypeEnum.HIGH);
         manager.getLevelOne().attend(claim);
+        
+        claim = new Claim(4, "Condicion del producto", "La comida del restaurante popayan esta PODRIDA", TypeEnum.URGENT);
+        manager.getLevelOne().attend(claim);
 
-        claim = new Claim(4, "Producto equivocado", "Me enviaron el pedido que no era", TypeEnum.UNCLASSIFIED);
+        claim = new Claim(5, "Producto equivocado", "Me enviaron el pedido que no era", TypeEnum.UNCLASSIFIED);
         manager.getLevelOne().attend(claim);
     }
 
