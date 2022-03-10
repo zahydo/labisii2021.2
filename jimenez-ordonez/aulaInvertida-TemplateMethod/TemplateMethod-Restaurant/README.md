@@ -48,3 +48,11 @@ Para poner a correr el client, estando en el directorio `.\Restaurant-Client\` e
 ~~~bash
 java -cp .\target\Restaurant-Client.jar 'co.unicauca.restaurant.client.presentation.GUIMain'
 ~~~
+
+## Test
+
+Después de construir los .jar, para correr los test en el directorio `.\Restaurant-Server\` ejecutar el comando:
+
+~~~bash
+mvn test
+~~~
