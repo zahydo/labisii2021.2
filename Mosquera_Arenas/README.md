@@ -13,4 +13,6 @@ En esta Rama se almacenaran todas las practicas realizadas durante el Curso
 - [x] 21/12/21: Practica 4: LayerMVC Publicador Subscriptor (DavidCollazos,MiguelMosquera,SebastianArenas)
 - [x] 16/02/22: Practica 5: Patron Commander
 - [x] 23/02/22: Practica 6: Patron Adapter y Decorator
+- [x] 08/03/22: Practica 7: Patron Chain of Responsability
+- [x] 08/03/22: Practica 8: Patron Template
 

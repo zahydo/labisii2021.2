@@ -2,6 +2,21 @@
 
 En este repositorio se irá guardando las practicas del semestre
 
+# Octava Practica - ACTUAL
+
+Taller sobre Cambio de responsabilidad
+
+## Integrantes de la practica 8
+
+1. Climaco Fernando Rodriguez Tovar
+
+# Septima Practica - ACTUAL
+
+Taller sobre Metodo Plantilla
+
+## Integrantes de la practica 7
+
+1. Climaco Fernando Rodriguez Tovar
 
 # Sexta Practica - ACTUAL
 
@@ -11,6 +26,7 @@ Taller sobre DecoratorAdapterRestaurant-Incompleto Para aprender sobre Patron Ad
 
 1. Climaco Fernando Rodriguez Tovar
 2. Cristian Fernando Narvaez Castillo
+
 # Quinta Practica - ACTUAL
 
 Taller sobre CommandRestaurantImcompleto Para aprender sobre Patron command
@@ -29,6 +45,7 @@ Taller sobre MVC y uso de RabbitMQ.
 1. Climaco Fernando Rodriguez Tovar / LayersMVC
 2. Edwin Yahir Garces Romero / suscriptorSql
 3. Adrian Arturo Hurtado Murillo / suscriptorDbMemory
+
 # Tercera Practica
 
 Taller sobre Arquitectura Microkernel - plugin Corea del sur
