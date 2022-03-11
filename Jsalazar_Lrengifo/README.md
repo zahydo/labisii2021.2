@@ -6,6 +6,9 @@
 # Integrantes: 
 Juan Andrés Salazar Gonzalez
 Laura Marcela Mendez Rengifo
+# Chain Of Responsability
+
+ Patrón Chain of Responsability (CoR)
 
 # Template Method
 
