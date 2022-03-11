@@ -45,3 +45,7 @@ Nota:
 
     - En la carpeta diagramas se encuentra un pdf y un archivo que contienen los diagramas de secuencia de addFood y txtFocusLost(este busca la Food y muestra el nombre desencriptado).
     
+## 07/03/2022
+PRACTICA CHAIN OF RESPONSABILITY
+La practica consiste en crear un cuarto nivel de atencion de reclamos en la cadena de responsabilidad, el nivel creado fue el de URGENT.
+    
