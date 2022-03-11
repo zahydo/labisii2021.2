@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[600, 450]"/>
+    </Property>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="96" max="-2" attributes="0"/>
+              <Component id="lblFindCustomerId" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="txtFindCustomerId" min="-2" pref="200" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="btnFindCustomer" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="lblCustomerGender" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="txtCustomerPhoneNumber" max="32767" attributes="0"/>
+                              <Component id="txtCustomerLastName" max="32767" attributes="0"/>
+                              <Component id="txtCustomerId" alignment="0" min="-2" pref="200" max="-2" attributes="0"/>
+                              <Component id="lblCustomerId" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblCustomerLastName" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="lblCustomerPhoneNumber" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="txtCustomerGender" alignment="0" min="-2" pref="200" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="103" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="btnAddCustomer" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="btnBack" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="lblCustomerFirstName" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblCustomerAddress" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtCustomerFirstName" max="32767" attributes="0"/>
+                          <Component id="txtCustomerAddress" max="32767" attributes="0"/>
+                          <Component id="lblCustomerEmail" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtCustomerEmail" min="-2" pref="200" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace pref="29" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblFindCustomerId" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtFindCustomerId" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnFindCustomer" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblCustomerId" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblCustomerFirstName" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txtCustomerId" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
+                  <Component id="txtCustomerFirstName" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblCustomerLastName" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblCustomerAddress" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="txtCustomerLastName" max="32767" attributes="0"/>
+                  <Component id="txtCustomerAddress" min="-2" pref="45" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblCustomerPhoneNumber" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblCustomerEmail" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txtCustomerPhoneNumber" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
+                  <Component id="txtCustomerEmail" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+              <Component id="lblCustomerGender" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txtCustomerGender" alignment="3" min="-2" pref="45" max="-2" attributes="0"/>
+                  <Component id="btnAddCustomer" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnBack" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JTextField" name="txtCustomerId">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtCustomerFirstName">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblCustomerId">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Id cliente: "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblCustomerFirstName">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nombres cliente:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblCustomerLastName">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Apellidos cliente: "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblCustomerAddress">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Direccion cliente:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtCustomerLastName">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtCustomerAddress">
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblCustomerPhoneNumber">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Numero de telefono cliente: "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblCustomerEmail">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Correo electronico cliente:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtCustomerPhoneNumber">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtCustomerEmail">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtCustomerGender">
+    </Component>
+    <Component class="javax.swing.JButton" name="btnAddCustomer">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Agregar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAddCustomerActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_CreateCodePost" type="java.lang.String" value="btnAddCustomer.setVisible(false);"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnBack">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Volver"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnBackActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblFindCustomerId">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Digite id a buscar: "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtFindCustomerId">
+    </Component>
+    <Component class="javax.swing.JButton" name="btnFindCustomer">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Buscar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnFindCustomerActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblCustomerGender">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="*Sexo (M, F):"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
