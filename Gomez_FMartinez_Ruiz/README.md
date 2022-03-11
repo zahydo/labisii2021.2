@@ -9,9 +9,7 @@
 
 # Projects maded
 
- * Practica 4: Arquitectura Orientada a Eventos
- * Práctica 5: Adapter-Decorator Patter
- * Práctica 7: Chain of Responsability Pattern
-
-
-
+ * Práctica 4: Arquitectura Orientada a Eventos
+ * Practica 6: Decorator-Adapter Pattern
+ * Práctica 7: Template-Method Pattern
+ * Práctica 8: Chain of Responsability Pattern
