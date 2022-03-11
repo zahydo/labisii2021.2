@@ -15,7 +15,7 @@ public class ClaimManager {
         levelOne = new LevelOne("mariaortega@gmail.com");
         levelTwo = new LevelTwo("oscarsanchez@gmail.com");
         levelThree = new LevelThree("kate@gmail.com");
-        levelFour = new LevelFour("juliansmartinez@unicauca.edu.co");
+        levelFour = new LevelFour("ppena@unicauca.edu.co");
         // Crea los enlaces
         levelOne.setNextHandler(levelTwo);
         levelTwo.setNextHandler(levelThree);
