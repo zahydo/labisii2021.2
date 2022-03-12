@@ -17,3 +17,8 @@ Esta práctica tiene por objetivo conocer, entender, explorar y usar el patrón 
 Método Plantilla aplicado a nuestro caso de estudio: versión del Travel Agency aplicado
 al Restaurante. Es importante además comprender cuándo
 y cómo aplicarlo entendiendo sus consecuencias
+
+correr por CLI
+
+mvn clean install package 
+
