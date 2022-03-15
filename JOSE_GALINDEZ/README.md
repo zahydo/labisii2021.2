@@ -10,3 +10,4 @@ ENTREGAS:
 3- Practica 3 Microkernel - 13-12-2021
 4- Practica 5 Patron Command - 16-02-2022 (junto a Yaquelin Alejandra Gomez)
 5- Practica 6 Adaptador Decorador - 24-02-2022 (junto a Yaquelin Alejandra Gomez)
+5- Practica 7 Template Chain - 09-03-2022 (junto a Yaquelin Alejandra Gomez)
